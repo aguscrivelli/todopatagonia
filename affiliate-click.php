@@ -17,7 +17,7 @@ $page = $event['page'] ?? null;
 $partner = $event['partner'] ?? null;
 $placement = $event['placement'] ?? null;
 if (!is_string($page) || !preg_match('~^/(?:[a-z0-9-]+/)*(?:[a-z0-9-]+\.html)?$~D', $page)
-    || strlen($page) > 220 || !in_array($partner, ['booking', 'getyourguide'], true)
+    || strlen($page) > 220 || !in_array($partner, ['booking', 'getyourguide', 'bookaway'], true)
     || !is_string($placement) || !preg_match('/^[a-zA-Z0-9_-]{1,64}$/D', $placement)) {
     http_response_code(400);
     exit;

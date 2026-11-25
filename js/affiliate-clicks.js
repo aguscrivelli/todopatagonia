@@ -13,12 +13,14 @@ function recordAffiliateClick(event) {
   ].find(([host, key]) =>
     (url.hostname === host || url.hostname.endsWith('.' + host)) && url.searchParams.get(key)
   );
-  if (!partner) return;
+  const bookaway = link.dataset.affiliate === 'bookaway' && url.hostname === 'www.bookaway.com';
+  const provider = bookaway ? 'bookaway' : partner?.[2];
+  if (!provider) return;
 
   const section = link.closest('[class*=-cta], section, article, aside, footer, header');
   const placement = section?.id || section?.classList[0] || section?.localName || 'body';
   const payload = JSON.stringify({
-    partner: partner[2],
+    partner: provider,
     page: location.pathname,
     placement,
   });
