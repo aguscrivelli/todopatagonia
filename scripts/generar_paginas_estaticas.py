@@ -209,18 +209,27 @@ Respond ONLY with valid JSON. No markdown, no explanation.
   "closing": "..."
 }}"""
 
-    message = client.messages.create(
-        model="claude-haiku-4-5",
-        max_tokens=3000,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    raw = message.content[0].text.strip()
-    # Limpiar posible markdown
-    if raw.startswith("```"):
-        raw = raw.split("```")[1]
-        if raw.startswith("json"):
-            raw = raw[4:]
-    return json.loads(raw.strip())
+    return solicitar_json(client, prompt)
+
+
+def solicitar_json(client, prompt):
+    for max_tokens in (6000, 9000):
+        message = client.messages.create(
+            model="claude-haiku-4-5",
+            max_tokens=max_tokens,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        if message.stop_reason == "max_tokens":
+            error = ValueError("La respuesta de Claude quedó truncada")
+            continue
+        raw = message.content[0].text.strip()
+        if raw.startswith("```"):
+            raw = raw.split("```")[1].removeprefix("json")
+        try:
+            return json.loads(raw.strip())
+        except json.JSONDecodeError as exc:
+            error = exc
+    raise error
 
 
 def generar_contenido_como_llegar(idioma_cfg):
@@ -270,17 +279,7 @@ Respond ONLY with valid JSON. No markdown, no explanation.
   "booking_tips": [...]
 }}"""
 
-    message = client.messages.create(
-        model="claude-haiku-4-5",
-        max_tokens=3000,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    raw = message.content[0].text.strip()
-    if raw.startswith("```"):
-        raw = raw.split("```")[1]
-        if raw.startswith("json"):
-            raw = raw[4:]
-    return json.loads(raw.strip())
+    return solicitar_json(client, prompt)
 
 
 # ---------------------------------------------------------------------------
@@ -772,8 +771,7 @@ def main():
     print("=" * 50)
 
     if not ANTHROPIC_API_KEY:
-        print("❌ Falta ANTHROPIC_API_KEY")
-        return
+        raise SystemExit("Falta ANTHROPIC_API_KEY")
 
     for idioma_key, cfg in IDIOMAS.items():
         cfg["dir"].mkdir(parents=True, exist_ok=True)
@@ -788,7 +786,7 @@ def main():
             filepath.write_text(html, encoding="utf-8")
             print(f"   ✅ {filepath}")
         except Exception as e:
-            print(f"   ❌ Error: {e}")
+            raise RuntimeError(f"No se pudo generar {idioma_key}: {e}") from e
 
         # --- Cómo llegar ---
         filename2 = PAGINAS["como_llegar"][idioma_key]["filename"]
@@ -800,7 +798,7 @@ def main():
             filepath2.write_text(html2, encoding="utf-8")
             print(f"   ✅ {filepath2}")
         except Exception as e:
-            print(f"   ❌ Error: {e}")
+            raise RuntimeError(f"No se pudo generar {idioma_key}: {e}") from e
 
     # --- Páginas legales EN ---
     print("\n📋 Generando páginas legales EN...")
