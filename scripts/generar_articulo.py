@@ -7,6 +7,8 @@ import os
 import json
 import random
 import re
+import urllib.request
+import urllib.parse
 from datetime import datetime
 from pathlib import Path
 
@@ -43,6 +45,7 @@ CATEGORIAS = [
 
 BOOKING_AFFILIATE = "TUAFILIADO"  # Reemplazar con tu ID de Booking
 GYG_AFFILIATE = "TUPARTNER"       # Reemplazar con tu ID de GetYourGuide
+UNSPLASH_ACCESS_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "")
 
 TEMPLATE_ARTICULO_HTML = """<!DOCTYPE html>
 <html lang="es">
@@ -54,6 +57,7 @@ TEMPLATE_ARTICULO_HTML = """<!DOCTYPE html>
   <meta property="og:description" content="{meta_description}">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://todopatagonia.com/blog/{slug}.html">
+  {og_image_tag}
   <link rel="canonical" href="https://todopatagonia.com/blog/{slug}.html">
   <title>{title} | TodoPatagonia.com</title>
   <link rel="stylesheet" href="../css/style.css">
@@ -93,6 +97,7 @@ TEMPLATE_ARTICULO_HTML = """<!DOCTYPE html>
             <span>📍 {destination}</span>
             <span>⏱️ {read_time} min de lectura</span>
           </div>
+          {hero_image_html}
         </div>
 
         <div class="article-body">
@@ -203,11 +208,78 @@ Respondé SOLO con un JSON válido con esta estructura exacta:
     return json.loads(json_match.group())
 
 
+def buscar_foto_unsplash(query, orientation="landscape"):
+    """Busca una foto en Unsplash y devuelve URL + crédito. Si falla, retorna None."""
+    if not UNSPLASH_ACCESS_KEY:
+        return None
+
+    try:
+        params = urllib.parse.urlencode({
+            "query": query,
+            "orientation": orientation,
+            "per_page": 5,
+            "content_filter": "high",
+        })
+        url = f"https://api.unsplash.com/search/photos?{params}"
+        req = urllib.request.Request(
+            url,
+            headers={"Authorization": f"Client-ID {UNSPLASH_ACCESS_KEY}"}
+        )
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read().decode())
+
+        results = data.get("results", [])
+        if not results:
+            return None
+
+        # Elegir aleatoriamente entre los primeros 3 resultados
+        foto = random.choice(results[:3])
+        return {
+            "url": foto["urls"]["regular"],        # ~1080px ancho
+            "url_small": foto["urls"]["small"],    # ~400px para mobile
+            "alt": foto.get("alt_description") or query,
+            "author_name": foto["user"]["name"],
+            "author_url": foto["user"]["links"]["html"],
+            "unsplash_url": foto["links"]["html"],
+        }
+    except Exception as e:
+        print(f"⚠️  Unsplash error: {e}")
+        return None
+
+
+def construir_hero_html(foto):
+    """Construye el HTML del hero con foto Unsplash y crédito obligatorio."""
+    if not foto:
+        return ""
+    return f"""<figure class="article-hero-image">
+          <img src="{foto['url']}"
+               srcset="{foto['url_small']} 400w, {foto['url']} 1080w"
+               sizes="(max-width: 600px) 400px, 1080px"
+               alt="{foto['alt']}" loading="eager">
+          <figcaption>Foto de <a href="{foto['author_url']}?utm_source=todopatagonia&utm_medium=referral" target="_blank" rel="noopener">{foto['author_name']}</a> en <a href="{foto['unsplash_url']}?utm_source=todopatagonia&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></figcaption>
+        </figure>"""
+
+
 def guardar_articulo(destino, articulo_data):
     """Genera el HTML del artículo y actualiza articles.json."""
     slug = slugify(articulo_data["title"], allow_unicode=False, separator="-")
     fecha = datetime.now().strftime("%Y-%m-%d")
     fecha_display = datetime.now().strftime("%-d de %B de %Y")
+
+    # Buscar foto de Unsplash
+    query_foto = f"Patagonia {destino['nombre']} travel landscape"
+    foto = buscar_foto_unsplash(query_foto)
+    if foto:
+        print(f"📸 Foto Unsplash: {foto['author_name']} — {foto['url'][:60]}...")
+    else:
+        print("📸 Sin foto Unsplash (se omite imagen hero)")
+
+    hero_image_html = construir_hero_html(foto)
+
+    # OG image para redes sociales
+    og_image_tag = ""
+    if foto:
+        og_image_tag = f'<meta property="og:image" content="{foto["url"]}">'
 
     # Generar HTML
     html = TEMPLATE_ARTICULO_HTML.format(
@@ -223,6 +295,8 @@ def guardar_articulo(destino, articulo_data):
         body_html=articulo_data["body_html"],
         booking_affiliate=BOOKING_AFFILIATE,
         gyg_affiliate=GYG_AFFILIATE,
+        hero_image_html=hero_image_html,
+        og_image_tag=og_image_tag,
     )
 
     # Guardar archivo HTML
@@ -240,7 +314,7 @@ def guardar_articulo(destino, articulo_data):
         print(f"⚠️  El artículo {slug} ya existe en articles.json, saltando.")
         return slug
 
-    articles.insert(0, {
+    entry = {
         "slug": slug,
         "title": articulo_data["title"],
         "excerpt": articulo_data["excerpt"],
@@ -248,7 +322,12 @@ def guardar_articulo(destino, articulo_data):
         "emoji": destino["emoji"],
         "date": fecha,
         "destination": destino["nombre"],
-    })
+    }
+    if foto:
+        entry["image_url"] = foto["url_small"]
+        entry["image_author"] = foto["author_name"]
+
+    articles.insert(0, entry)
 
     articles_path.write_text(
         json.dumps(articles, ensure_ascii=False, indent=2),
@@ -257,6 +336,56 @@ def guardar_articulo(destino, articulo_data):
     print(f"✅ articles.json actualizado ({len(articles)} artículos)")
 
     return slug
+
+
+DESTINOS_HOMEPAGE = {
+    "El Calafate":               "El Calafate glacier Patagonia Argentina",
+    "Bariloche":                 "Bariloche lake mountains Argentina",
+    "Ushuaia":                   "Ushuaia Tierra del Fuego Argentina",
+    "El Chaltén Fitz Roy":       "Fitz Roy mountain El Chalten Patagonia",
+    "Península Valdés whales Patagonia": "Peninsula Valdes whale Patagonia",
+    "Torres del Paine Chile":    "Torres del Paine Chile national park",
+}
+
+
+def actualizar_fotos_destinos():
+    """Genera/actualiza data/destination-photos.json con fotos Unsplash para las cards del homepage."""
+    if not UNSPLASH_ACCESS_KEY:
+        print("⚠️  Sin UNSPLASH_ACCESS_KEY, no se actualizan fotos de destinos.")
+        return
+
+    data_path = Path("data")
+    data_path.mkdir(exist_ok=True)
+    photos_path = data_path / "destination-photos.json"
+
+    # Cargar existente para no sobreescribir si la API falla parcialmente
+    existing = {}
+    if photos_path.exists():
+        try:
+            existing = json.loads(photos_path.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+
+    updated = dict(existing)
+    for dest_key, query in DESTINOS_HOMEPAGE.items():
+        foto = buscar_foto_unsplash(query, orientation="landscape")
+        if foto:
+            updated[dest_key] = {
+                "url": foto["url"],
+                "url_small": foto["url_small"],
+                "alt": foto["alt"],
+                "author_name": foto["author_name"],
+                "author_url": foto["author_url"],
+            }
+            print(f"📸 Foto para '{dest_key}': {foto['author_name']}")
+        else:
+            print(f"⚠️  Sin foto para '{dest_key}'")
+
+    photos_path.write_text(
+        json.dumps(updated, ensure_ascii=False, indent=2),
+        encoding="utf-8"
+    )
+    print(f"✅ destination-photos.json actualizado ({len(updated)} destinos)")
 
 
 def main():
@@ -273,7 +402,11 @@ def main():
     articulo = generar_articulo_claude(destino, categoria)
     slug = guardar_articulo(destino, articulo)
 
-    print(f"🎉 Listo! → blog/{slug}.html")
+    # Actualizar fotos de destinos del homepage
+    print("\n🖼️  Actualizando fotos de destinos...")
+    actualizar_fotos_destinos()
+
+    print(f"\n🎉 Listo! → blog/{slug}.html")
 
 
 if __name__ == "__main__":
