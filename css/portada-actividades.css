@@ -1,0 +1,61 @@
+.hero.hero-fotografica {
+  height: clamp(26rem, 62svh, 40rem);
+  min-height: 0;
+  background: #142d40;
+}
+
+.hero-fotografica::before,
+.hero-fotografica::after { display: none; }
+
+.hero-foto {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 47%;
+}
+
+.hero-fotografica .hero-overlay {
+  background: linear-gradient(180deg, #091f3173, #091f31b8);
+}
+
+.hero-fotografica .hero-content { padding-bottom: 1.5rem; }
+
+.hero-credito {
+  position: absolute;
+  right: 1rem;
+  bottom: .65rem;
+  z-index: 3;
+  color: #fff;
+  font-size: .6875rem;
+  text-shadow: 0 1px 5px #000;
+}
+
+.actividades-fotos {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(.75rem, 2vw, 1.5rem);
+  margin: 1.5rem auto 0;
+}
+
+.actividades-fotos figure { margin: 0; }
+.actividades-fotos img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: .65rem;
+}
+
+.actividades-fotos figcaption { padding: .45rem .1rem; }
+.actividades-fotos figcaption a {
+  display: block;
+  color: #64748b;
+  font-size: .6875rem;
+}
+
+@media (max-width: 600px) {
+  .hero.hero-fotografica { height: clamp(24rem, 65svh, 32rem); }
+  .actividades-fotos { grid-template-columns: 1fr; }
+}

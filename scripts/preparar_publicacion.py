@@ -2,6 +2,8 @@
 import shutil
 from pathlib import Path
 
+from visuales_editoriales import aplicar_visuales
+
 
 def main():
     output = Path("_public")
@@ -13,6 +15,7 @@ def main():
         html = page.read_bytes()
         if b"</body>" not in html:
             raise ValueError(f"Falta el cierre de body en {page}")
+        html = aplicar_visuales(page.relative_to(output).as_posix(), html.decode()).encode()
         script = b'<script src="/js/affiliate-clicks.js" defer></script>'
         page.write_bytes(html.replace(b"</body>", script + b"\n</body>", 1))
 
