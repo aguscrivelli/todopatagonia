@@ -1,0 +1,53 @@
+name: Generar páginas de destinos
+
+on:
+  workflow_dispatch:
+    # Se ejecuta manualmente desde GitHub Actions → "Run workflow"
+    # Solo necesitás correrlo una vez (o cuando quieras regenerar destinos)
+
+jobs:
+  generar-destinos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install anthropic python-slugify
+
+      - name: Generar páginas de destinos (ES + EN + PT)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+        run: python scripts/generar_destinos.py
+
+      - name: Commit y push
+        run: |
+          git config --global user.name "TodoPatagonia Bot"
+          git config --global user.email "bot@todopatagonia.com"
+          git add destinos/ en/destinos/ pt/destinos/ css/destino.css
+          git diff --staged --quiet || git commit -m "🗺️ Páginas de destinos generadas en ES + EN + PT"
+          git push
+
+      - name: Deploy a Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_PATH }}/
+          local-dir: ./
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            .github/**
+            README.md
+            scripts/**

@@ -30,16 +30,28 @@ async function loadDestinationPhotos() {
 }
 
 // Cargar artículos del blog desde articles.json
+// Soporta múltiples idiomas: las páginas EN/PT definen BLOG_JSON y BLOG_BASE
 async function loadBlogPosts() {
   const grid = document.getElementById('blog-grid');
   if (!grid) return;
 
+  // Si la página define BLOG_JSON (en/ o pt/), usarlo; si no, español por defecto
+  const jsonUrl = (typeof BLOG_JSON !== 'undefined') ? BLOG_JSON : '/blog/articles.json';
+  const blogBase = (typeof BLOG_BASE !== 'undefined') ? BLOG_BASE : '/blog/';
+
+  // Textos "Leer más" según idioma
+  const readMoreLabels = {
+    '/blog/': 'Leer más →',
+    '/en/blog/': 'Read more →',
+    '/pt/blog/': 'Ler mais →',
+  };
+  const readMore = readMoreLabels[blogBase] || 'Leer más →';
+
   try {
-    const res = await fetch('/blog/articles.json');
-    if (!res.ok) throw new Error('No se pudo cargar articles.json');
+    const res = await fetch(jsonUrl);
+    if (!res.ok) throw new Error('No articles.json yet');
     const articles = await res.json();
 
-    // Mostrar los últimos 3
     const recent = articles.slice(0, 3);
 
     grid.innerHTML = recent.map(a => {
@@ -50,15 +62,14 @@ async function loadBlogPosts() {
         <article class="blog-card">
           <div class="blog-card-img">${imgHtml}</div>
           <div class="blog-card-body">
-            <div class="blog-card-category">${a.category || 'Guía'}</div>
+            <div class="blog-card-category">${a.category || 'Guide'}</div>
             <h3>${a.title}</h3>
             <p>${a.excerpt}</p>
-            <a href="/blog/${a.slug}.html" class="blog-card-link">Leer más →</a>
+            <a href="${blogBase}${a.slug}.html" class="blog-card-link">${readMore}</a>
           </div>
         </article>`;
     }).join('');
   } catch (e) {
-    // Si no hay artículos aún, ocultar la sección
     const section = grid.closest('.section');
     if (section) section.style.display = 'none';
   }

@@ -1,0 +1,124 @@
+{
+  "activos": [
+    {
+      "nombre": "El Calafate",
+      "slug": "el-calafate",
+      "emoji": "🧊",
+      "descripcion_es": "La puerta de entrada al Glaciar Perito Moreno, uno de los pocos glaciares del mundo que aún crece.",
+      "descripcion_en": "Gateway to the Perito Moreno Glacier, one of the few glaciers in the world that is still growing.",
+      "descripcion_pt": "A porta de entrada para o Glaciar Perito Moreno, um dos poucos glaciares do mundo que ainda cresce.",
+      "fecha_agregado": "2024-01-01"
+    },
+    {
+      "nombre": "Bariloche",
+      "slug": "bariloche",
+      "emoji": "🏔️",
+      "descripcion_es": "Montañas, lagos y nieve. La capital de la Patagonia andina, perfecta todo el año.",
+      "descripcion_en": "Mountains, lakes and snow. The capital of the Andean Patagonia, perfect year-round.",
+      "descripcion_pt": "Montanhas, lagos e neve. A capital da Patagônia andina, perfeita o ano todo.",
+      "fecha_agregado": "2024-01-01"
+    },
+    {
+      "nombre": "Ushuaia",
+      "slug": "ushuaia",
+      "emoji": "🐧",
+      "descripcion_es": "La ciudad más austral del mundo. Fin del mundo, glaciares y pingüinos a minutos del centro.",
+      "descripcion_en": "The southernmost city in the world. End of the world, glaciers and penguins minutes from downtown.",
+      "descripcion_pt": "A cidade mais austral do mundo. Fim do mundo, glaciares e pinguins a minutos do centro.",
+      "fecha_agregado": "2024-01-01"
+    },
+    {
+      "nombre": "El Chaltén",
+      "slug": "el-chalten",
+      "emoji": "⛰️",
+      "descripcion_es": "La capital nacional del trekking. El Fitz Roy y el Cerro Torre al alcance de todos.",
+      "descripcion_en": "The national trekking capital. Fitz Roy and Cerro Torre within reach of everyone.",
+      "descripcion_pt": "A capital nacional do trekking. Fitz Roy e Cerro Torre ao alcance de todos.",
+      "fecha_agregado": "2024-01-01"
+    },
+    {
+      "nombre": "Península Valdés",
+      "slug": "peninsula-valdes",
+      "emoji": "🐋",
+      "descripcion_es": "Ballenas francas, orcas, pingüinos y lobos marinos. Patrimonio Natural de la Humanidad.",
+      "descripcion_en": "Right whales, orcas, penguins and sea lions. UNESCO Natural World Heritage Site.",
+      "descripcion_pt": "Baleias, orcas, pinguins e leões marinhos. Patrimônio Natural da Humanidade.",
+      "fecha_agregado": "2024-01-01"
+    },
+    {
+      "nombre": "Torres del Paine",
+      "slug": "torres-del-paine",
+      "emoji": "🗻",
+      "descripcion_es": "El parque más famoso de Chile. Circuitos W y O entre cumbres, glaciares y pumas.",
+      "descripcion_en": "Chile's most famous park. W and O circuits through peaks, glaciers and pumas.",
+      "descripcion_pt": "O parque mais famoso do Chile. Circuitos W e O entre cumes, glaciares e pumas.",
+      "fecha_agregado": "2024-01-01"
+    }
+  ],
+  "pendientes": [
+    {
+      "nombre": "San Martín de los Andes",
+      "slug": "san-martin-de-los-andes",
+      "emoji": "🌲",
+      "descripcion_es": "Pueblo alpino con lagos, bosques y el Parque Nacional Lanín. La joya del norte neuquino.",
+      "descripcion_en": "Alpine village with lakes, forests and Lanín National Park. The jewel of northern Neuquén.",
+      "descripcion_pt": "Vila alpina com lagos, florestas e o Parque Nacional Lanín. A joia do norte neuquino.",
+      "unsplash_query": "San Martin de los Andes lake Argentina Lanin",
+      "gyg_query": "San Martin de los Andes"
+    },
+    {
+      "nombre": "Puerto Madryn",
+      "slug": "puerto-madryn",
+      "emoji": "🌊",
+      "descripcion_es": "Capital del turismo de naturaleza patagónico. Base ideal para visitar Península Valdés.",
+      "descripcion_en": "Capital of Patagonian nature tourism. The ideal base to visit Península Valdés.",
+      "descripcion_pt": "Capital do turismo de natureza patagônico. Base ideal para visitar a Península Valdés.",
+      "unsplash_query": "Puerto Madryn beach Patagonia Argentina coast",
+      "gyg_query": "Puerto Madryn"
+    },
+    {
+      "nombre": "Neuquén",
+      "slug": "neuquen",
+      "emoji": "🦕",
+      "descripcion_es": "La ciudad de los dinosaurios. Yacimientos paleontológicos únicos y puertas a la Patagonia norte.",
+      "descripcion_en": "The city of dinosaurs. Unique paleontological sites and gateway to northern Patagonia.",
+      "descripcion_pt": "A cidade dos dinossauros. Sítios paleontológicos únicos e porta da Patagônia norte.",
+      "unsplash_query": "Neuquen Argentina Patagonia city landscape",
+      "gyg_query": "Neuquen Argentina"
+    },
+    {
+      "nombre": "Comodoro Rivadavia",
+      "slug": "comodoro-rivadavia",
+      "emoji": "🛢️",
+      "descripcion_es": "Ciudad del petróleo con playas atlánticas y acceso al interior de la Patagonia central.",
+      "descripcion_en": "Oil city with Atlantic beaches and access to central Patagonia's interior.",
+      "descripcion_pt": "Cidade do petróleo com praias atlânticas e acesso ao interior da Patagônia central.",
+      "unsplash_query": "Comodoro Rivadavia Patagonia Atlantic coast Argentina",
+      "gyg_query": "Comodoro Rivadavia"
+    },
+    {
+      "nombre": "Mendoza",
+      "slug": "mendoza",
+      "emoji": "🍷",
+      "descripcion_es": "La capital del vino argentino con el Aconcagua a sus pies. Puerta de entrada a los Andes.",
+      "descripcion_en": "Argentina's wine capital with Aconcagua at its feet. Gateway to the Andes.",
+      "descripcion_pt": "A capital do vinho argentino com o Aconcágua aos seus pés. Porta dos Andes.",
+      "unsplash_query": "Mendoza Argentina wine vineyards Andes mountains",
+      "gyg_query": "Mendoza Argentina"
+    },
+    {
+      "nombre": "Malargüe",
+      "slug": "malargue",
+      "emoji": "🌋",
+      "descripcion_es": "Volcanes, lagunas y la Caverna de las Brujas. El sur de Mendoza sin multitudes.",
+      "descripcion_en": "Volcanoes, lagoons and the Witches Cave. Southern Mendoza without the crowds.",
+      "descripcion_pt": "Vulcões, lagoas e a Caverna das Bruxas. O sul de Mendoza sem multidões.",
+      "unsplash_query": "Malargue Mendoza volcano Patagonia Argentina landscape",
+      "gyg_query": "Malargue Argentina"
+    }
+  ],
+  "config": {
+    "semanas_entre_destinos": 4,
+    "ultima_incorporacion": "2024-01-01"
+  }
+}

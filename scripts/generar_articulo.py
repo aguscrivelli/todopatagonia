@@ -43,25 +43,109 @@ CATEGORIAS = [
     "Temporadas",
 ]
 
-BOOKING_AFFILIATE = "TUAFILIADO"  # Reemplazar con tu ID de Booking
-GYG_AFFILIATE = "TUPARTNER"       # Reemplazar con tu ID de GetYourGuide
+BOOKING_AFFILIATE = "101940420"  # Booking.com via Commission Junction
+GYG_AFFILIATE = "FCJ97KZ"         # GetYourGuide Partner ID
 UNSPLASH_ACCESS_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "")
 
-TEMPLATE_ARTICULO_HTML = """<!DOCTYPE html>
-<html lang="es">
+# Configuración multiidioma
+IDIOMAS = {
+    "es": {
+        "lang": "es",
+        "blog_dir": "blog",
+        "base_url": "https://todopatagonia.com",
+        "nav": {"destinos": "Destinos", "actividades": "Actividades", "como_llegar": "Cómo llegar", "blog": "Blog"},
+        "cta_booking": "¿Listo para ir a {dest}?",
+        "cta_booking_sub": "Encontrá los mejores alojamientos al mejor precio",
+        "cta_booking_btn": "Ver hoteles en Booking.com",
+        "cta_tours": "Tours y excursiones en {dest}",
+        "cta_tours_btn": "Ver tours en GetYourGuide",
+        "read_time_label": "min de lectura",
+        "footer_legal": "© 2024 TodoPatagonia.com · <a href='/afiliados.html'>Aviso de afiliados</a> · <a href='/privacidad.html'>Privacidad</a>",
+        "prompt_lang": "español",
+        "prompt_instruction": "Escribí en español rioplatense (Argentina). Usá 'vos' en lugar de 'tú'.",
+    },
+    "en": {
+        "lang": "en",
+        "blog_dir": "en/blog",
+        "base_url": "https://todopatagonia.com/en",
+        "nav": {"destinos": "Destinations", "actividades": "Activities", "como_llegar": "How to Get There", "blog": "Blog"},
+        "cta_booking": "Ready to visit {dest}?",
+        "cta_booking_sub": "Find the best accommodations at the best price",
+        "cta_booking_btn": "View hotels on Booking.com",
+        "cta_tours": "Tours & activities in {dest}",
+        "cta_tours_btn": "View tours on GetYourGuide",
+        "read_time_label": "min read",
+        "footer_legal": "© 2024 TodoPatagonia.com · <a href='/en/affiliates.html'>Affiliate Disclosure</a> · <a href='/en/privacy.html'>Privacy</a>",
+        "prompt_lang": "English",
+        "prompt_instruction": "Write in fluent, natural English for international travelers.",
+    },
+    "pt": {
+        "lang": "pt",
+        "blog_dir": "pt/blog",
+        "base_url": "https://todopatagonia.com/pt",
+        "nav": {"destinos": "Destinos", "actividades": "Atividades", "como_llegar": "Como Chegar", "blog": "Blog"},
+        "cta_booking": "Pronto para ir a {dest}?",
+        "cta_booking_sub": "Encontre as melhores acomodações pelo melhor preço",
+        "cta_booking_btn": "Ver hotéis no Booking.com",
+        "cta_tours": "Tours e atividades em {dest}",
+        "cta_tours_btn": "Ver tours no GetYourGuide",
+        "read_time_label": "min de leitura",
+        "footer_legal": "© 2024 TodoPatagonia.com · <a href='/pt/afiliados.html'>Aviso de afiliados</a> · <a href='/pt/privacidade.html'>Privacidade</a>",
+        "prompt_lang": "português brasileiro",
+        "prompt_instruction": "Escreva em português brasileiro natural e fluente.",
+    },
+}
+
+def get_template_articulo(idioma_cfg, slug, css_prefix="../"):
+    """Genera el template HTML del artículo según el idioma."""
+    lang = idioma_cfg["lang"]
+    nav = idioma_cfg["nav"]
+    base_url = idioma_cfg["base_url"]
+
+    # Rutas de navegación según idioma
+    if lang == "es":
+        nav_prefix = "/"
+        alt_es = f"/blog/{slug}.html"
+        alt_en = f"/en/blog/{slug}.html"
+        alt_pt = f"/pt/blog/{slug}.html"
+        active_es = ' class="active"'
+        active_en = ''
+        active_pt = ''
+    elif lang == "en":
+        nav_prefix = "/en/"
+        alt_es = f"/blog/{slug}.html"
+        alt_en = f"/en/blog/{slug}.html"
+        alt_pt = f"/pt/blog/{slug}.html"
+        active_es = ''
+        active_en = ' class="active"'
+        active_pt = ''
+    else:  # pt
+        nav_prefix = "/pt/"
+        alt_es = f"/blog/{slug}.html"
+        alt_en = f"/en/blog/{slug}.html"
+        alt_pt = f"/pt/blog/{slug}.html"
+        active_es = ''
+        active_en = ''
+        active_pt = ' class="active"'
+
+    return f"""<!DOCTYPE html>
+<html lang="{lang}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{meta_description}">
-  <meta property="og:title" content="{title}">
-  <meta property="og:description" content="{meta_description}">
+  <meta name="description" content="{{meta_description}}">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{meta_description}}">
   <meta property="og:type" content="article">
-  <meta property="og:url" content="https://todopatagonia.com/blog/{slug}.html">
-  {og_image_tag}
-  <link rel="canonical" href="https://todopatagonia.com/blog/{slug}.html">
-  <title>{title} | TodoPatagonia.com</title>
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/article.css">
+  <meta property="og:url" content="{base_url}/blog/{{slug}}.html">
+  {{og_image_tag}}
+  <link rel="canonical" href="{base_url}/blog/{{slug}}.html">
+  <link rel="alternate" hreflang="es" href="https://todopatagonia.com{alt_es}">
+  <link rel="alternate" hreflang="en" href="https://todopatagonia.com{alt_en}">
+  <link rel="alternate" hreflang="pt" href="https://todopatagonia.com{alt_pt}">
+  <title>{{title}} | TodoPatagonia.com</title>
+  <link rel="stylesheet" href="{css_prefix}css/style.css">
+  <link rel="stylesheet" href="{css_prefix}css/article.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
@@ -71,15 +155,15 @@ TEMPLATE_ARTICULO_HTML = """<!DOCTYPE html>
       <div class="header-inner">
         <a href="/" class="logo"><span class="logo-todo">Todo</span><span class="logo-patagonia">Patagonia</span></a>
         <nav class="main-nav">
-          <a href="/destinos.html">Destinos</a>
-          <a href="/actividades.html">Actividades</a>
-          <a href="/como-llegar.html">Cómo llegar</a>
-          <a href="/blog/">Blog</a>
+          <a href="{nav_prefix}destinos.html">{nav['destinos']}</a>
+          <a href="{nav_prefix}actividades.html">{nav['actividades']}</a>
+          <a href="{nav_prefix}como-llegar.html">{nav['como_llegar']}</a>
+          <a href="{nav_prefix}blog/">{nav['blog']}</a>
         </nav>
         <div class="lang-switcher">
-          <a href="/blog/{slug}.html" class="active">ES</a>
-          <a href="/en/blog/{slug}.html">EN</a>
-          <a href="/pt/blog/{slug}.html">PT</a>
+          <a href="{alt_es}"{active_es}>ES</a>
+          <a href="{alt_en}"{active_en}>EN</a>
+          <a href="{alt_pt}"{active_pt}>PT</a>
         </div>
       </div>
     </div>
@@ -89,35 +173,35 @@ TEMPLATE_ARTICULO_HTML = """<!DOCTYPE html>
     <div class="container">
       <article class="article-content">
         <div class="article-header">
-          <span class="article-category">{category}</span>
-          <h1>{title}</h1>
-          <p class="article-excerpt">{excerpt}</p>
+          <span class="article-category">{{category}}</span>
+          <h1>{{title}}</h1>
+          <p class="article-excerpt">{{excerpt}}</p>
           <div class="article-meta">
-            <span>📅 {date}</span>
-            <span>📍 {destination}</span>
-            <span>⏱️ {read_time} min de lectura</span>
+            <span>📅 {{date}}</span>
+            <span>📍 {{destination}}</span>
+            <span>⏱️ {{read_time}} {idioma_cfg['read_time_label']}</span>
           </div>
-          {hero_image_html}
+          {{hero_image_html}}
         </div>
 
         <div class="article-body">
-          {body_html}
+          {{body_html}}
         </div>
 
         <div class="article-booking-cta">
-          <h3>¿Listo para ir a {destination}?</h3>
-          <p>Encontrá los mejores alojamientos al mejor precio</p>
-          <a href="https://www.booking.com/searchresults.html?ss={destination_encoded}&aid={booking_affiliate}"
+          <h3>{idioma_cfg['cta_booking'].replace('{dest}', '{{destination}}')}</h3>
+          <p>{idioma_cfg['cta_booking_sub']}</p>
+          <a href="https://www.booking.com/searchresults.html?ss={{destination_encoded}}&aid={{booking_affiliate}}"
              target="_blank" rel="noopener sponsored" class="btn-booking">
-            Ver hoteles en Booking.com
+            {idioma_cfg['cta_booking_btn']}
           </a>
         </div>
 
         <div class="article-tours-cta">
-          <h3>Tours y excursiones en {destination}</h3>
-          <a href="https://www.getyourguide.com/s/?q={destination_encoded}&partner_id={gyg_affiliate}"
+          <h3>{idioma_cfg['cta_tours'].replace('{dest}', '{{destination}}')}</h3>
+          <a href="https://www.getyourguide.com/s/?q={{destination_encoded}}&partner_id={{gyg_affiliate}}"
              target="_blank" rel="noopener sponsored" class="btn-primary">
-            Ver tours en GetYourGuide
+            {idioma_cfg['cta_tours_btn']}
           </a>
         </div>
 
@@ -128,7 +212,7 @@ TEMPLATE_ARTICULO_HTML = """<!DOCTYPE html>
   <footer class="site-footer">
     <div class="container">
       <div class="footer-bottom">
-        <p>© 2024 TodoPatagonia.com · <a href="/afiliados.html">Aviso de afiliados</a> · <a href="/privacidad.html">Privacidad</a></p>
+        <p>{idioma_cfg['footer_legal']}</p>
       </div>
     </div>
   </footer>
@@ -164,32 +248,34 @@ def elegir_destino():
     return elegido
 
 
-def generar_articulo_claude(destino, categoria):
-    """Llama a la API de Claude para generar el artículo."""
+def generar_articulo_claude(destino, categoria, idioma="es"):
+    """Llama a la API de Claude para generar el artículo en el idioma dado."""
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    idioma_cfg = IDIOMAS[idioma]
 
-    prompt = f"""Sos un experto en turismo en la Patagonia argentina y chilena.
-Escribí un artículo SEO completo sobre "{destino['nombre']}" con enfoque en "{categoria}".
+    prompt = f"""You are an expert in tourism in Argentine and Chilean Patagonia.
+Write a complete SEO article about "{destino['nombre']}" focusing on "{categoria}".
+{idioma_cfg['prompt_instruction']}
 
-El artículo debe:
-- Tener un título atractivo y optimizado para SEO (máx 65 caracteres)
-- Una descripción meta (máx 155 caracteres)
-- Un excerpt/resumen de 2 oraciones
-- El cuerpo del artículo en HTML semántico (sin <html>, <head>, <body>)
-- Usar encabezados H2 y H3 para estructura
-- Incluir información práctica: precios aproximados en USD, cómo llegar, mejor época para visitar
-- Mínimo 800 palabras
-- Tono amigable pero informativo
-- Incluir una sección "Consejos prácticos" al final
+The article must:
+- Have an attractive SEO-optimized title (max 65 characters)
+- A meta description (max 155 characters)
+- An excerpt/summary of 2 sentences
+- The article body in semantic HTML (without <html>, <head>, <body> tags)
+- Use H2 and H3 headings for structure
+- Include practical information: approximate prices in USD, how to get there, best time to visit
+- Minimum 800 words
+- Friendly but informative tone
+- Include a "Practical Tips" section at the end
 
-Respondé SOLO con un JSON válido con esta estructura exacta:
+Respond ONLY with valid JSON with this exact structure:
 {{
   "title": "...",
   "meta_description": "...",
   "excerpt": "...",
   "category": "{categoria}",
   "read_time": 5,
-  "body_html": "... (HTML completo del cuerpo) ..."
+  "body_html": "... (full HTML body) ..."
 }}"""
 
     message = client.messages.create(
@@ -200,7 +286,6 @@ Respondé SOLO con un JSON válido con esta estructura exacta:
 
     # Extraer JSON de la respuesta
     text = message.content[0].text
-    # Buscar el JSON en la respuesta
     json_match = re.search(r'\{.*\}', text, re.DOTALL)
     if not json_match:
         raise ValueError("No se encontró JSON en la respuesta de Claude")
@@ -260,29 +345,43 @@ def construir_hero_html(foto):
         </figure>"""
 
 
-def guardar_articulo(destino, articulo_data):
-    """Genera el HTML del artículo y actualiza articles.json."""
+def guardar_articulo(destino, articulo_data, idioma="es", foto=None):
+    """Genera el HTML del artículo y actualiza articles.json para el idioma dado."""
+    idioma_cfg = IDIOMAS[idioma]
     slug = slugify(articulo_data["title"], allow_unicode=False, separator="-")
     fecha = datetime.now().strftime("%Y-%m-%d")
-    fecha_display = datetime.now().strftime("%-d de %B de %Y")
 
-    # Buscar foto de Unsplash
-    query_foto = f"Patagonia {destino['nombre']} travel landscape"
-    foto = buscar_foto_unsplash(query_foto)
-    if foto:
-        print(f"📸 Foto Unsplash: {foto['author_name']} — {foto['url'][:60]}...")
+    # Formato de fecha según idioma
+    meses_es = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"]
+    meses_pt = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"]
+    now = datetime.now()
+    if idioma == "es":
+        fecha_display = f"{now.day} de {meses_es[now.month-1]} de {now.year}"
+    elif idioma == "pt":
+        fecha_display = f"{now.day} de {meses_pt[now.month-1]} de {now.year}"
     else:
-        print("📸 Sin foto Unsplash (se omite imagen hero)")
+        fecha_display = now.strftime("%B %d, %Y")
+
+    # Foto: si no viene, buscarla (solo una vez por artículo, en ES la busca el main)
+    if foto is None:
+        query_foto = f"Patagonia {destino['nombre']} travel landscape"
+        foto = buscar_foto_unsplash(query_foto)
+        if foto:
+            print(f"📸 Foto Unsplash [{idioma}]: {foto['author_name']}")
+        else:
+            print(f"📸 Sin foto Unsplash [{idioma}]")
 
     hero_image_html = construir_hero_html(foto)
+    og_image_tag = f'<meta property="og:image" content="{foto["url"]}">' if foto else ""
 
-    # OG image para redes sociales
-    og_image_tag = ""
-    if foto:
-        og_image_tag = f'<meta property="og:image" content="{foto["url"]}">'
+    # Determinar prefijo CSS según profundidad del blog_dir
+    blog_dir = idioma_cfg["blog_dir"]
+    depth = len(Path(blog_dir).parts)
+    css_prefix = "../" * depth
 
-    # Generar HTML
-    html = TEMPLATE_ARTICULO_HTML.format(
+    # Generar template y HTML
+    template = get_template_articulo(idioma_cfg, slug, css_prefix)
+    html = template.format(
         slug=slug,
         title=articulo_data["title"],
         meta_description=articulo_data["meta_description"],
@@ -300,18 +399,17 @@ def guardar_articulo(destino, articulo_data):
     )
 
     # Guardar archivo HTML
-    blog_path = Path("blog")
-    blog_path.mkdir(exist_ok=True)
+    blog_path = Path(blog_dir)
+    blog_path.mkdir(parents=True, exist_ok=True)
     (blog_path / f"{slug}.html").write_text(html, encoding="utf-8")
-    print(f"✅ Artículo guardado: blog/{slug}.html")
+    print(f"✅ Artículo guardado: {blog_dir}/{slug}.html")
 
-    # Actualizar articles.json
+    # Actualizar articles.json del idioma
     articles_path = blog_path / "articles.json"
     articles = json.loads(articles_path.read_text(encoding="utf-8")) if articles_path.exists() else []
 
-    # Verificar que no existe ya
     if any(a["slug"] == slug for a in articles):
-        print(f"⚠️  El artículo {slug} ya existe en articles.json, saltando.")
+        print(f"⚠️  El artículo {slug} ya existe en {blog_dir}/articles.json, saltando.")
         return slug
 
     entry = {
@@ -322,18 +420,18 @@ def guardar_articulo(destino, articulo_data):
         "emoji": destino["emoji"],
         "date": fecha,
         "destination": destino["nombre"],
+        "lang": idioma,
     }
     if foto:
         entry["image_url"] = foto["url_small"]
         entry["image_author"] = foto["author_name"]
 
     articles.insert(0, entry)
-
     articles_path.write_text(
         json.dumps(articles, ensure_ascii=False, indent=2),
         encoding="utf-8"
     )
-    print(f"✅ articles.json actualizado ({len(articles)} artículos)")
+    print(f"✅ {blog_dir}/articles.json actualizado ({len(articles)} artículos)")
 
     return slug
 
@@ -388,25 +486,185 @@ def actualizar_fotos_destinos():
     print(f"✅ destination-photos.json actualizado ({len(updated)} destinos)")
 
 
+DESTINOS_JSON = Path("data/destinos.json")
+
+CARD_TEMPLATE_ES = """
+        <article class="dest-card" data-dest="{nombre}" data-href="/destinos/{slug}.html">
+          <div class="dest-img">
+            <div class="dest-placeholder">{emoji}</div>
+          </div>
+          <div class="dest-body">
+            <h3>{nombre}</h3>
+            <p>{descripcion}</p>
+            <a href="/destinos/{slug}.html" class="card-link">Ver guía →</a>
+          </div>
+        </article>"""
+
+CARD_TEMPLATE_EN = """
+        <article class="dest-card" data-dest="{nombre}" data-href="/en/destinos/{slug}.html">
+          <div class="dest-img">
+            <div class="dest-placeholder">{emoji}</div>
+          </div>
+          <div class="dest-body">
+            <h3>{nombre}</h3>
+            <p>{descripcion}</p>
+            <a href="/en/destinos/{slug}.html" class="card-link">See guide →</a>
+          </div>
+        </article>"""
+
+CARD_TEMPLATE_PT = """
+        <article class="dest-card" data-dest="{nombre}" data-href="/pt/destinos/{slug}.html">
+          <div class="dest-img">
+            <div class="dest-placeholder">{emoji}</div>
+          </div>
+          <div class="dest-body">
+            <h3>{nombre}</h3>
+            <p>{descripcion}</p>
+            <a href="/pt/destinos/{slug}.html" class="card-link">Ver guia →</a>
+          </div>
+        </article>"""
+
+
+def debe_agregar_destino():
+    """Chequea si pasaron suficientes semanas desde la última incorporación."""
+    if not DESTINOS_JSON.exists():
+        return False
+    data = json.loads(DESTINOS_JSON.read_text(encoding="utf-8"))
+    if not data.get("pendientes"):
+        print("ℹ️  No hay destinos pendientes para incorporar.")
+        return False
+    ultima = datetime.strptime(data["config"]["ultima_incorporacion"], "%Y-%m-%d")
+    semanas = data["config"].get("semanas_entre_destinos", 4)
+    dias_transcurridos = (datetime.now() - ultima).days
+    if dias_transcurridos >= semanas * 7:
+        print(f"🗓️  Han pasado {dias_transcurridos} días desde el último destino → incorporando nuevo.")
+        return True
+    print(f"ℹ️  Solo {dias_transcurridos} días desde el último destino (mínimo {semanas*7}). Sin cambios.")
+    return False
+
+
+def incorporar_nuevo_destino():
+    """
+    Toma el primer destino pendiente, genera sus páginas en ES/EN/PT,
+    actualiza la home (index.html, en/index.html, pt/index.html)
+    y actualiza data/destinos.json.
+    """
+    data = json.loads(DESTINOS_JSON.read_text(encoding="utf-8"))
+    nuevo = data["pendientes"].pop(0)
+    print(f"\n🆕 Incorporando nuevo destino: {nuevo['nombre']}")
+
+    # Importar y usar el generador de destinos
+    import sys
+    sys.path.insert(0, str(Path(__file__).parent))
+    from generar_destinos import (
+        generar_contenido_destino, render_destino_html,
+        buscar_foto_unsplash as buscar_foto_dest, IDIOMAS as IDIOMAS_DEST
+    )
+
+    # Preparar info del destino en el formato esperado
+    destino_info = {
+        "nombre": nuevo["nombre"],
+        "slug": nuevo["slug"],
+        "emoji": nuevo["emoji"],
+        "unsplash_query": nuevo.get("unsplash_query", f"{nuevo['nombre']} Patagonia Argentina"),
+        "gyg_query": nuevo.get("gyg_query", nuevo["nombre"]),
+    }
+
+    # Buscar foto una vez
+    foto = buscar_foto_dest(destino_info["unsplash_query"])
+
+    # Generar página en los 3 idiomas
+    for idioma_key, idioma_cfg in IDIOMAS_DEST.items():
+        dest_dir = Path(idioma_cfg["dir"])
+        dest_file = dest_dir / f"{nuevo['slug']}.html"
+        try:
+            contenido = generar_contenido_destino(destino_info, idioma_cfg)
+            html = render_destino_html(destino_info, contenido, idioma_cfg, foto)
+            dest_dir.mkdir(parents=True, exist_ok=True)
+            dest_file.write_text(html, encoding="utf-8")
+            print(f"   ✅ {dest_file}")
+        except Exception as e:
+            print(f"   ❌ Error en [{idioma_key}]: {e}")
+
+    # Agregar card a las 3 homes
+    _agregar_card_a_home(nuevo)
+
+    # Actualizar destinos.json
+    nuevo["fecha_agregado"] = datetime.now().strftime("%Y-%m-%d")
+    data["activos"].append(nuevo)
+    data["config"]["ultima_incorporacion"] = datetime.now().strftime("%Y-%m-%d")
+    DESTINOS_JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"   ✅ data/destinos.json actualizado ({len(data['activos'])} activos, {len(data['pendientes'])} pendientes)")
+
+
+def _agregar_card_a_home(destino):
+    """Inserta la card del nuevo destino en index.html, en/index.html y pt/index.html."""
+    configs = [
+        ("index.html",    CARD_TEMPLATE_ES, "descripcion_es"),
+        ("en/index.html", CARD_TEMPLATE_EN, "descripcion_en"),
+        ("pt/index.html", CARD_TEMPLATE_PT, "descripcion_pt"),
+    ]
+    for filepath, template, desc_key in configs:
+        path = Path(filepath)
+        if not path.exists():
+            print(f"   ⚠️  No encontré {filepath}, saltando.")
+            continue
+        html = path.read_text(encoding="utf-8")
+        # Insertar antes del cierre del div de cards
+        marker = "      </div>\n    </div>\n  </section>"
+        if marker not in html:
+            print(f"   ⚠️  No encontré marker en {filepath}, saltando.")
+            continue
+        card = template.format(
+            nombre=destino["nombre"],
+            slug=destino["slug"],
+            emoji=destino["emoji"],
+            descripcion=destino.get(desc_key, ""),
+        )
+        html = html.replace(marker, card + "\n" + marker, 1)
+        path.write_text(html, encoding="utf-8")
+        print(f"   ✅ Card agregada a {filepath}")
+
+
 def main():
     print("🤖 Generador de contenido TodoPatagonia.com")
     print("=" * 50)
 
+    # 1. Chequear si hay que incorporar un destino nuevo
+    if debe_agregar_destino():
+        incorporar_nuevo_destino()
+
+    # 2. Generar artículo de blog
     destino = elegir_destino()
     categoria = random.choice(CATEGORIAS)
 
-    print(f"📍 Destino: {destino['nombre']}")
+    print(f"\n📍 Destino del artículo: {destino['nombre']}")
     print(f"📂 Categoría: {categoria}")
-    print("🔄 Generando con Claude...")
 
-    articulo = generar_articulo_claude(destino, categoria)
-    slug = guardar_articulo(destino, articulo)
+    # Buscar foto UNA sola vez para los 3 idiomas
+    query_foto = f"Patagonia {destino['nombre']} travel landscape"
+    print("📸 Buscando foto Unsplash...")
+    foto = buscar_foto_unsplash(query_foto)
+    if foto:
+        print(f"   → {foto['author_name']}: {foto['url'][:60]}...")
+    else:
+        print("   → Sin foto (se omite imagen hero)")
 
-    # Actualizar fotos de destinos del homepage
+    # Generar artículo en los 3 idiomas
+    for idioma in ["es", "en", "pt"]:
+        print(f"\n🌐 Generando artículo en {idioma.upper()}...")
+        try:
+            articulo = generar_articulo_claude(destino, categoria, idioma)
+            slug = guardar_articulo(destino, articulo, idioma, foto)
+            print(f"   → {IDIOMAS[idioma]['blog_dir']}/{slug}.html")
+        except Exception as e:
+            print(f"❌ Error generando artículo en {idioma}: {e}")
+
+    # 3. Actualizar fotos de destinos del homepage
     print("\n🖼️  Actualizando fotos de destinos...")
     actualizar_fotos_destinos()
 
-    print(f"\n🎉 Listo! → blog/{slug}.html")
+    print("\n🎉 ¡Listo! Contenido generado en ES, EN y PT.")
 
 
 if __name__ == "__main__":
