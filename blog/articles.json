@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "glaciar-perito-moreno-guia-completa",
+    "title": "Glaciar Perito Moreno: guía completa para visitarlo en 2024",
+    "excerpt": "Todo lo que necesitás saber para ver el glaciar más famoso de Argentina: cómo llegar, cuánto cuesta, qué hacer y los mejores momentos para visitarlo.",
+    "category": "Glaciares",
+    "emoji": "🧊",
+    "date": "2024-11-01",
+    "destination": "El Calafate"
+  },
+  {
+    "slug": "trekking-fitz-roy-el-chalten",
+    "title": "Trekking al Fitz Roy: guía paso a paso desde El Chaltén",
+    "excerpt": "El Fitz Roy es una de las caminatas más icónicas de Sudamérica. Te contamos cómo planificarla, qué llevar y los mejores miradores del camino.",
+    "category": "Trekking",
+    "emoji": "⛰️",
+    "date": "2024-10-15",
+    "destination": "El Chaltén"
+  },
+  {
+    "slug": "bariloche-en-verano-que-hacer",
+    "title": "Bariloche en verano: las 10 mejores actividades fuera de temporada de ski",
+    "excerpt": "Bariloche no es solo nieve. En verano, los lagos, senderos y paisajes son igualmente espectaculares y hay mucho menos turismo.",
+    "category": "Destinos",
+    "emoji": "🏔️",
+    "date": "2024-10-01",
+    "destination": "Bariloche"
+  }
+]

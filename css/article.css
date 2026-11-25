@@ -1,0 +1,119 @@
+/* Estilos para páginas de artículos */
+
+.article-main {
+  padding: 48px 0 80px;
+}
+
+.article-content {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.article-header {
+  margin-bottom: 40px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--gris-claro);
+}
+
+.article-category {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--naranja-ocaso);
+  margin-bottom: 12px;
+}
+
+.article-header h1 {
+  font-family: var(--font-titulo);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  color: var(--azul-lago);
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.article-excerpt {
+  font-size: 1.1rem;
+  color: var(--gris-piedra);
+  line-height: 1.65;
+  margin-bottom: 20px;
+}
+
+.article-meta {
+  display: flex;
+  gap: 20px;
+  font-size: 0.85rem;
+  color: var(--gris-piedra);
+  flex-wrap: wrap;
+}
+
+/* Cuerpo del artículo */
+.article-body h2 {
+  font-family: var(--font-titulo);
+  font-size: 1.7rem;
+  color: var(--azul-lago);
+  margin: 40px 0 16px;
+}
+
+.article-body h3 {
+  font-family: var(--font-titulo);
+  font-size: 1.3rem;
+  color: var(--azul-lago);
+  margin: 28px 0 12px;
+}
+
+.article-body p {
+  margin-bottom: 20px;
+  font-size: 1.02rem;
+  line-height: 1.75;
+  color: #333;
+}
+
+.article-body ul, .article-body ol {
+  margin: 0 0 20px 24px;
+}
+
+.article-body li {
+  margin-bottom: 8px;
+  line-height: 1.65;
+}
+
+.article-body strong { color: var(--azul-lago); }
+
+/* CTAs de afiliados */
+.article-booking-cta,
+.article-tours-cta {
+  margin-top: 48px;
+  padding: 32px;
+  border-radius: var(--radio);
+  text-align: center;
+}
+
+.article-booking-cta {
+  background: linear-gradient(135deg, var(--azul-lago), #0d2137);
+  color: #fff;
+}
+
+.article-booking-cta h3 {
+  font-family: var(--font-titulo);
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.article-booking-cta p {
+  opacity: 0.85;
+  margin-bottom: 20px;
+}
+
+.article-tours-cta {
+  background: var(--blanco-nieve);
+  border: 1px solid var(--gris-claro);
+}
+
+.article-tours-cta h3 {
+  font-family: var(--font-titulo);
+  font-size: 1.4rem;
+  color: var(--azul-lago);
+  margin-bottom: 20px;
+}

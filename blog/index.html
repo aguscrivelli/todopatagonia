@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guías de viaje sobre la Patagonia: destinos, trekking, glaciares, fauna y consejos prácticos para tu aventura.">
+  <link rel="canonical" href="https://todopatagonia.com/blog/">
+  <title>Blog de viajes | TodoPatagonia.com</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="/" class="logo"><span class="logo-todo">Todo</span><span class="logo-patagonia">Patagonia</span></a>
+        <nav class="main-nav">
+          <a href="/destinos.html">Destinos</a>
+          <a href="/actividades.html">Actividades</a>
+          <a href="/como-llegar.html">Cómo llegar</a>
+          <a href="/blog/" class="active">Blog</a>
+        </nav>
+        <div class="lang-switcher">
+          <a href="/blog/" class="active">ES</a>
+          <a href="/en/blog/">EN</a>
+          <a href="/pt/blog/">PT</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section" style="padding-top: 48px;">
+    <div class="container">
+      <h1 class="section-title">Guías de viaje a la Patagonia</h1>
+      <p class="section-sub">Artículos actualizados con todo lo que necesitás saber para tu aventura</p>
+      <div class="blog-grid" id="all-articles"></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>© 2024 TodoPatagonia.com · <a href="/afiliados.html">Aviso de afiliados</a> · <a href="/privacidad.html">Privacidad</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    async function loadAll() {
+      const grid = document.getElementById('all-articles');
+      const res = await fetch('/blog/articles.json');
+      const articles = await res.json();
+      grid.innerHTML = articles.map(a => `
+        <article class="blog-card">
+          <div class="blog-card-img">${a.emoji || '🏔️'}</div>
+          <div class="blog-card-body">
+            <div class="blog-card-category">${a.category}</div>
+            <h2 style="font-family:'Playfair Display',serif;font-size:1.1rem;color:#1a3a5c;margin-bottom:8px;line-height:1.35">${a.title}</h2>
+            <p class="blog-card-excerpt">${a.excerpt}</p>
+            <a href="/blog/${a.slug}.html" class="blog-card-link">Leer más →</a>
+          </div>
+        </article>
+      `).join('');
+    }
+    loadAll();
+  </script>
+</body>
+</html>

@@ -1,0 +1,558 @@
+/* ============================================
+   TODO PATAGONIA — Estilos principales
+   ============================================ */
+
+:root {
+  --azul-lago: #1a3a5c;
+  --azul-cielo: #2d6a9f;
+  --verde-bosque: #2d5a3d;
+  --verde-claro: #4a8c5c;
+  --blanco-nieve: #f8f9fa;
+  --gris-piedra: #6c757d;
+  --gris-claro: #e9ecef;
+  --naranja-ocaso: #d4650a;
+  --texto: #212529;
+  --radio: 10px;
+  --sombra: 0 4px 20px rgba(0,0,0,0.10);
+  --sombra-hover: 0 8px 32px rgba(0,0,0,0.18);
+  --font-titulo: 'Playfair Display', Georgia, serif;
+  --font-cuerpo: 'Inter', system-ui, sans-serif;
+  --max-width: 1180px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-cuerpo);
+  color: var(--texto);
+  background: #fff;
+  line-height: 1.65;
+}
+
+a { color: inherit; text-decoration: none; }
+
+img { max-width: 100%; display: block; }
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ============ HEADER ============ */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(26, 58, 92, 0.97);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 14px 0;
+}
+
+.logo {
+  font-family: var(--font-titulo);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  flex-shrink: 0;
+}
+.logo-todo { color: #fff; }
+.logo-patagonia { color: #7ec8e3; }
+
+.main-nav {
+  display: flex;
+  gap: 28px;
+  flex: 1;
+}
+.main-nav a {
+  color: rgba(255,255,255,0.85);
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.main-nav a:hover { color: #fff; }
+
+.lang-switcher {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+.lang-switcher a {
+  color: rgba(255,255,255,0.65);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 3px 7px;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+.lang-switcher a:hover,
+.lang-switcher a.active {
+  color: #fff;
+  background: rgba(255,255,255,0.15);
+}
+
+/* ============ HERO ============ */
+.hero {
+  position: relative;
+  height: 90vh;
+  min-height: 520px;
+  display: flex;
+  align-items: center;
+  background:
+    linear-gradient(135deg, #0d2137 0%, #1a3a5c 40%, #2d5a3d 100%);
+  overflow: hidden;
+}
+
+/* Patrón de montañas SVG inline como fondo */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 600'%3E%3Cpolygon points='0,600 200,200 400,350 600,100 800,280 1000,80 1200,300 1440,150 1440,600' fill='rgba(45,90,61,0.3)'/%3E%3Cpolygon points='0,600 300,300 500,420 700,180 900,360 1100,160 1300,340 1440,220 1440,600' fill='rgba(13,33,55,0.4)'/%3E%3Cpolygon points='0,600 0,480 200,420 500,520 800,440 1100,500 1440,430 1440,600' fill='rgba(255,255,255,0.05)'/%3E%3C/svg%3E");
+  background-size: cover;
+  background-position: bottom;
+  opacity: 0.9;
+}
+
+/* Efecto de estrellas/nieve */
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(255,255,255,0.15) 1px, transparent 1px);
+  background-size: 60px 60px;
+  opacity: 0.3;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(13,33,55,0.3) 0%, rgba(13,33,55,0.6) 100%);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-family: var(--font-titulo);
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1.1;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.4);
+}
+
+.hero-sub {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  opacity: 0.9;
+  margin-bottom: 36px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ============ BOTONES ============ */
+.btn-primary {
+  display: inline-block;
+  padding: 14px 36px;
+  background: var(--naranja-ocaso);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: var(--radio);
+  transition: all 0.25s;
+  box-shadow: 0 4px 16px rgba(212,101,10,0.4);
+}
+.btn-primary:hover {
+  background: #b8560a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(212,101,10,0.5);
+}
+
+.btn-secondary {
+  display: inline-block;
+  padding: 12px 32px;
+  border: 2px solid var(--azul-lago);
+  color: var(--azul-lago);
+  font-weight: 600;
+  border-radius: var(--radio);
+  transition: all 0.25s;
+}
+.btn-secondary:hover {
+  background: var(--azul-lago);
+  color: #fff;
+}
+
+.btn-booking {
+  display: inline-block;
+  padding: 14px 36px;
+  background: #003580;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: var(--radio);
+  transition: all 0.25s;
+}
+.btn-booking:hover {
+  background: #002a65;
+  transform: translateY(-2px);
+}
+
+/* ============ SECCIONES ============ */
+.section {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-family: var(--font-titulo);
+  font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+  color: var(--azul-lago);
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.section-sub {
+  text-align: center;
+  color: var(--gris-piedra);
+  font-size: 1.05rem;
+  margin-bottom: 48px;
+}
+
+/* ============ CARDS DE DESTINOS ============ */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 28px;
+  margin-top: 40px;
+}
+
+.dest-card {
+  border-radius: var(--radio);
+  overflow: hidden;
+  box-shadow: var(--sombra);
+  transition: all 0.3s;
+  background: #fff;
+}
+.dest-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--sombra-hover);
+}
+
+.dest-img {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Gradientes de color para cada destino (sin imágenes externas) */
+.dest-calafate {
+  background: linear-gradient(135deg, #1a6fa8 0%, #0d4a7a 40%, #7ec8e3 100%);
+  position: relative;
+}
+.dest-calafate::after {
+  content: '🧊';
+  position: absolute;
+  font-size: 4rem;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dest-bariloche {
+  background: linear-gradient(135deg, #2d5a3d 0%, #1a3a2a 40%, #7ab87a 100%);
+  position: relative;
+}
+.dest-bariloche::after {
+  content: '🏔️';
+  position: absolute;
+  font-size: 4rem;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dest-ushuaia {
+  background: linear-gradient(135deg, #1a3a5c 0%, #0d2137 40%, #5a8fa8 100%);
+  position: relative;
+}
+.dest-ushuaia::after {
+  content: '🐧';
+  position: absolute;
+  font-size: 4rem;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dest-chalten {
+  background: linear-gradient(135deg, #5a3a1a 0%, #3a2010 40%, #c87a3a 100%);
+  position: relative;
+}
+.dest-chalten::after {
+  content: '⛰️';
+  position: absolute;
+  font-size: 4rem;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dest-peninsula {
+  background: linear-gradient(135deg, #1a5a5a 0%, #0d3a3a 40%, #3a9a9a 100%);
+  position: relative;
+}
+.dest-peninsula::after {
+  content: '🐋';
+  position: absolute;
+  font-size: 4rem;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dest-torres {
+  background: linear-gradient(135deg, #5a1a3a 0%, #3a0d25 40%, #c87a9a 100%);
+  position: relative;
+}
+.dest-torres::after {
+  content: '🗻';
+  position: absolute;
+  font-size: 4rem;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dest-body {
+  padding: 20px 24px 24px;
+}
+.dest-body h3 {
+  font-family: var(--font-titulo);
+  font-size: 1.3rem;
+  color: var(--azul-lago);
+  margin-bottom: 8px;
+}
+.dest-body p {
+  color: var(--gris-piedra);
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+.card-link {
+  color: var(--naranja-ocaso);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+.card-link:hover { color: #b8560a; }
+
+/* ============ BOOKING CTA ============ */
+.booking-cta {
+  background: linear-gradient(135deg, var(--azul-lago) 0%, #0d2137 100%);
+  color: #fff;
+}
+.booking-box {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.booking-box h2 {
+  font-family: var(--font-titulo);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  margin-bottom: 12px;
+}
+.booking-box p {
+  opacity: 0.85;
+  margin-bottom: 28px;
+  font-size: 1.05rem;
+}
+.disclaimer {
+  margin-top: 16px !important;
+  font-size: 0.78rem !important;
+  opacity: 0.6 !important;
+}
+
+/* ============ ACTIVIDADES ============ */
+.activities { background: var(--blanco-nieve); }
+
+.activities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+.activity-item {
+  background: #fff;
+  border-radius: var(--radio);
+  padding: 28px 24px;
+  text-align: center;
+  box-shadow: var(--sombra);
+  transition: transform 0.25s;
+}
+.activity-item:hover { transform: translateY(-4px); }
+.activity-icon { font-size: 2.5rem; margin-bottom: 14px; }
+.activity-item h3 {
+  font-family: var(--font-titulo);
+  font-size: 1.2rem;
+  color: var(--azul-lago);
+  margin-bottom: 8px;
+}
+.activity-item p {
+  color: var(--gris-piedra);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* ============ BLOG PREVIEW ============ */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 28px;
+  margin-top: 40px;
+}
+
+.blog-card {
+  border-radius: var(--radio);
+  overflow: hidden;
+  box-shadow: var(--sombra);
+  background: #fff;
+  transition: all 0.3s;
+}
+.blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--sombra-hover);
+}
+.blog-card-img {
+  height: 160px;
+  background: linear-gradient(135deg, var(--azul-lago), var(--verde-bosque));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+.blog-card-body { padding: 20px; }
+.blog-card-category {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--naranja-ocaso);
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+}
+.blog-card-body h3 {
+  font-family: var(--font-titulo);
+  font-size: 1.1rem;
+  color: var(--azul-lago);
+  margin-bottom: 8px;
+  line-height: 1.35;
+}
+.blog-card-body p {
+  color: var(--gris-piedra);
+  font-size: 0.88rem;
+  margin-bottom: 14px;
+}
+.blog-card-link {
+  color: var(--naranja-ocaso);
+  font-weight: 600;
+  font-size: 0.88rem;
+}
+
+.blog-cta { text-align: center; margin-top: 40px; }
+
+/* ============ TOURS ============ */
+.tours-cta { background: var(--blanco-nieve); }
+
+.tours-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+.tour-card {
+  background: #fff;
+  border-radius: var(--radio);
+  padding: 28px 24px;
+  text-align: center;
+  box-shadow: var(--sombra);
+  transition: all 0.3s;
+  display: block;
+}
+.tour-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--sombra-hover);
+}
+.tour-icon { font-size: 2.5rem; margin-bottom: 14px; }
+.tour-card h3 {
+  font-family: var(--font-titulo);
+  font-size: 1.1rem;
+  color: var(--azul-lago);
+  margin-bottom: 8px;
+}
+.tour-card p {
+  color: var(--gris-piedra);
+  font-size: 0.88rem;
+  margin-bottom: 16px;
+}
+.tour-cta {
+  display: inline-block;
+  color: var(--naranja-ocaso);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+/* ============ FOOTER ============ */
+.site-footer {
+  background: #0d2137;
+  color: rgba(255,255,255,0.75);
+  padding: 60px 0 24px;
+}
+.footer-inner {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.footer-brand .logo { margin-bottom: 12px; display: inline-block; }
+.footer-brand p { font-size: 0.9rem; line-height: 1.6; max-width: 260px; }
+.footer-links h4 {
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 14px;
+}
+.footer-links a {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  transition: color 0.2s;
+}
+.footer-links a:hover { color: #fff; }
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 20px;
+  text-align: center;
+  font-size: 0.82rem;
+}
+.footer-bottom a { color: rgba(255,255,255,0.6); text-decoration: underline; }
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 768px) {
+  .header-inner { flex-wrap: wrap; gap: 12px; }
+  .main-nav { display: none; }
+  .footer-inner { grid-template-columns: 1fr 1fr; }
+  .hero { height: 70vh; }
+}
+
+@media (max-width: 480px) {
+  .footer-inner { grid-template-columns: 1fr; }
+  .section { padding: 48px 0; }
+}
