@@ -757,7 +757,7 @@ def render_blog_index(lang, cfg):
     </div>
   </section>
 {render_footer(cfg)}
-  <script src="{cfg['js_prefix']}main.js" defer></script>
+  <script src="/js/main.js?v=20261125b" defer></script>
 </body>
 </html>"""
 

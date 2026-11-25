@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "glaciar-perito-moreno-guia-completo",
+    "title": "El Calafate: guia de viagem",
+    "excerpt": "A porta de entrada para o Glaciar Perito Moreno, um dos poucos glaciares do mundo que ainda cresce.",
+    "category": "Destinos",
+    "emoji": "🧊",
+    "date": "2024-11-01",
+    "destination": "El Calafate",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/153_-_Glacier_Perito_Moreno_-_Grotte_glaciaire_-_Janvier_2010.jpg/1280px-153_-_Glacier_Perito_Moreno_-_Grotte_glaciaire_-_Janvier_2010.jpg",
+    "image_author": "Luc Viatour (CC BY-SA 3.0)",
+    "image_source": "https://commons.wikimedia.org/wiki/File:153_-_Glacier_Perito_Moreno_-_Grotte_glaciaire_-_Janvier_2010.jpg",
+    "url": "/pt/destinos/el-calafate.html"
+  },
+  {
+    "slug": "trekking-fitz-roy-el-chalten-guia",
+    "title": "El Chaltén: guia de viagem",
+    "excerpt": "A capital nacional do trekking. Fitz Roy e Cerro Torre ao alcance de todos.",
+    "category": "Destinos",
+    "emoji": "⛰️",
+    "date": "2024-10-15",
+    "destination": "El Chaltén",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Fitz_Roy_Chalten_Argentina_Todor_Bozhinov_2013.jpg/1280px-Fitz_Roy_Chalten_Argentina_Todor_Bozhinov_2013.jpg",
+    "image_author": "Todor Bozhinov (CC BY-SA 3.0)",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Fitz_Roy_Chalten_Argentina_Todor_Bozhinov_2013.jpg",
+    "url": "/pt/destinos/el-chalten.html"
+  },
+  {
+    "slug": "bariloche-verao-atividades",
+    "title": "Bariloche: guia de viagem",
+    "excerpt": "Montanhas, lagos e neve. A capital da Patagônia andina, perfeita o ano todo.",
+    "category": "Destinos",
+    "emoji": "🏔️",
+    "date": "2024-10-01",
+    "destination": "Bariloche",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Bariloche-_Argentina2.jpg/1280px-Bariloche-_Argentina2.jpg",
+    "image_author": "Wikimedia Commons (CC BY-SA)",
+    "image_source": "https://commons.wikimedia.org/wiki/File:Bariloche-_Argentina2.jpg",
+    "url": "/pt/destinos/bariloche.html"
+  }
+]

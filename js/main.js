@@ -73,7 +73,7 @@ async function loadBlogPosts() {
   const readMore = readMoreLabels[blogBase] || 'Leer más →';
 
   try {
-    const res = await fetch(jsonUrl);
+    const res = await fetch(jsonUrl, { cache: "no-cache" });
     if (!res.ok) throw new Error('No articles.json yet');
     const articles = await res.json();
 
@@ -86,11 +86,12 @@ async function loadBlogPosts() {
       return `
         <article class="blog-card">
           <div class="blog-card-img">${imgHtml}</div>
+          ${a.image_source ? `<small><a href="${a.image_source}">${a.image_author}</a></small>` : ""}
           <div class="blog-card-body">
             <div class="blog-card-category">${a.category || 'Guide'}</div>
             <h3>${a.title}</h3>
             <p>${a.excerpt}</p>
-            <a href="${blogBase}${a.slug}.html" class="blog-card-link">${readMore}</a>
+            <a href="${a.url || `${blogBase}${a.slug}.html`}" class="blog-card-link">${readMore}</a>
           </div>
         </article>`;
     }).join('');
