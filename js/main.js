@@ -86,12 +86,12 @@ async function loadBlogPosts() {
       return `
         <article class="blog-card">
           <div class="blog-card-img">${imgHtml}</div>
-          ${a.image_source ? `<small><a href="${a.image_source}">${a.image_author}</a></small>` : ""}
           <div class="blog-card-body">
             <div class="blog-card-category">${a.category || 'Guide'}</div>
             <h3>${a.title}</h3>
             <p>${a.excerpt}</p>
             <a href="${a.url || `${blogBase}${a.slug}.html`}" class="blog-card-link">${readMore}</a>
+            ${a.image_source ? `<small class="blog-card-credit"><a href="${a.image_source}">${a.image_author}</a></small>` : ""}
           </div>
         </article>`;
     }).join('');

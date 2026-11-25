@@ -6,7 +6,7 @@
   <meta name="description" content="Guías de viaje sobre la Patagonia: destinos, trekking, glaciares, fauna y consejos prácticos para tu aventura.">
   <link rel="canonical" href="https://todopatagonia.com/blog/">
   <title>Blog de viajes | TodoPatagonia.com</title>
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="/css/style.css?v=20261125c">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
@@ -54,12 +54,12 @@
       grid.innerHTML = articles.map(a => `
         <article class="blog-card">
           <div class="blog-card-img"> ${a.image_url ? `<img src="${a.image_url}" class="blog-card-photo" alt="${a.destination}" loading="lazy">` : a.emoji || '🏔️'}</div>
-          ${a.image_source ? `<small><a href="${a.image_source}">${a.image_author}</a></small>` : ""}
           <div class="blog-card-body">
             <div class="blog-card-category">${a.category}</div>
             <h2 style="font-family:'Playfair Display',serif;font-size:1.1rem;color:#1a3a5c;margin-bottom:8px;line-height:1.35">${a.title}</h2>
             <p class="blog-card-excerpt">${a.excerpt}</p>
             <a href="${a.url || `/blog/${a.slug}.html`}" class="blog-card-link">Leer más →</a>
+            ${a.image_source ? `<small class="blog-card-credit"><a href="${a.image_source}">${a.image_author}</a></small>` : ""}
           </div>
         </article>
       `).join('');

@@ -740,7 +740,7 @@ def render_blog_index(lang, cfg):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{descs[lang]}">
   <title>{titles[lang]} | TodoPatagonia.com</title>
-  <link rel="stylesheet" href="{cfg['css_prefix']}style.css">
+  <link rel="stylesheet" href="/css/style.css?v=20261125c">
   <link href="{cfg['font']}" rel="stylesheet">
   <script>
     const BLOG_JSON = '{blog_json[lang]}';
@@ -757,7 +757,7 @@ def render_blog_index(lang, cfg):
     </div>
   </section>
 {render_footer(cfg)}
-  <script src="/js/main.js?v=20261125b" defer></script>
+  <script src="/js/main.js?v=20261125c" defer></script>
 </body>
 </html>"""
 
