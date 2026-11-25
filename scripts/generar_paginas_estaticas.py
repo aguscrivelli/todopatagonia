@@ -11,6 +11,7 @@ y también puede correrse manualmente: python scripts/generar_paginas_estaticas.
 import os
 import json
 from pathlib import Path
+from html import escape
 from datetime import datetime
 
 import anthropic
@@ -357,6 +358,16 @@ def render_footer(cfg):
     )
 
 
+def render_tip(tip):
+    if isinstance(tip, str):
+        return escape(tip)
+    title = tip.get("title", "")
+    description = tip.get("description", tip.get("tip", ""))
+    if title and description:
+        return f"<strong>{escape(title)}</strong> — {escape(description)}"
+    return escape(title or description)
+
+
 def render_actividades_html(contenido, cfg):
     """Renderiza la página de actividades completa."""
     now = datetime.now().strftime("%B %Y")
@@ -409,7 +420,7 @@ def render_actividades_html(contenido, cfg):
 
     # Tips
     tips_html = "".join(
-        f'<li style="margin-bottom:12px;padding-left:4px">{t}</li>'
+        f'<li style="margin-bottom:12px;padding-left:4px">{render_tip(t)}</li>'
         for t in contenido.get("practical_tips", [])
     )
 
@@ -557,7 +568,7 @@ def render_como_llegar_html(contenido, cfg):
 
     # Booking tips
     tips_html = "".join(
-        f'<li style="margin-bottom:12px;padding-left:4px">{t}</li>'
+        f'<li style="margin-bottom:12px;padding-left:4px">{render_tip(t)}</li>'
         for t in contenido.get("booking_tips", [])
     )
 
