@@ -1,0 +1,55 @@
+name: Generar páginas estáticas (actividades, cómo llegar)
+
+on:
+  schedule:
+    # Regenera el contenido cada 4 semanas (primer lunes del mes a las 10am UTC)
+    - cron: '0 10 1-7 * 1'
+  workflow_dispatch:
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install anthropic python-slugify
+
+      - name: Generar páginas estáticas
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/generar_paginas_estaticas.py
+
+      - name: Commit y push
+        run: |
+          git config --global user.name "TodoPatagonia Bot"
+          git config --global user.email "bot@todopatagonia.com"
+          git add actividades.html como-llegar.html \
+                  en/activities.html en/how-to-get-there.html en/privacy.html en/affiliates.html en/blog/ \
+                  pt/atividades.html pt/como-chegar.html pt/privacidade.html pt/afiliados.html pt/blog/
+          git diff --staged --quiet || git commit -m "🔄 Páginas estáticas actualizadas con IA (ES/EN/PT)"
+          git push
+
+      - name: Deploy a Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_PATH }}/
+          local-dir: ./
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            .github/**
+            README.md
+            scripts/**
