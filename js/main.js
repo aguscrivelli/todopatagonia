@@ -30,7 +30,7 @@ async function loadDestinationPhotos() {
   if (!cards.length) return;
 
   try {
-    const res = await fetch('/data/destination-photos.json');
+    const res = await fetch('/data/destination-photos.json?v=20261125');
     if (!res.ok) return; // sin JSON: quedará con gradiente+emoji
     const photos = await res.json();
 

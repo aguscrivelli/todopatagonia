@@ -174,7 +174,7 @@
         // Intentar cargar fotos de destination-photos.json
         let fotos = {};
         try {
-          const fResp = await fetch('/data/destination-photos.json');
+          const fResp = await fetch('/data/destination-photos.json?v=20261125');
           if (fResp.ok) fotos = await fResp.json();
         } catch(e) {}
 
@@ -195,7 +195,9 @@
             </div>
           </a>`;
         }).join('');
-        mostrarCreditosFotos(grid, Object.values(fotos));
+        if (typeof mostrarCreditosFotos === "function") {
+          mostrarCreditosFotos(grid, Object.values(fotos));
+        }
       } catch(e) {
         grid.innerHTML = '<p class="loading-msg">Error cargando destinos. Intentá de nuevo.</p>';
         console.error(e);
@@ -203,6 +205,6 @@
     }
     cargarDestinos();
   </script>
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=20261125"></script>
 </body>
 </html>

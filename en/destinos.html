@@ -100,7 +100,7 @@
         const activos = data.activos || [];
         if (!activos.length) { grid.innerHTML = '<p class="loading-msg">No destinations available yet.</p>'; return; }
         let fotos = {};
-        try { const fResp = await fetch('/data/destination-photos.json'); if (fResp.ok) fotos = await fResp.json(); } catch(e) {}
+        try { const fResp = await fetch('/data/destination-photos.json?v=20261125'); if (fResp.ok) fotos = await fResp.json(); } catch(e) {}
         grid.innerHTML = activos.map(d => {
           const fotoKey = Object.keys(fotos).find(k => k === d.nombre || k.startsWith(d.nombre + ' '));
           const foto = fotoKey ? fotos[fotoKey] : null;
@@ -116,11 +116,13 @@
             </div>
           </a>`;
         }).join('');
-        mostrarCreditosFotos(grid, Object.values(fotos));
+        if (typeof mostrarCreditosFotos === "function") {
+          mostrarCreditosFotos(grid, Object.values(fotos));
+        }
       } catch(e) { grid.innerHTML = '<p class="loading-msg">Error loading destinations.</p>'; }
     }
     cargarDestinos();
   </script>
-  <script src="../js/main.js"></script>
+  <script src="../js/main.js?v=20261125"></script>
 </body>
 </html>
