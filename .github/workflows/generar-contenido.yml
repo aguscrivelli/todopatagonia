@@ -1,0 +1,58 @@
+name: Generar contenido con IA
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+    inputs:
+      destino:
+        description: 'Destino para el artículo (ej: Bariloche, Ushuaia)'
+        required: false
+        default: ''
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install anthropic python-slugify
+
+      - name: Generar artículo
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DESTINO_INPUT: ${{ github.event.inputs.destino }}
+        run: python scripts/generar_articulo.py
+
+      - name: Commit y push del nuevo artículo
+        run: |
+          git config --global user.name "TodoPatagonia Bot"
+          git config --global user.email "bot@todopatagonia.com"
+          git add blog/
+          git diff --staged --quiet || git commit -m "✨ Nuevo artículo generado automáticamente"
+          git push
+
+      - name: Deploy a Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_PATH }}/
+          local-dir: ./
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            .github/**
+            README.md
+            scripts/**
