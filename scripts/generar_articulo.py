@@ -650,15 +650,18 @@ def main():
     else:
         print("   → Sin foto (se omite imagen hero)")
 
+    publicadas = {}
     # Generar artículo en los 3 idiomas
     for idioma in ["es", "en", "pt"]:
         print(f"\n🌐 Generando artículo en {idioma.upper()}...")
-        try:
-            articulo = generar_articulo_claude(destino, categoria, idioma)
-            slug = guardar_articulo(destino, articulo, idioma, foto)
-            print(f"   → {IDIOMAS[idioma]['blog_dir']}/{slug}.html")
-        except Exception as e:
-            print(f"❌ Error generando artículo en {idioma}: {e}")
+        articulo = generar_articulo_claude(destino, categoria, idioma)
+        slug = guardar_articulo(destino, articulo, idioma, foto)
+        publicadas[idioma] = f"{IDIOMAS[idioma]['blog_dir']}/{slug}.html"
+        print(f"   → {publicadas[idioma]}")
+
+    Path(os.environ.get("RUNNER_TEMP", "."), "guias-publicadas.json").write_text(
+        json.dumps(publicadas), encoding="utf-8"
+    )
 
     # 3. Actualizar fotos de destinos del homepage
     print("\n🖼️  Actualizando fotos de destinos...")

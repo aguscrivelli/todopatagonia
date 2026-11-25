@@ -11,6 +11,10 @@ on:
         required: false
         default: ''
 
+concurrency:
+  group: publicacion-hostinger
+  cancel-in-progress: false
+
 jobs:
   generar:
     runs-on: ubuntu-latest
@@ -43,14 +47,17 @@ jobs:
           git diff --staged --quiet || git commit -m "✨ Nuevo artículo + destinos actualizados (ES/EN/PT)"
           git push
 
+      - name: Preparar sitio público
+        run: python3 scripts/preparar_publicacion.py
+
       - name: Deploy a Hostinger
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ${{ secrets.FTP_PATH }}/
-          local-dir: ./
+          server-dir: /public_html/
+          local-dir: ./_public/
           exclude: |
             **/.git*
             **/.git*/**
@@ -58,3 +65,6 @@ jobs:
             .github/**
             README.md
             scripts/**
+
+      - name: Verificar las tres guías públicas
+        run: python3 scripts/verificar_guias.py
