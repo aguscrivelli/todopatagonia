@@ -1,5 +1,34 @@
 // TodoPatagonia.com — JS principal
 
+// Cargar fotos de destinos desde el JSON pre-generado
+async function loadDestinationPhotos() {
+  const cards = document.querySelectorAll('.dest-card[data-dest]');
+  if (!cards.length) return;
+
+  try {
+    const res = await fetch('/data/destination-photos.json');
+    if (!res.ok) return; // sin JSON: quedará con gradiente+emoji
+    const photos = await res.json();
+
+    cards.forEach(card => {
+      const dest = card.getAttribute('data-dest');
+      const photo = photos[dest];
+      if (!photo) return;
+
+      const imgContainer = card.querySelector('.dest-img');
+      const img = document.createElement('img');
+      img.src = photo.url;
+      img.alt = photo.alt || dest;
+      img.loading = 'lazy';
+      img.onload = () => imgContainer.classList.add('loaded');
+      img.onerror = () => {}; // fallback: se ve el emoji
+      imgContainer.appendChild(img);
+    });
+  } catch (e) {
+    // Sin fotos: se muestran los emojis de fallback, sin problema
+  }
+}
+
 // Cargar artículos del blog desde articles.json
 async function loadBlogPosts() {
   const grid = document.getElementById('blog-grid');
@@ -13,17 +42,21 @@ async function loadBlogPosts() {
     // Mostrar los últimos 3
     const recent = articles.slice(0, 3);
 
-    grid.innerHTML = recent.map(a => `
-      <article class="blog-card">
-        <div class="blog-card-img">${a.emoji || '🏔️'}</div>
-        <div class="blog-card-body">
-          <div class="blog-card-category">${a.category || 'Guía'}</div>
-          <h3>${a.title}</h3>
-          <p>${a.excerpt}</p>
-          <a href="/blog/${a.slug}.html" class="blog-card-link">Leer más →</a>
-        </div>
-      </article>
-    `).join('');
+    grid.innerHTML = recent.map(a => {
+      const imgHtml = a.image_url
+        ? `<img src="${a.image_url}" alt="${a.title}" class="blog-card-photo" loading="lazy">`
+        : `<div class="blog-card-emoji">${a.emoji || '🏔️'}</div>`;
+      return `
+        <article class="blog-card">
+          <div class="blog-card-img">${imgHtml}</div>
+          <div class="blog-card-body">
+            <div class="blog-card-category">${a.category || 'Guía'}</div>
+            <h3>${a.title}</h3>
+            <p>${a.excerpt}</p>
+            <a href="/blog/${a.slug}.html" class="blog-card-link">Leer más →</a>
+          </div>
+        </article>`;
+    }).join('');
   } catch (e) {
     // Si no hay artículos aún, ocultar la sección
     const section = grid.closest('.section');
@@ -45,6 +78,7 @@ function initScrollHeader() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  loadDestinationPhotos();
   loadBlogPosts();
   initScrollHeader();
 });
