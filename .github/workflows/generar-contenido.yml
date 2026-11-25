@@ -27,18 +27,19 @@ jobs:
       - name: Instalar dependencias
         run: pip install anthropic python-slugify
 
-      - name: Generar artículo
+      - name: Generar artículo y actualizar fotos
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
           DESTINO_INPUT: ${{ github.event.inputs.destino }}
         run: python scripts/generar_articulo.py
 
-      - name: Commit y push del nuevo artículo
+      - name: Commit y push del nuevo contenido
         run: |
           git config --global user.name "TodoPatagonia Bot"
           git config --global user.email "bot@todopatagonia.com"
-          git add blog/
-          git diff --staged --quiet || git commit -m "✨ Nuevo artículo generado automáticamente"
+          git add blog/ data/
+          git diff --staged --quiet || git commit -m "✨ Nuevo artículo + fotos actualizadas"
           git push
 
       - name: Deploy a Hostinger
