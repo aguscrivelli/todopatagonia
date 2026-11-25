@@ -253,82 +253,30 @@ img { max-width: 100%; display: block; }
 }
 
 .dest-img {
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-}
-
-/* Gradientes de color para cada destino (sin imágenes externas) */
-.dest-calafate {
-  background: linear-gradient(135deg, #1a6fa8 0%, #0d4a7a 40%, #7ec8e3 100%);
+  height: 220px;
+  background: linear-gradient(135deg, var(--azul-lago), var(--verde-bosque));
+  overflow: hidden;
   position: relative;
 }
-.dest-calafate::after {
-  content: '🧊';
+.dest-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+.dest-card:hover .dest-img img {
+  transform: scale(1.07);
+}
+.dest-placeholder {
   position: absolute;
-  font-size: 4rem;
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.dest-bariloche {
-  background: linear-gradient(135deg, #2d5a3d 0%, #1a3a2a 40%, #7ab87a 100%);
-  position: relative;
-}
-.dest-bariloche::after {
-  content: '🏔️';
-  position: absolute;
   font-size: 4rem;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
+  transition: opacity 0.3s;
 }
-
-.dest-ushuaia {
-  background: linear-gradient(135deg, #1a3a5c 0%, #0d2137 40%, #5a8fa8 100%);
-  position: relative;
-}
-.dest-ushuaia::after {
-  content: '🐧';
-  position: absolute;
-  font-size: 4rem;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.dest-chalten {
-  background: linear-gradient(135deg, #5a3a1a 0%, #3a2010 40%, #c87a3a 100%);
-  position: relative;
-}
-.dest-chalten::after {
-  content: '⛰️';
-  position: absolute;
-  font-size: 4rem;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.dest-peninsula {
-  background: linear-gradient(135deg, #1a5a5a 0%, #0d3a3a 40%, #3a9a9a 100%);
-  position: relative;
-}
-.dest-peninsula::after {
-  content: '🐋';
-  position: absolute;
-  font-size: 4rem;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.dest-torres {
-  background: linear-gradient(135deg, #5a1a3a 0%, #3a0d25 40%, #c87a9a 100%);
-  position: relative;
-}
-.dest-torres::after {
-  content: '🗻';
-  position: absolute;
-  font-size: 4rem;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
+.dest-img.loaded .dest-placeholder {
+  opacity: 0;
 }
 
 .dest-body {
@@ -430,11 +378,25 @@ img { max-width: 100%; display: block; }
   box-shadow: var(--sombra-hover);
 }
 .blog-card-img {
-  height: 160px;
+  height: 180px;
   background: linear-gradient(135deg, var(--azul-lago), var(--verde-bosque));
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 3rem;
+  overflow: hidden;
+}
+.blog-card-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.blog-card:hover .blog-card-photo {
+  transform: scale(1.05);
+}
+.blog-card-emoji {
   font-size: 3rem;
 }
 .blog-card-body { padding: 20px; }

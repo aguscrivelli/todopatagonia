@@ -117,3 +117,30 @@
   color: var(--azul-lago);
   margin-bottom: 20px;
 }
+
+/* ============ HERO IMAGE (Unsplash) ============ */
+.article-hero-image {
+  margin: 24px 0 0;
+  border-radius: var(--radio);
+  overflow: hidden;
+}
+.article-hero-image img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  display: block;
+}
+.article-hero-image figcaption {
+  font-size: 0.75rem;
+  color: var(--gris-piedra);
+  text-align: right;
+  padding: 6px 10px;
+  background: var(--blanco-nieve);
+}
+.article-hero-image figcaption a {
+  color: var(--azul-cielo);
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  .article-hero-image img { height: 220px; }
+}
