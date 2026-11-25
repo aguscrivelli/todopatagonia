@@ -1,24 +1,24 @@
 {
   "El Calafate": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Perito_Moreno_Glacier_Patagonia_Argentina_Luca_Galuzzi_2005.JPG/1280px-Perito_Moreno_Glacier_Patagonia_Argentina_Luca_Galuzzi_2005.JPG",
-    "url_small": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Perito_Moreno_Glacier_Patagonia_Argentina_Luca_Galuzzi_2005.JPG/640px-Perito_Moreno_Glacier_Patagonia_Argentina_Luca_Galuzzi_2005.JPG",
-    "alt": "Glaciar Perito Moreno, El Calafate, Patagonia Argentina",
-    "author_name": "Luca Galuzzi (CC BY-SA 2.5)",
-    "author_url": "https://commons.wikimedia.org/wiki/File:Perito_Moreno_Glacier_Patagonia_Argentina_Luca_Galuzzi_2005.JPG"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Perito_Moreno.jpg",
+    "url_small": "https://upload.wikimedia.org/wikipedia/commons/1/18/Perito_Moreno.jpg",
+    "alt": "Glaciar Perito Moreno, El Calafate",
+    "author_name": "Calyponte (CC BY-SA 4.0)",
+    "author_url": "https://commons.wikimedia.org/wiki/File:Perito_Moreno.jpg"
   },
   "Bariloche": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bariloche_desde_el_cerro_Catedral.jpg/1280px-Bariloche_desde_el_cerro_Catedral.jpg",
-    "url_small": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bariloche_desde_el_cerro_Catedral.jpg/640px-Bariloche_desde_el_cerro_Catedral.jpg",
-    "alt": "San Carlos de Bariloche y el lago Nahuel Huapi desde el Cerro Catedral",
-    "author_name": "Wikimedia Commons (CC BY-SA)",
-    "author_url": "https://commons.wikimedia.org/wiki/File:Bariloche_desde_el_cerro_Catedral.jpg"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Bariloche_ciudad.jpg",
+    "url_small": "https://upload.wikimedia.org/wikipedia/commons/8/84/Bariloche_ciudad.jpg",
+    "alt": "Lago Nahuel Huapi en Bariloche",
+    "author_name": "Cutais (CC BY-SA 4.0)",
+    "author_url": "https://commons.wikimedia.org/wiki/File:Bariloche_ciudad.jpg"
   },
   "Ushuaia": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Ushuaia_desde_bahia_encerrada.jpg/1280px-Ushuaia_desde_bahia_encerrada.jpg",
-    "url_small": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Ushuaia_desde_bahia_encerrada.jpg/640px-Ushuaia_desde_bahia_encerrada.jpg",
-    "alt": "Ushuaia, la ciudad más austral del mundo, Tierra del Fuego",
-    "author_name": "Wikimedia Commons (CC BY-SA)",
-    "author_url": "https://commons.wikimedia.org/wiki/File:Ushuaia_desde_bahia_encerrada.jpg"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Ushuaia_-_Imagen_del_puerto.jpg",
+    "url_small": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Ushuaia_-_Imagen_del_puerto.jpg",
+    "alt": "Puerto de Ushuaia",
+    "author_name": "Iro Bosero (CC BY-SA 4.0)",
+    "author_url": "https://commons.wikimedia.org/wiki/File:Ushuaia_-_Imagen_del_puerto.jpg"
   },
   "El Chaltén Fitz Roy": {
     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Fitz_Roy_Chalten_Argentina_Todor_Bozhinov_2013.jpg/1280px-Fitz_Roy_Chalten_Argentina_Todor_Bozhinov_2013.jpg",
@@ -28,17 +28,17 @@
     "author_url": "https://commons.wikimedia.org/wiki/File:Fitz_Roy_Chalten_Argentina_Todor_Bozhinov_2013.jpg"
   },
   "Península Valdés whales Patagonia": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Southern_right_whales_courting.jpg/1280px-Southern_right_whales_courting.jpg",
-    "url_small": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Southern_right_whales_courting.jpg/640px-Southern_right_whales_courting.jpg",
-    "alt": "Ballenas francas australes en Península Valdés, Patagonia Argentina",
-    "author_name": "Wikimedia Commons (CC BY-SA)",
-    "author_url": "https://commons.wikimedia.org/wiki/File:Southern_right_whales_courting.jpg"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Tail_of_a_whale_near_Valdes_Peninsula.jpg",
+    "url_small": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Tail_of_a_whale_near_Valdes_Peninsula.jpg",
+    "alt": "Cola de una ballena franca austral en Península Valdés",
+    "author_name": "Edith Schreurs (CC BY-SA 2.0)",
+    "author_url": "https://commons.wikimedia.org/wiki/File:Tail_of_a_whale_near_Valdes_Peninsula.jpg"
   },
   "Torres del Paine Chile": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Cordillera_Paine_desde_Puerto_Natales.jpg/1280px-Cordillera_Paine_desde_Puerto_Natales.jpg",
-    "url_small": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Cordillera_Paine_desde_Puerto_Natales.jpg/640px-Cordillera_Paine_desde_Puerto_Natales.jpg",
-    "alt": "Torres del Paine, Patagonia chilena",
-    "author_name": "Wikimedia Commons (CC BY-SA)",
-    "author_url": "https://commons.wikimedia.org/wiki/File:Cordillera_Paine_desde_Puerto_Natales.jpg"
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Torres-del-paine.jpg",
+    "url_small": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Torres-del-paine.jpg",
+    "alt": "Paisaje desde el mirador Cóndor, Torres del Paine",
+    "author_name": "Gonzalobaeza (CC BY-SA 4.0)",
+    "author_url": "https://commons.wikimedia.org/wiki/File:Torres-del-paine.jpg"
   }
 }

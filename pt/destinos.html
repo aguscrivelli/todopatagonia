@@ -102,7 +102,7 @@
         let fotos = {};
         try { const fResp = await fetch('/data/destination-photos.json'); if (fResp.ok) fotos = await fResp.json(); } catch(e) {}
         grid.innerHTML = activos.map(d => {
-          const fotoKey = Object.keys(fotos).find(k => k.toLowerCase().includes(d.nombre.toLowerCase().split(' ')[0].toLowerCase()));
+          const fotoKey = Object.keys(fotos).find(k => k === d.nombre || k.startsWith(d.nombre + ' '));
           const foto = fotoKey ? fotos[fotoKey] : null;
           const imgHtml = foto
             ? `<img src="${foto.url_small}" alt="${foto.alt || d.nombre}" loading="lazy"><span class="emoji-fallback" style="opacity:0">${d.emoji}</span>`
@@ -116,6 +116,7 @@
             </div>
           </a>`;
         }).join('');
+        mostrarCreditosFotos(grid, Object.values(fotos));
       } catch(e) { grid.innerHTML = '<p class="loading-msg">Erro ao carregar destinos.</p>'; }
     }
     cargarDestinos();

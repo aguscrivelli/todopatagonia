@@ -1,5 +1,29 @@
 // TodoPatagonia.com — JS principal
 
+function mostrarCreditosFotos(grid, fotos) {
+  if (!grid || !fotos.length) return;
+  const idioma = document.documentElement.lang.slice(0, 2);
+  const etiqueta = { es: 'Créditos de fotos', en: 'Photo credits', pt: 'Créditos das fotos' };
+  const creditos = document.createElement('details');
+  const titulo = document.createElement('summary');
+  titulo.textContent = etiqueta[idioma] || etiqueta.es;
+  creditos.append(titulo);
+  const lista = document.createElement('ul');
+  fotos.forEach(foto => {
+    if (!foto.author_name || !foto.author_url) return;
+    const item = document.createElement('li');
+    const enlace = document.createElement('a');
+    enlace.href = foto.author_url;
+    enlace.textContent = foto.alt + ' — ' + foto.author_name;
+    item.append(enlace);
+    lista.append(item);
+  });
+  if (lista.childElementCount) {
+    creditos.append(lista);
+    grid.after(creditos);
+  }
+}
+
 // Cargar fotos de destinos desde el JSON pre-generado
 async function loadDestinationPhotos() {
   const cards = document.querySelectorAll('.dest-card[data-dest]');
@@ -24,6 +48,7 @@ async function loadDestinationPhotos() {
       img.onerror = () => {}; // fallback: se ve el emoji
       imgContainer.appendChild(img);
     });
+    mostrarCreditosFotos(document.getElementById('dest-grid'), Object.values(photos));
   } catch (e) {
     // Sin fotos: se muestran los emojis de fallback, sin problema
   }
