@@ -2,6 +2,7 @@
 import shutil
 from pathlib import Path
 
+from mapa import agregar_mapa
 from seo import procesar as aplicar_seo
 from traslados import agregar_traslados
 from verificar_idiomas import revisar as revisar_idiomas
@@ -22,7 +23,7 @@ def main():
             raise ValueError(f"Falta el cierre de body en {page}")
         path = page.relative_to(output).as_posix()
         html = aplicar_visuales(path, html.decode())
-        html = agregar_traslados(path, html).encode()
+        html = agregar_mapa(path, agregar_traslados(path, html)).encode()
         script = b'<script src="/js/affiliate-clicks.js?v=2" defer></script>'
         page.write_bytes(html.replace(b"</body>", script + b"\n</body>", 1))
     aplicar_seo(output)

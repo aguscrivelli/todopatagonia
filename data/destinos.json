@@ -7,7 +7,9 @@
       "descripcion_es": "La puerta de entrada al Glaciar Perito Moreno, uno de los glaciares más accesibles del mundo.",
       "descripcion_en": "Gateway to the Perito Moreno Glacier, one of the most accessible glaciers in the world.",
       "descripcion_pt": "A porta de entrada para o Glaciar Perito Moreno, um dos glaciares mais acessíveis do mundo.",
-      "fecha_agregado": "2024-01-01"
+      "fecha_agregado": "2024-01-01",
+      "lat": -50.3379,
+      "lng": -72.2648
     },
     {
       "nombre": "Bariloche",
@@ -16,7 +18,9 @@
       "descripcion_es": "Montañas, lagos y nieve. La capital de la Patagonia andina, perfecta todo el año.",
       "descripcion_en": "Mountains, lakes and snow. The capital of the Andean Patagonia, perfect year-round.",
       "descripcion_pt": "Montanhas, lagos e neve. A capital da Patagônia andina, perfeita o ano todo.",
-      "fecha_agregado": "2024-01-01"
+      "fecha_agregado": "2024-01-01",
+      "lat": -41.1335,
+      "lng": -71.3103
     },
     {
       "nombre": "Ushuaia",
@@ -25,7 +29,9 @@
       "descripcion_es": "Una de las ciudades más australes del mundo: Canal Beagle, bosques y pingüinos.",
       "descripcion_en": "One of the southernmost cities in the world: Beagle Channel, forests and penguins.",
       "descripcion_pt": "Uma das cidades mais austrais do mundo: Canal Beagle, bosques e pinguins.",
-      "fecha_agregado": "2024-01-01"
+      "fecha_agregado": "2024-01-01",
+      "lat": -54.8019,
+      "lng": -68.303
     },
     {
       "nombre": "El Chaltén",
@@ -34,7 +40,9 @@
       "descripcion_es": "La capital nacional del trekking, con senderos al Fitz Roy y al Cerro Torre que salen del pueblo.",
       "descripcion_en": "Argentina's trekking capital, with trails to Fitz Roy and Cerro Torre starting right in town.",
       "descripcion_pt": "A capital nacional do trekking, com trilhas para o Fitz Roy e o Cerro Torre que saem do povoado.",
-      "fecha_agregado": "2024-01-01"
+      "fecha_agregado": "2024-01-01",
+      "lat": -49.3315,
+      "lng": -72.8863
     },
     {
       "nombre": "Península Valdés",
@@ -43,7 +51,9 @@
       "descripcion_es": "Ballenas francas, orcas, pingüinos y lobos marinos. Patrimonio Natural de la Humanidad.",
       "descripcion_en": "Right whales, orcas, penguins and sea lions. UNESCO Natural World Heritage Site.",
       "descripcion_pt": "Baleias, orcas, pinguins e leões marinhos. Patrimônio Natural da Humanidade.",
-      "fecha_agregado": "2024-01-01"
+      "fecha_agregado": "2024-01-01",
+      "lat": -42.572,
+      "lng": -64.283
     },
     {
       "nombre": "Torres del Paine",
@@ -52,7 +62,9 @@
       "descripcion_es": "Uno de los parques más famosos de Chile. Circuitos W y O entre cumbres, glaciares y pumas.",
       "descripcion_en": "One of Chile's most famous parks. The W and O treks through peaks, glaciers and puma country.",
       "descripcion_pt": "Um dos parques mais famosos do Chile. Circuitos W e O entre cumes, glaciares e pumas.",
-      "fecha_agregado": "2024-01-01"
+      "fecha_agregado": "2024-01-01",
+      "lat": -50.9423,
+      "lng": -73.4068
     }
   ],
   "pendientes": [

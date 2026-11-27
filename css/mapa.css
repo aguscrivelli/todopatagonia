@@ -1,0 +1,8 @@
+.mapa-destinos { padding: 64px 0; background: #f8f9fa; }
+.mapa-destinos .section-subtitle { max-width: 640px; margin: 8px auto 28px; text-align: center; color: #6c757d; }
+#mapa-patagonia { height: 520px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); z-index: 0; }
+.mapa-etiqueta { background: #1a3a5c; color: #fff; border: 0; font-weight: 600; font-size: 0.8rem; padding: 2px 8px; box-shadow: none; }
+.mapa-etiqueta::before { display: none; }
+.leaflet-popup-content p { margin: 6px 0 8px; color: #495057; }
+.leaflet-popup-content a { color: #d4650a; font-weight: 600; }
+@media (max-width: 600px) { #mapa-patagonia { height: 440px; } }
