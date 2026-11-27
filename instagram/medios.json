@@ -313,5 +313,19 @@
     "imagenes": [
       "ig/08-bariloche-lago/1.jpg"
     ]
+  },
+  "05-cuando-viajar": {
+    "titulo": "File:Lenga in Autumn Splendor (3328803692).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Lenga_in_Autumn_Splendor_%283328803692%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Lenga_in_Autumn_Splendor_(3328803692).jpg",
+    "credito": "Jason Hollinger / Wikimedia Commons (CC BY 2.0)",
+    "imagenes": [
+      "ig/05-cuando-viajar/1.jpg",
+      "ig/05-cuando-viajar/2.jpg",
+      "ig/05-cuando-viajar/3.jpg",
+      "ig/05-cuando-viajar/4.jpg",
+      "ig/05-cuando-viajar/5.jpg",
+      "ig/05-cuando-viajar/6.jpg"
+    ]
   }
 }
