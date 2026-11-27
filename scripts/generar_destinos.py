@@ -330,8 +330,8 @@ def render_destino_html(destino_info, contenido, idioma_cfg, foto):
         <a href="/" class="logo"><span class="logo-todo">Todo</span><span class="logo-patagonia">Patagonia</span></a>
         <nav class="main-nav">
           <a href="{nav_prefix}destinos.html">{nav['destinos']}</a>
-          <a href="{nav_prefix}actividades.html">{nav['actividades']}</a>
-          <a href="{nav_prefix}como-llegar.html">{nav['como_llegar']}</a>
+          <a href="{nav_prefix}{ {"es": "actividades.html", "en": "activities.html", "pt": "atividades.html"}[lang] }">{nav['actividades']}</a>
+          <a href="{nav_prefix}{ {"es": "como-llegar.html", "en": "how-to-get-there.html", "pt": "como-chegar.html"}[lang] }">{nav['como_llegar']}</a>
           <a href="{nav_prefix}blog/">{nav['blog']}</a>
         </nav>
         <div class="lang-switcher">

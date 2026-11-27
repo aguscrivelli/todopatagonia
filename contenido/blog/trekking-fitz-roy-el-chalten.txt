@@ -1,0 +1,130 @@
+destination: El Chaltén
+
+=== es
+title: Trekking al Fitz Roy: guía de senderos en El Chaltén
+meta: Los mejores senderos de El Chaltén: Laguna de los Tres, Laguna Torre, Mirador de los Cóndores y Loma del Pliegue Tumbado. Distancias, dificultad y consejos.
+excerpt: El Chaltén es la Capital Nacional del Trekking y la puerta de entrada al Fitz Roy. Te contamos qué senderos hacer, cuánto tiempo llevan y cómo prepararte.
+category: Destinos
+read_time: 6
+---
+<h2>El pueblo del trekking</h2>
+<p>El Chaltén es un pueblo joven, al pie del cerro Fitz Roy, en el sector norte del Parque Nacional Los Glaciares. Lo que lo hace especial es que la mayoría de los senderos salen caminando desde el mismo pueblo: no necesitás auto ni excursión para llegar a algunos de los paisajes más famosos de la Patagonia.</p>
+<p>El Fitz Roy, al que los tehuelches llamaban Chaltén, supera los 3.400 metros de altura. Junto al Cerro Torre forma uno de los perfiles de montaña más reconocibles del mundo.</p>
+
+<h2>Cómo llegar</h2>
+<p>El Chaltén queda a unos 220 kilómetros de El Calafate, donde está el aeropuerto más cercano. Hay buses diarios entre ambos pueblos y el viaje lleva alrededor de tres horas. También se puede ir en auto por la Ruta 40.</p>
+
+<h2>Los senderos imperdibles</h2>
+<h3>Mirador de los Cóndores y de las Águilas</h3>
+<p>Una caminata corta que sale del extremo sur del pueblo. En menos de una hora llegás a un mirador con vista al valle, al pueblo y, en días despejados, al Fitz Roy. Es ideal para el día de llegada o para ver el atardecer.</p>
+
+<h3>Laguna Torre</h3>
+<p>Un recorrido de día completo, sin grandes desniveles, que termina frente a la laguna Torre, con el glaciar y el Cerro Torre de fondo. Es una buena opción para el primer día largo, porque es exigente por la distancia pero no por las subidas. Calculá entre seis y ocho horas ida y vuelta.</p>
+
+<h3>Laguna de los Tres</h3>
+<p>El gran clásico. El sendero avanza por bosques y valles hasta el campamento Poincenot y después encara el último tramo: una subida muy empinada de alrededor de una hora que termina en la laguna, a los pies del Fitz Roy. Es un día largo, de unas ocho a diez horas en total. Salí temprano y, si el último tramo se complica por el viento o el cansancio, la vista desde la laguna Capri o desde el campamento ya vale la caminata.</p>
+
+<h3>Loma del Pliegue Tumbado</h3>
+<p>Menos concurrida que las anteriores y con una de las vistas más completas de la zona: el Fitz Roy y el Cerro Torre en el mismo horizonte, además del lago Viedma. La subida es constante y el tramo final suele ser muy ventoso.</p>
+
+<h2>Cuándo ir</h2>
+<p>La temporada de trekking va, en general, de octubre a abril. En verano los días son muy largos y hay más servicios abiertos, pero también más gente. En otoño los bosques de lengas se tiñen de rojo y amarillo. En invierno muchos alojamientos y comercios cierran.</p>
+
+<h2>El clima manda</h2>
+<p>En El Chaltén el tiempo cambia rápido y el viento puede ser muy fuerte. El Fitz Roy pasa muchos días cubierto de nubes. Por eso conviene dejar días de margen en tu itinerario y elegir cada mañana el sendero según el pronóstico. Si el día está despejado, ese es el día de la Laguna de los Tres.</p>
+
+<h2>Consejos prácticos</h2>
+<ul>
+<li><strong>Pasá por el centro de visitantes:</strong> a la entrada del pueblo te informan sobre el estado de los senderos y las normas del parque.</li>
+<li><strong>Usá calzado ya probado:</strong> son caminatas largas y las ampollas arruinan un viaje.</li>
+<li><strong>Vestite en capas:</strong> en un mismo día podés pasar del sol al viento helado.</li>
+<li><strong>Llevá comida suficiente:</strong> no hay servicios en los senderos.</li>
+<li><strong>No dejes rastro:</strong> traé de vuelta todos tus residuos y no salgas de las sendas marcadas.</li>
+<li><strong>Respetá los horarios:</strong> calculá el regreso con luz de día, sobre todo en otoño.</li>
+</ul>
+
+=== en
+title: Fitz Roy trekking: a trail guide to El Chaltén
+meta: The best trails in El Chaltén: Laguna de los Tres, Laguna Torre, Mirador de los Cóndores and Loma del Pliegue Tumbado. Distances, difficulty and tips.
+excerpt: El Chaltén is Argentina's National Trekking Capital and the gateway to Mount Fitz Roy. Here are the trails to hike, how long they take and how to prepare.
+category: Destinations
+read_time: 6
+---
+<h2>The hiking town</h2>
+<p>El Chaltén is a young town at the foot of Mount Fitz Roy, in the northern sector of Los Glaciares National Park. What makes it special is that most trails start right from town: you don't need a car or a tour to reach some of the most famous landscapes in Patagonia.</p>
+<p>Fitz Roy, which the Tehuelche people called Chaltén, rises above 3,400 meters. Together with Cerro Torre, it forms one of the most recognizable mountain skylines in the world.</p>
+
+<h2>Getting there</h2>
+<p>El Chaltén is about 220 kilometers from El Calafate, home to the nearest airport. There are daily buses between the two towns and the trip takes around three hours. You can also drive along Route 40.</p>
+
+<h2>The must-do trails</h2>
+<h3>Mirador de los Cóndores and Mirador de las Águilas</h3>
+<p>A short hike that starts at the southern end of town. In less than an hour you reach a viewpoint over the valley, the town and, on clear days, Fitz Roy. Perfect for your arrival day or for sunset.</p>
+
+<h3>Laguna Torre</h3>
+<p>A full-day hike without major climbs that ends at Laguna Torre, with the glacier and Cerro Torre in the background. It's a good choice for your first long day: demanding because of the distance, not the elevation. Plan for six to eight hours round trip.</p>
+
+<h3>Laguna de los Tres</h3>
+<p>The great classic. The trail crosses forests and valleys to Poincenot camp and then tackles the final section: a very steep climb of about an hour that ends at the lake, right at the foot of Fitz Roy. It's a long day, around eight to ten hours in total. Start early, and if the last stretch gets too hard because of wind or fatigue, the view from Laguna Capri or the camp is already worth the hike.</p>
+
+<h3>Loma del Pliegue Tumbado</h3>
+<p>Less crowded than the others and with one of the most complete views in the area: Fitz Roy and Cerro Torre on the same horizon, plus Lake Viedma. The climb is steady and the final stretch is usually very windy.</p>
+
+<h2>When to go</h2>
+<p>The hiking season generally runs from October to April. Summer brings very long days and more services open, but also more people. In autumn, the lenga forests turn red and yellow. In winter, many hotels and shops close.</p>
+
+<h2>The weather is in charge</h2>
+<p>In El Chaltén the weather changes fast and the wind can be very strong. Fitz Roy spends many days hidden in clouds. That's why it pays to leave spare days in your itinerary and choose each morning's trail based on the forecast. If the day is clear, that's your Laguna de los Tres day.</p>
+
+<h2>Practical tips</h2>
+<ul>
+<li><strong>Stop at the visitor center:</strong> at the entrance to town they give updates on trail conditions and park rules.</li>
+<li><strong>Wear broken-in footwear:</strong> these are long hikes, and blisters can ruin a trip.</li>
+<li><strong>Dress in layers:</strong> in a single day you can go from sunshine to icy wind.</li>
+<li><strong>Carry enough food:</strong> there are no services on the trails.</li>
+<li><strong>Leave no trace:</strong> pack out all your waste and stay on marked trails.</li>
+<li><strong>Watch the clock:</strong> plan to return in daylight, especially in autumn.</li>
+</ul>
+
+=== pt
+title: Trekking ao Fitz Roy: guia de trilhas em El Chaltén
+meta: As melhores trilhas de El Chaltén: Laguna de los Tres, Laguna Torre, Mirador de los Cóndores e Loma del Pliegue Tumbado. Distâncias, dificuldade e dicas.
+excerpt: El Chaltén é a Capital Nacional do Trekking da Argentina e a porta de entrada para o Fitz Roy. Contamos quais trilhas fazer, quanto tempo levam e como se preparar.
+category: Destinos
+read_time: 6
+---
+<h2>A cidade do trekking</h2>
+<p>El Chaltén é um povoado jovem, ao pé do monte Fitz Roy, no setor norte do Parque Nacional Los Glaciares. O que o torna especial é que a maioria das trilhas sai a pé do próprio povoado: você não precisa de carro nem de passeio para chegar a algumas das paisagens mais famosas da Patagônia.</p>
+<p>O Fitz Roy, que os tehuelches chamavam de Chaltén, passa dos 3.400 metros de altura. Junto com o Cerro Torre, forma um dos perfis de montanha mais reconhecíveis do mundo.</p>
+
+<h2>Como chegar</h2>
+<p>El Chaltén fica a cerca de 220 quilômetros de El Calafate, onde está o aeroporto mais próximo. Há ônibus diários entre as duas cidades e a viagem leva cerca de três horas. Também é possível ir de carro pela Ruta 40.</p>
+
+<h2>As trilhas imperdíveis</h2>
+<h3>Mirador de los Cóndores e Mirador de las Águilas</h3>
+<p>Uma caminhada curta que sai do extremo sul do povoado. Em menos de uma hora você chega a um mirante com vista para o vale, para o povoado e, em dias limpos, para o Fitz Roy. Ideal para o dia de chegada ou para ver o pôr do sol.</p>
+
+<h3>Laguna Torre</h3>
+<p>Um percurso de dia inteiro, sem grandes desníveis, que termina diante da Laguna Torre, com o glaciar e o Cerro Torre ao fundo. É uma boa opção para o primeiro dia longo: exigente pela distância, não pelas subidas. Calcule entre seis e oito horas ida e volta.</p>
+
+<h3>Laguna de los Tres</h3>
+<p>O grande clássico. A trilha atravessa bosques e vales até o acampamento Poincenot e depois encara o último trecho: uma subida muito íngreme de cerca de uma hora que termina na lagoa, ao pé do Fitz Roy. É um dia longo, de oito a dez horas no total. Saia cedo e, se o último trecho complicar por causa do vento ou do cansaço, a vista da Laguna Capri ou do acampamento já vale a caminhada.</p>
+
+<h3>Loma del Pliegue Tumbado</h3>
+<p>Menos movimentada que as anteriores e com uma das vistas mais completas da região: o Fitz Roy e o Cerro Torre no mesmo horizonte, além do lago Viedma. A subida é constante e o trecho final costuma ter muito vento.</p>
+
+<h2>Quando ir</h2>
+<p>A temporada de trekking vai, em geral, de outubro a abril. No verão os dias são muito longos e há mais serviços abertos, mas também mais gente. No outono, os bosques de lenga ficam vermelhos e amarelos. No inverno, muitas hospedagens e lojas fecham.</p>
+
+<h2>Quem manda é o clima</h2>
+<p>Em El Chaltén o tempo muda rápido e o vento pode ser muito forte. O Fitz Roy passa muitos dias coberto de nuvens. Por isso, vale deixar dias de folga no roteiro e escolher a trilha de cada manhã conforme a previsão. Se o dia amanhecer limpo, esse é o dia da Laguna de los Tres.</p>
+
+<h2>Dicas práticas</h2>
+<ul>
+<li><strong>Passe no centro de visitantes:</strong> na entrada do povoado informam sobre as condições das trilhas e as regras do parque.</li>
+<li><strong>Use calçado já amaciado:</strong> são caminhadas longas, e bolhas estragam uma viagem.</li>
+<li><strong>Vista-se em camadas:</strong> num mesmo dia você pode passar do sol ao vento gelado.</li>
+<li><strong>Leve comida suficiente:</strong> não há serviços nas trilhas.</li>
+<li><strong>Não deixe rastros:</strong> traga de volta todo o seu lixo e não saia das trilhas marcadas.</li>
+<li><strong>Fique de olho no horário:</strong> planeje voltar com luz do dia, principalmente no outono.</li>
+</ul>

@@ -156,8 +156,8 @@ def get_template_articulo(idioma_cfg, slug, css_prefix="../"):
         <a href="/" class="logo"><span class="logo-todo">Todo</span><span class="logo-patagonia">Patagonia</span></a>
         <nav class="main-nav">
           <a href="{nav_prefix}destinos.html">{nav['destinos']}</a>
-          <a href="{nav_prefix}actividades.html">{nav['actividades']}</a>
-          <a href="{nav_prefix}como-llegar.html">{nav['como_llegar']}</a>
+          <a href="{nav_prefix}{ {"es": "actividades.html", "en": "activities.html", "pt": "atividades.html"}[lang] }">{nav['actividades']}</a>
+          <a href="{nav_prefix}{ {"es": "como-llegar.html", "en": "how-to-get-there.html", "pt": "como-chegar.html"}[lang] }">{nav['como_llegar']}</a>
           <a href="{nav_prefix}blog/">{nav['blog']}</a>
         </nav>
         <div class="lang-switcher">
@@ -345,10 +345,12 @@ def construir_hero_html(foto):
         </figure>"""
 
 
-def guardar_articulo(destino, articulo_data, idioma="es", foto=None):
+def guardar_articulo(destino, articulo_data, idioma="es", foto=None, slug=None):
     """Genera el HTML del artículo y actualiza articles.json para el idioma dado."""
     idioma_cfg = IDIOMAS[idioma]
-    slug = slugify(articulo_data["title"], allow_unicode=False, separator="-")
+    # Las tres versiones comparten el slug del artículo en español, así el
+    # selector de idioma y los hreflang apuntan a páginas que existen.
+    slug = slug or slugify(articulo_data["title"], allow_unicode=False, separator="-")
     fecha = datetime.now().strftime("%Y-%m-%d")
 
     # Formato de fecha según idioma
@@ -651,11 +653,13 @@ def main():
         print("   → Sin foto (se omite imagen hero)")
 
     publicadas = {}
-    # Generar artículo en los 3 idiomas
+    slug_es = None
+    # Generar artículo en los 3 idiomas (EN y PT reutilizan el slug en español)
     for idioma in ["es", "en", "pt"]:
         print(f"\n🌐 Generando artículo en {idioma.upper()}...")
         articulo = generar_articulo_claude(destino, categoria, idioma)
-        slug = guardar_articulo(destino, articulo, idioma, foto)
+        slug = guardar_articulo(destino, articulo, idioma, foto, slug=slug_es)
+        slug_es = slug_es or slug
         publicadas[idioma] = f"{IDIOMAS[idioma]['blog_dir']}/{slug}.html"
         print(f"   → {publicadas[idioma]}")
 

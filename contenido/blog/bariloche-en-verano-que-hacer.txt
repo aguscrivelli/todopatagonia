@@ -1,0 +1,130 @@
+destination: Bariloche
+
+=== es
+title: Bariloche en verano: qué hacer entre lagos y montañas
+meta: Qué hacer en Bariloche en verano: Circuito Chico, Cerro Campanario, Isla Victoria, playas, trekking al Refugio Frey, Tronador y más. Consejos para planificar.
+excerpt: En verano Bariloche cambia la nieve por lagos, playas y senderos. Te contamos los paseos imperdibles y cómo organizar tus días.
+category: Destinos
+read_time: 6
+---
+<h2>Bariloche, más allá del invierno</h2>
+<p>San Carlos de Bariloche es conocida por la nieve, pero el verano es quizás su mejor momento. Los días son largos, el lago Nahuel Huapi brilla y los cerros se llenan de senderos, miradores y refugios de montaña. Es una base ideal para combinar naturaleza, gastronomía y paseos tranquilos.</p>
+
+<h2>Circuito Chico</h2>
+<p>Es el paseo clásico y se puede hacer en auto, en bici o en excursión. Recorre la costa del Nahuel Huapi hasta la península Llao Llao, con su hotel histórico y la capilla San Eduardo, y pasa por el Punto Panorámico, una de las vistas más fotografiadas de la zona. En bici es una experiencia muy linda, pero tiene subidas: tomalo con calma.</p>
+
+<h2>Cerro Campanario</h2>
+<p>Una aerosilla te sube en pocos minutos a una de las mejores vistas panorámicas de Bariloche: lagos, islas, la península Llao Llao y los cerros que rodean la ciudad. También se puede subir caminando por un sendero corto pero empinado.</p>
+
+<h2>Isla Victoria y el Bosque de Arrayanes</h2>
+<p>Las navegaciones por el Nahuel Huapi salen desde Puerto Pañuelo y llevan a la Isla Victoria y a la península de Quetrihué, donde está el Bosque de Arrayanes, un bosque único de árboles de corteza color canela. Es un paseo de día completo y muy recomendable si viajás con chicos.</p>
+
+<h2>Playas y lagos</h2>
+<p>Sí, en Bariloche hay playa. El agua es fría, pero en los días de calor las costas del Nahuel Huapi, del lago Gutiérrez y del lago Moreno se llenan de gente. Son ideales para hacer kayak o stand up paddle, o simplemente para descansar después de una caminata.</p>
+
+<h2>Trekking y refugios de montaña</h2>
+<p>El verano es la temporada de trekking. Uno de los recorridos más populares es el que lleva al Refugio Frey, en el Cerro Catedral, rodeado de agujas de granito y una laguna de montaña. Se puede hacer en el día o quedarse a dormir en el refugio. Hay muchos otros senderos de distinta dificultad: consultá en el Club Andino o en la oficina de informes del parque nacional antes de salir.</p>
+
+<h2>Cerro Tronador</h2>
+<p>Una excursión de día completo lleva hasta la base del Tronador, la montaña más alta de la zona, en el límite con Chile. Desde el área de Pampa Linda se ve el Ventisquero Negro, un glaciar cubierto de sedimentos, y se escuchan los desprendimientos de hielo que le dan nombre al cerro.</p>
+
+<h2>Colonia Suiza y la gastronomía local</h2>
+<p>Colonia Suiza, fundada por inmigrantes a principios del siglo XX, es un buen lugar para conocer la historia de la zona y probar la cocina regional. En la ciudad no pueden faltar el chocolate, la cerveza artesanal y los platos de trucha y ciervo.</p>
+
+<h2>Camino de los Siete Lagos</h2>
+<p>Si tenés un día más, el Camino de los Siete Lagos une Villa La Angostura con San Martín de los Andes y es uno de los tramos de ruta más lindos del país. Se puede hacer en excursión o en auto, con paradas en miradores y playas.</p>
+
+<h2>Consejos prácticos</h2>
+<ul>
+<li><strong>Reservá con tiempo:</strong> enero y febrero son temporada alta, y alojamientos y excursiones se llenan.</li>
+<li><strong>Protegete del sol:</strong> el sol de montaña pega fuerte, aunque la temperatura sea agradable.</li>
+<li><strong>Llevá abrigo:</strong> las noches y las alturas son frescas incluso en enero.</li>
+<li><strong>Movete temprano:</strong> en temporada alta los miradores y estacionamientos se llenan a media mañana.</li>
+<li><strong>Cuidá el bosque:</strong> en verano el riesgo de incendios es alto. Respetá las prohibiciones de hacer fuego.</li>
+</ul>
+
+=== en
+title: Bariloche in summer: what to do among lakes and mountains
+meta: What to do in Bariloche in summer: Circuito Chico, Cerro Campanario, Victoria Island, beaches, hiking to Refugio Frey, Tronador and more. Planning tips.
+excerpt: In summer, Bariloche swaps snow for lakes, beaches and trails. Here are the must-do outings and how to plan your days.
+category: Destinations
+read_time: 6
+---
+<h2>Bariloche beyond winter</h2>
+<p>San Carlos de Bariloche is known for snow, but summer may be its best season. Days are long, Lake Nahuel Huapi sparkles and the mountains fill up with trails, viewpoints and mountain huts. It's an ideal base for combining nature, food and relaxed outings.</p>
+
+<h2>Circuito Chico</h2>
+<p>The classic loop can be done by car, by bike or on a tour. It follows the shore of Nahuel Huapi to the Llao Llao Peninsula, with its historic hotel and San Eduardo chapel, and passes Punto Panorámico, one of the most photographed views in the area. By bike it's a lovely experience, but there are hills: take it easy.</p>
+
+<h2>Cerro Campanario</h2>
+<p>A chairlift takes you up in a few minutes to one of the best panoramic views in Bariloche: lakes, islands, the Llao Llao Peninsula and the mountains surrounding the city. You can also hike up on a short but steep trail.</p>
+
+<h2>Victoria Island and the Arrayanes Forest</h2>
+<p>Boat trips on Nahuel Huapi leave from Puerto Pañuelo and visit Victoria Island and the Quetrihué Peninsula, home to the Arrayanes Forest, a unique forest of cinnamon-colored trees. It's a full-day outing and highly recommended if you're traveling with kids.</p>
+
+<h2>Beaches and lakes</h2>
+<p>Yes, Bariloche has beaches. The water is cold, but on hot days the shores of Nahuel Huapi, Lake Gutiérrez and Lake Moreno get busy. They're great for kayaking or stand-up paddleboarding, or just for resting after a hike.</p>
+
+<h2>Hiking and mountain huts</h2>
+<p>Summer is hiking season. One of the most popular routes leads to Refugio Frey, on Cerro Catedral, surrounded by granite spires and a mountain lake. You can do it as a day hike or spend the night at the hut. There are many other trails of varying difficulty: check with the Club Andino or the national park information office before heading out.</p>
+
+<h2>Mount Tronador</h2>
+<p>A full-day trip takes you to the base of Tronador, the highest mountain in the area, on the border with Chile. From the Pampa Linda area you can see the Ventisquero Negro, a sediment-covered glacier, and hear the ice falls that give the mountain its name ("the thunderer").</p>
+
+<h2>Colonia Suiza and local food</h2>
+<p>Colonia Suiza, founded by immigrants in the early 20th century, is a good place to learn about the area's history and try regional cooking. In town, don't miss the chocolate, craft beer and dishes made with trout and venison.</p>
+
+<h2>Seven Lakes Road</h2>
+<p>If you have an extra day, the Seven Lakes Road links Villa La Angostura with San Martín de los Andes and is one of the most beautiful drives in the country. You can do it on a tour or by car, stopping at viewpoints and beaches.</p>
+
+<h2>Practical tips</h2>
+<ul>
+<li><strong>Book early:</strong> January and February are high season, and hotels and tours fill up.</li>
+<li><strong>Protect yourself from the sun:</strong> mountain sun is strong, even when the temperature feels mild.</li>
+<li><strong>Bring a warm layer:</strong> nights and high areas are cool even in January.</li>
+<li><strong>Start early:</strong> in high season, viewpoints and parking lots fill up by mid-morning.</li>
+<li><strong>Look after the forest:</strong> fire risk is high in summer. Respect all fire bans.</li>
+</ul>
+
+=== pt
+title: Bariloche no verão: o que fazer entre lagos e montanhas
+meta: O que fazer em Bariloche no verão: Circuito Chico, Cerro Campanario, Ilha Victoria, praias, trilha ao Refugio Frey, Tronador e mais. Dicas para planejar.
+excerpt: No verão, Bariloche troca a neve por lagos, praias e trilhas. Contamos os passeios imperdíveis e como organizar os seus dias.
+category: Destinos
+read_time: 6
+---
+<h2>Bariloche além do inverno</h2>
+<p>San Carlos de Bariloche é famosa pela neve, mas o verão talvez seja a sua melhor época. Os dias são longos, o lago Nahuel Huapi brilha e as montanhas se enchem de trilhas, mirantes e refúgios. É uma base ideal para combinar natureza, gastronomia e passeios tranquilos.</p>
+
+<h2>Circuito Chico</h2>
+<p>É o passeio clássico e pode ser feito de carro, de bicicleta ou com agência. Percorre a margem do Nahuel Huapi até a península Llao Llao, com o seu hotel histórico e a capela San Eduardo, e passa pelo Punto Panorámico, uma das vistas mais fotografadas da região. De bicicleta é uma experiência muito bonita, mas tem subidas: vá com calma.</p>
+
+<h2>Cerro Campanario</h2>
+<p>Um teleférico de cadeirinha leva você em poucos minutos a uma das melhores vistas panorâmicas de Bariloche: lagos, ilhas, a península Llao Llao e as montanhas ao redor da cidade. Também é possível subir a pé por uma trilha curta, mas íngreme.</p>
+
+<h2>Ilha Victoria e o Bosque de Arrayanes</h2>
+<p>As navegações pelo Nahuel Huapi saem de Puerto Pañuelo e levam à Ilha Victoria e à península de Quetrihué, onde fica o Bosque de Arrayanes, um bosque único de árvores com casca cor de canela. É um passeio de dia inteiro, muito recomendado para quem viaja com crianças.</p>
+
+<h2>Praias e lagos</h2>
+<p>Sim, Bariloche tem praia. A água é fria, mas nos dias de calor as margens do Nahuel Huapi, do lago Gutiérrez e do lago Moreno ficam cheias. São ideais para caiaque ou stand up paddle, ou simplesmente para descansar depois de uma caminhada.</p>
+
+<h2>Trekking e refúgios de montanha</h2>
+<p>O verão é a temporada de trekking. Um dos percursos mais populares leva ao Refugio Frey, no Cerro Catedral, cercado de agulhas de granito e uma lagoa de montanha. Dá para fazer num dia ou dormir no refúgio. Há muitas outras trilhas de diferentes níveis: consulte o Club Andino ou o escritório de informações do parque nacional antes de sair.</p>
+
+<h2>Cerro Tronador</h2>
+<p>Um passeio de dia inteiro leva até a base do Tronador, a montanha mais alta da região, na fronteira com o Chile. Da área de Pampa Linda se vê o Ventisquero Negro, um glaciar coberto de sedimentos, e se ouvem os desprendimentos de gelo que dão nome ao monte ("o trovejador").</p>
+
+<h2>Colonia Suiza e a gastronomia local</h2>
+<p>Colonia Suiza, fundada por imigrantes no início do século XX, é um bom lugar para conhecer a história da região e provar a cozinha regional. Na cidade, não deixe de experimentar o chocolate, a cerveja artesanal e os pratos de truta e cervo.</p>
+
+<h2>Caminho dos Sete Lagos</h2>
+<p>Se você tiver mais um dia, o Caminho dos Sete Lagos liga Villa La Angostura a San Martín de los Andes e é um dos trechos de estrada mais bonitos do país. Dá para fazer com agência ou de carro, com paradas em mirantes e praias.</p>
+
+<h2>Dicas práticas</h2>
+<ul>
+<li><strong>Reserve com antecedência:</strong> janeiro e fevereiro são alta temporada, e hospedagens e passeios lotam.</li>
+<li><strong>Proteja-se do sol:</strong> o sol de montanha é forte, mesmo quando a temperatura está agradável.</li>
+<li><strong>Leve agasalho:</strong> as noites e as partes altas são frescas mesmo em janeiro.</li>
+<li><strong>Saia cedo:</strong> na alta temporada, mirantes e estacionamentos lotam no meio da manhã.</li>
+<li><strong>Cuide do bosque:</strong> no verão o risco de incêndio é alto. Respeite as proibições de fazer fogo.</li>
+</ul>

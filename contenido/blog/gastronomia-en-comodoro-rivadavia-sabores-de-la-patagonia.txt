@@ -1,0 +1,124 @@
+destination: Comodoro Rivadavia
+
+=== es
+title: Gastronomía en Comodoro Rivadavia: sabores de la Patagonia
+meta: Qué comer en Comodoro Rivadavia: langostinos del golfo San Jorge, pescados, cordero patagónico y la herencia de sus inmigrantes. Una guía de sabores de la costa patagónica.
+excerpt: Comodoro Rivadavia combina la cocina del mar con la tradición del cordero patagónico y la herencia de sus inmigrantes. Te contamos qué probar en esta ciudad de la costa de Chubut.
+category: Gastronomía
+read_time: 5
+---
+<h2>Una ciudad entre el mar y la estepa</h2>
+<p>Comodoro Rivadavia, en el sur de Chubut, sobre el golfo San Jorge, es la ciudad más grande de la Patagonia central. Nació y creció de la mano del petróleo, descubierto en la zona a principios del siglo XX, y recibió trabajadores de muchos orígenes. Esa mezcla, junto con el mar y la estepa, define su cocina.</p>
+
+<h2>Langostinos del golfo San Jorge</h2>
+<p>El golfo San Jorge es una de las principales zonas de pesca de langostino de la Argentina. En Comodoro se lo consume fresco y de muchas formas: a la plancha, al ajillo, en cazuelas, en rabas o como protagonista de pastas y arroces. Si hay un plato que tenés que probar en la ciudad, es este.</p>
+
+<h2>Pescados y mariscos</h2>
+<p>La merluza y otros pescados del Atlántico sur aparecen en casi todas las cartas, fritos, al horno o en guisos. También se consiguen mejillones, calamares y, según la temporada, otros mariscos de la costa patagónica. Las cazuelas de mariscos son una buena opción para los días frescos y ventosos, que en Comodoro abundan.</p>
+
+<h2>Cordero patagónico</h2>
+<p>La cocina de la meseta también está presente. El cordero patagónico, criado en la estepa, se cocina lentamente al asador o a la parrilla y es el gran clásico de las reuniones y los fines de semana. Se acompaña con ensaladas, papas y, en muchos casos, chimichurri.</p>
+
+<h2>La huella de los inmigrantes</h2>
+<p>La historia petrolera trajo a la ciudad familias de distintas partes de Europa y de otras provincias argentinas. Esa diversidad se nota en panaderías, pastas caseras, embutidos y recetas familiares. En Chubut, además, es fuerte la tradición galesa: el té con tortas galesas es típico de la zona del valle inferior del río Chubut, al norte de la provincia, y aparece en algunas casas de té de la región.</p>
+
+<h2>Dulces y sabores regionales</h2>
+<p>Los frutos de la Patagonia, como el calafate, la rosa mosqueta y las frutas finas, se transforman en dulces, licores y helados. Son un buen recuerdo para llevar de regreso.</p>
+
+<h2>Paseos para combinar con la comida</h2>
+<ul>
+<li><strong>Rada Tilly:</strong> una localidad balnearia vecina, con una playa amplia y paseo costero.</li>
+<li><strong>Cerro Chenque:</strong> el cerro que domina la ciudad, con vistas al golfo.</li>
+<li><strong>Museo Nacional del Petróleo:</strong> para entender la historia que dio forma a la ciudad.</li>
+<li><strong>Costanera:</strong> ideal para caminar y ver el mar antes o después de comer.</li>
+</ul>
+
+<h2>Consejos prácticos</h2>
+<ul>
+<li><strong>Preguntá por la pesca del día:</strong> los productos frescos cambian según la temporada.</li>
+<li><strong>Respetá los horarios locales:</strong> como en gran parte de la Argentina, se cena tarde.</li>
+<li><strong>Reservá los fines de semana:</strong> los restaurantes más conocidos se llenan.</li>
+<li><strong>Llevá abrigo:</strong> el viento de la costa patagónica es fuerte durante gran parte del año.</li>
+</ul>
+
+=== en
+title: Food in Comodoro Rivadavia: flavors of Patagonia
+meta: What to eat in Comodoro Rivadavia: San Jorge Gulf shrimp, fish, Patagonian lamb and the legacy of its immigrants. A guide to the flavors of the Patagonian coast.
+excerpt: Comodoro Rivadavia blends seafood with the tradition of Patagonian lamb and the heritage of its immigrants. Here's what to try in this city on the coast of Chubut.
+category: Food
+read_time: 5
+---
+<h2>A city between the sea and the steppe</h2>
+<p>Comodoro Rivadavia, in southern Chubut on the San Jorge Gulf, is the largest city in central Patagonia. It was born and grew with oil, discovered in the area in the early 20th century, and welcomed workers from many backgrounds. That mix, together with the sea and the steppe, defines its cuisine.</p>
+
+<h2>San Jorge Gulf shrimp</h2>
+<p>The San Jorge Gulf is one of Argentina's main shrimp fishing grounds. In Comodoro it's eaten fresh and in many ways: grilled, in garlic, in casseroles, battered or as the star of pasta and rice dishes. If there's one dish to try in the city, this is it.</p>
+
+<h2>Fish and seafood</h2>
+<p>Hake and other South Atlantic fish appear on almost every menu, fried, baked or in stews. You can also find mussels, squid and, depending on the season, other shellfish from the Patagonian coast. Seafood casseroles are a good choice on cool, windy days, which are plentiful in Comodoro.</p>
+
+<h2>Patagonian lamb</h2>
+<p>The cooking of the plateau is here too. Patagonian lamb, raised on the steppe, is slow-roasted on a cross-shaped spit or grilled, and is the great classic of gatherings and weekends. It's served with salads, potatoes and often chimichurri.</p>
+
+<h2>The immigrant legacy</h2>
+<p>The oil industry brought families from different parts of Europe and from other Argentine provinces. That diversity shows in bakeries, homemade pasta, cured meats and family recipes. Chubut also has a strong Welsh tradition: tea with Welsh cakes is typical of the lower Chubut River valley, in the north of the province, and shows up in some tea houses in the region.</p>
+
+<h2>Sweets and regional flavors</h2>
+<p>Patagonian fruits such as calafate berries, rose hips and berries are turned into jams, liqueurs and ice cream. They make great souvenirs to take home.</p>
+
+<h2>Outings to pair with your meals</h2>
+<ul>
+<li><strong>Rada Tilly:</strong> a neighboring beach town with a wide beach and a seaside promenade.</li>
+<li><strong>Cerro Chenque:</strong> the hill overlooking the city, with views of the gulf.</li>
+<li><strong>National Petroleum Museum:</strong> to understand the history that shaped the city.</li>
+<li><strong>Waterfront:</strong> great for a walk by the sea before or after eating.</li>
+</ul>
+
+<h2>Practical tips</h2>
+<ul>
+<li><strong>Ask for the catch of the day:</strong> fresh products change with the season.</li>
+<li><strong>Adapt to local hours:</strong> as in most of Argentina, dinner is late.</li>
+<li><strong>Book on weekends:</strong> the best-known restaurants fill up.</li>
+<li><strong>Bring a jacket:</strong> the wind on the Patagonian coast is strong much of the year.</li>
+</ul>
+
+=== pt
+title: Gastronomia em Comodoro Rivadavia: sabores da Patagônia
+meta: O que comer em Comodoro Rivadavia: camarões do golfo San Jorge, peixes, cordeiro patagônico e a herança dos imigrantes. Um guia de sabores do litoral patagônico.
+excerpt: Comodoro Rivadavia combina a cozinha do mar com a tradição do cordeiro patagônico e a herança dos seus imigrantes. Contamos o que provar nesta cidade do litoral de Chubut.
+category: Gastronomia
+read_time: 5
+---
+<h2>Uma cidade entre o mar e a estepe</h2>
+<p>Comodoro Rivadavia, no sul de Chubut, às margens do golfo San Jorge, é a maior cidade da Patagônia central. Nasceu e cresceu com o petróleo, descoberto na região no início do século XX, e recebeu trabalhadores de muitas origens. Essa mistura, junto com o mar e a estepe, define a sua cozinha.</p>
+
+<h2>Camarões do golfo San Jorge</h2>
+<p>O golfo San Jorge é uma das principais áreas de pesca de camarão da Argentina. Em Comodoro ele é consumido fresco e de muitas formas: na chapa, ao alho, em caçarolas, empanado ou como protagonista de massas e arrozes. Se há um prato que você precisa provar na cidade, é este.</p>
+
+<h2>Peixes e frutos do mar</h2>
+<p>A merluza e outros peixes do Atlântico Sul aparecem em quase todos os cardápios, fritos, assados ou em ensopados. Também há mexilhões, lulas e, conforme a temporada, outros frutos do mar do litoral patagônico. As caçarolas de frutos do mar são uma boa pedida nos dias frescos e de vento, que em Comodoro não faltam.</p>
+
+<h2>Cordeiro patagônico</h2>
+<p>A cozinha do planalto também está presente. O cordeiro patagônico, criado na estepe, é assado lentamente na cruz ou na grelha e é o grande clássico das reuniões e dos fins de semana. Vem acompanhado de saladas, batatas e, muitas vezes, chimichurri.</p>
+
+<h2>A marca dos imigrantes</h2>
+<p>A história do petróleo trouxe famílias de várias partes da Europa e de outras províncias argentinas. Essa diversidade aparece nas padarias, nas massas caseiras, nos embutidos e nas receitas de família. Em Chubut, além disso, a tradição galesa é forte: o chá com tortas galesas é típico do vale inferior do rio Chubut, no norte da província, e aparece em algumas casas de chá da região.</p>
+
+<h2>Doces e sabores regionais</h2>
+<p>As frutas da Patagônia, como o calafate, a rosa mosqueta e as frutas vermelhas, viram doces, licores e sorvetes. São uma ótima lembrança para levar para casa.</p>
+
+<h2>Passeios para combinar com a comida</h2>
+<ul>
+<li><strong>Rada Tilly:</strong> uma cidade praiana vizinha, com praia ampla e calçadão.</li>
+<li><strong>Cerro Chenque:</strong> o morro que domina a cidade, com vista para o golfo.</li>
+<li><strong>Museu Nacional do Petróleo:</strong> para entender a história que moldou a cidade.</li>
+<li><strong>Orla:</strong> ideal para caminhar e ver o mar antes ou depois de comer.</li>
+</ul>
+
+<h2>Dicas práticas</h2>
+<ul>
+<li><strong>Pergunte pela pesca do dia:</strong> os produtos frescos mudam conforme a temporada.</li>
+<li><strong>Adapte-se aos horários locais:</strong> como em boa parte da Argentina, o jantar é tarde.</li>
+<li><strong>Reserve nos fins de semana:</strong> os restaurantes mais conhecidos lotam.</li>
+<li><strong>Leve agasalho:</strong> o vento do litoral patagônico é forte durante boa parte do ano.</li>
+</ul>

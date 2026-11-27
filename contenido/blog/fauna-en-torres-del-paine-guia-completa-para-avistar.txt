@@ -1,0 +1,139 @@
+destination: Torres del Paine
+
+=== es
+title: Fauna en Torres del Paine: guía para avistar animales
+meta: Guanacos, pumas, cóndores, ñandúes y zorros: qué animales ver en Torres del Paine, dónde encontrarlos y cómo observarlos de forma responsable.
+excerpt: Torres del Paine es uno de los mejores lugares de la Patagonia para ver fauna salvaje, incluido el puma. Te contamos qué especies buscar y cómo aumentar tus chances.
+category: Fauna
+read_time: 5
+---
+<h2>Un parque lleno de vida</h2>
+<p>Torres del Paine es famoso por sus montañas, pero también es uno de los mejores lugares de la Patagonia para ver fauna. Sus estepas, lagos y bosques reúnen especies que en otras zonas son difíciles de encontrar, y muchas se dejan ver desde los caminos del parque.</p>
+
+<h2>Guanacos: los anfitriones del parque</h2>
+<p>Es casi imposible visitar Torres del Paine sin ver guanacos. Viven en grupos familiares en la estepa y se los ve pastando cerca de los caminos, sobre todo en el sector de Laguna Amarga y en los alrededores del lago Sarmiento. En primavera y verano nacen las crías, llamadas chulengos.</p>
+
+<h2>El puma</h2>
+<p>Torres del Paine es uno de los lugares del mundo donde hay más chances de ver un puma en libertad. Aun así, es un animal esquivo que se mueve sobre todo al amanecer y al atardecer. Hay excursiones especializadas con rastreadores que aumentan mucho las probabilidades. Si te cruzás con uno durante una caminata, mantené la calma, no corras, no le des la espalda y alejate despacio.</p>
+
+<h2>Aves</h2>
+<ul>
+<li><strong>Cóndor andino:</strong> se lo ve planeando cerca de los cerros y paredones.</li>
+<li><strong>Ñandú petiso:</strong> el ñandú de la Patagonia austral, frecuente en la estepa.</li>
+<li><strong>Caiquén:</strong> el ganso patagónico, muy común en praderas y orillas de lagos.</li>
+<li><strong>Flamenco chileno:</strong> aparece en lagunas poco profundas.</li>
+<li><strong>Carpintero gigante:</strong> habita los bosques de lenga; su golpeteo se escucha a lo lejos.</li>
+<li><strong>Águila mora y caranchos:</strong> rapaces habituales en los cielos del parque.</li>
+</ul>
+
+<h2>Otros mamíferos</h2>
+<ul>
+<li><strong>Zorro culpeo y zorro chilla:</strong> se los ve con frecuencia, a veces cerca de campamentos. No hay que alimentarlos.</li>
+<li><strong>Zorrillo:</strong> pequeño y nocturno, aparece en la estepa.</li>
+<li><strong>Huemul:</strong> el ciervo andino, en peligro de extinción, habita sectores del parque. Verlo es poco frecuente.</li>
+</ul>
+
+<h2>¿Dónde y cuándo?</h2>
+<p>Los sectores de estepa del este del parque, como Laguna Amarga y el lago Sarmiento, son los mejores para guanacos, ñandúes y pumas. Los bosques de los valles del circuito W son buenos para aves de bosque. Las primeras y las últimas horas del día son las de mayor actividad. La primavera y el verano son las estaciones más activas, aunque los guanacos y muchas aves se ven todo el año.</p>
+
+<h2>Avistaje responsable</h2>
+<ul>
+<li><strong>Mantené la distancia:</strong> usá binoculares o teleobjetivo en lugar de acercarte.</li>
+<li><strong>No alimentes a ningún animal:</strong> los acostumbra a las personas y los pone en riesgo.</li>
+<li><strong>Manejá despacio:</strong> los animales cruzan los caminos y los atropellos son una amenaza real.</li>
+<li><strong>No salgas de los senderos:</strong> es una norma del parque y protege la fauna.</li>
+<li><strong>Guardá bien la comida:</strong> en los campamentos, para no atraer zorros ni roedores.</li>
+<li><strong>Elegí operadores responsables:</strong> si contratás una excursión de pumas, preguntá cómo trabajan para no perturbar a los animales.</li>
+</ul>
+
+=== en
+title: Wildlife in Torres del Paine: a spotting guide
+meta: Guanacos, pumas, condors, rheas and foxes: which animals to see in Torres del Paine, where to find them and how to watch them responsibly.
+excerpt: Torres del Paine is one of the best places in Patagonia to see wildlife, including pumas. Here are the species to look for and how to improve your chances.
+category: Wildlife
+read_time: 5
+---
+<h2>A park full of life</h2>
+<p>Torres del Paine is famous for its mountains, but it's also one of the best places in Patagonia to see wildlife. Its steppe, lakes and forests are home to species that are hard to find elsewhere, and many can be seen from the park's roads.</p>
+
+<h2>Guanacos: the park's hosts</h2>
+<p>It's almost impossible to visit Torres del Paine without seeing guanacos. They live in family groups on the steppe and are often seen grazing near the roads, especially around Laguna Amarga and Lake Sarmiento. In spring and summer the young, called chulengos, are born.</p>
+
+<h2>The puma</h2>
+<p>Torres del Paine is one of the places in the world where you have the best chance of seeing a wild puma. Even so, it's an elusive animal that moves mostly at dawn and dusk. Specialized tours with trackers greatly improve the odds. If you meet one on a hike, stay calm, don't run, don't turn your back and slowly move away.</p>
+
+<h2>Birds</h2>
+<ul>
+<li><strong>Andean condor:</strong> seen soaring near peaks and cliffs.</li>
+<li><strong>Lesser rhea:</strong> the rhea of southern Patagonia, common on the steppe.</li>
+<li><strong>Upland goose:</strong> very common in meadows and along lakeshores.</li>
+<li><strong>Chilean flamingo:</strong> found in shallow lagoons.</li>
+<li><strong>Magellanic woodpecker:</strong> lives in the lenga forests; its drumming carries far.</li>
+<li><strong>Black-chested buzzard-eagle and caracaras:</strong> frequent raptors in the park's skies.</li>
+</ul>
+
+<h2>Other mammals</h2>
+<ul>
+<li><strong>Culpeo and South American gray foxes:</strong> often seen, sometimes near campsites. Don't feed them.</li>
+<li><strong>Patagonian hog-nosed skunk:</strong> small and nocturnal, found on the steppe.</li>
+<li><strong>Huemul:</strong> the endangered South Andean deer lives in parts of the park. Sightings are rare.</li>
+</ul>
+
+<h2>Where and when</h2>
+<p>The steppe areas in the east of the park, such as Laguna Amarga and Lake Sarmiento, are best for guanacos, rheas and pumas. The forested valleys of the W trek are good for forest birds. Early morning and late afternoon are the most active times. Spring and summer are the liveliest seasons, though guanacos and many birds can be seen all year.</p>
+
+<h2>Responsible wildlife watching</h2>
+<ul>
+<li><strong>Keep your distance:</strong> use binoculars or a telephoto lens instead of getting closer.</li>
+<li><strong>Never feed any animal:</strong> it habituates them to people and puts them at risk.</li>
+<li><strong>Drive slowly:</strong> animals cross the roads and collisions are a real threat.</li>
+<li><strong>Stay on the trails:</strong> it's a park rule and it protects wildlife.</li>
+<li><strong>Store food properly:</strong> at campsites, so you don't attract foxes or rodents.</li>
+<li><strong>Choose responsible operators:</strong> if you book a puma tour, ask how they work to avoid disturbing the animals.</li>
+</ul>
+
+=== pt
+title: Fauna em Torres del Paine: guia para avistar animais
+meta: Guanacos, pumas, condores, emas e raposas: quais animais ver em Torres del Paine, onde encontrá-los e como observá-los de forma responsável.
+excerpt: Torres del Paine é um dos melhores lugares da Patagônia para ver fauna selvagem, incluindo o puma. Contamos quais espécies procurar e como aumentar as suas chances.
+category: Fauna
+read_time: 5
+---
+<h2>Um parque cheio de vida</h2>
+<p>Torres del Paine é famoso pelas montanhas, mas também é um dos melhores lugares da Patagônia para ver fauna. Suas estepes, lagos e bosques reúnem espécies difíceis de encontrar em outras regiões, e muitas podem ser vistas das estradas do parque.</p>
+
+<h2>Guanacos: os anfitriões do parque</h2>
+<p>É quase impossível visitar Torres del Paine sem ver guanacos. Eles vivem em grupos familiares na estepe e aparecem pastando perto das estradas, principalmente no setor de Laguna Amarga e nos arredores do lago Sarmiento. Na primavera e no verão nascem os filhotes, chamados chulengos.</p>
+
+<h2>O puma</h2>
+<p>Torres del Paine é um dos lugares do mundo com mais chances de ver um puma em liberdade. Ainda assim, é um animal arisco, que se movimenta principalmente ao amanhecer e ao entardecer. Há passeios especializados com rastreadores que aumentam muito as probabilidades. Se você cruzar com um durante uma caminhada, mantenha a calma, não corra, não dê as costas e afaste-se devagar.</p>
+
+<h2>Aves</h2>
+<ul>
+<li><strong>Condor-dos-andes:</strong> aparece planando perto dos picos e paredões.</li>
+<li><strong>Ema-de-darwin:</strong> a ema da Patagônia austral, frequente na estepe.</li>
+<li><strong>Cauquém:</strong> o ganso patagônico, muito comum em campos e margens de lagos.</li>
+<li><strong>Flamingo-chileno:</strong> aparece em lagoas rasas.</li>
+<li><strong>Pica-pau-de-magalhães:</strong> vive nos bosques de lenga; suas batidas se ouvem de longe.</li>
+<li><strong>Águia-chilena e carcarás:</strong> aves de rapina comuns no céu do parque.</li>
+</ul>
+
+<h2>Outros mamíferos</h2>
+<ul>
+<li><strong>Raposa-colorada e raposa-cinzenta:</strong> aparecem com frequência, às vezes perto dos acampamentos. Não as alimente.</li>
+<li><strong>Zorrilho:</strong> pequeno e noturno, vive na estepe.</li>
+<li><strong>Huemul:</strong> o cervo andino, ameaçado de extinção, habita setores do parque. Vê-lo é raro.</li>
+</ul>
+
+<h2>Onde e quando?</h2>
+<p>Os setores de estepe do leste do parque, como Laguna Amarga e o lago Sarmiento, são os melhores para guanacos, emas e pumas. Os bosques dos vales do circuito W são bons para aves de floresta. As primeiras e as últimas horas do dia são as de maior atividade. A primavera e o verão são as estações mais movimentadas, embora guanacos e muitas aves apareçam o ano todo.</p>
+
+<h2>Observação responsável</h2>
+<ul>
+<li><strong>Mantenha distância:</strong> use binóculos ou teleobjetiva em vez de se aproximar.</li>
+<li><strong>Não alimente nenhum animal:</strong> isso os acostuma às pessoas e os coloca em risco.</li>
+<li><strong>Dirija devagar:</strong> os animais atravessam as estradas e os atropelamentos são uma ameaça real.</li>
+<li><strong>Não saia das trilhas:</strong> é uma regra do parque e protege a fauna.</li>
+<li><strong>Guarde bem a comida:</strong> nos acampamentos, para não atrair raposas nem roedores.</li>
+<li><strong>Escolha operadores responsáveis:</strong> se contratar um passeio de pumas, pergunte como trabalham para não perturbar os animais.</li>
+</ul>
