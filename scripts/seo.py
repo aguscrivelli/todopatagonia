@@ -17,7 +17,26 @@ EQUIVALENTES = {
     "como-llegar.html": {"en": "how-to-get-there.html", "pt": "como-chegar.html"},
     "privacidad.html": {"en": "privacy.html", "pt": "privacidade.html"},
     "afiliados.html": {"en": "affiliates.html", "pt": "afiliados.html"},
+    "contacto.html": {"en": "contact.html", "pt": "contato.html"},
 }
+CONTACTO = {
+    "/privacidad.html": ("/contacto.html", "Contacto"),
+    "/en/privacy.html": ("/en/contact.html", "Contact"),
+    "/pt/privacidade.html": ("/pt/contato.html", "Contato"),
+}
+
+
+def link_contacto(html):
+    """Suma el link a la página de contacto al lado del de privacidad en el pie."""
+    for priv, (destino, texto) in CONTACTO.items():
+        if destino in html:
+            continue
+        for q in ("'", '"'):
+            ancla = re.search(rf"<a href={q}{re.escape(priv)}{q}>[^<]*</a>", html)
+            if ancla:
+                nuevo = ancla.group(0) + f" · <a href={q}{destino}{q}>{texto}</a>"
+                return html.replace(ancla.group(0), nuevo, 1)
+    return html
 DESCRIPCIONES = {
     "es": "TodoPatagonia: guías de viaje para la Patagonia argentina y chilena.",
     "en": "TodoPatagonia: travel guides to Argentine and Chilean Patagonia.",
@@ -73,6 +92,10 @@ def procesar(salida):
         if 'name="robots" content="noindex' in html:
             continue
         lang, clave = idioma_y_clave(ruta)
+        con_link = link_contacto(html)
+        if con_link != html:
+            html = con_link
+            archivo.write_text(html, encoding="utf-8")
         extra = []
         if ruta == "index.html" and "google-site-verification" not in html:
             extra.append(GSC)

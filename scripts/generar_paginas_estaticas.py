@@ -667,7 +667,7 @@ def render_legal_html(lang, tipo, cfg):
       <h2>Affiliate Links</h2>
       <p>Some links on this site are affiliate links. We receive a small commission if you make a purchase through them, at no extra cost to you. See our <a href="/en/affiliates.html">Affiliate Disclosure</a>.</p>
       <h2>Contact</h2>
-      <p>Questions? Email us at info@todopatagonia.com</p>"""
+      <p>Questions? Email us at contacto@todopatagonia.com</p>"""
         else:  # pt
             title = "Política de Privacidade | TodoPatagonia.com"
             h1 = "Política de Privacidade"
@@ -679,7 +679,7 @@ def render_legal_html(lang, tipo, cfg):
       <h2>Links de Afiliados</h2>
       <p>Alguns links neste site são links de afiliados. Recebemos uma pequena comissão se você fizer uma compra por meio deles, sem custo extra para você. Veja nosso <a href="/pt/afiliados.html">Aviso de Afiliados</a>.</p>
       <h2>Contato</h2>
-      <p>Dúvidas? Envie um email para info@todopatagonia.com</p>"""
+      <p>Dúvidas? Envie um email para contacto@todopatagonia.com</p>"""
 
     else:  # affiliates / afiliados
         if lang == "en":
