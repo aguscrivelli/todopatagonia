@@ -230,6 +230,43 @@ Respond ONLY with valid JSON:
     return json.loads(json_match.group())
 
 
+def cercanos_html(destino_info, lang, cantidad=3):
+    """Links a los destinos publicados más cercanos (por coordenadas)."""
+    from math import asin, cos, radians, sin, sqrt
+
+    if "lat" not in destino_info:
+        return ""
+    def km(a, b):
+        dlat, dlng = radians(b["lat"] - a["lat"]), radians(b["lng"] - a["lng"])
+        h = sin(dlat / 2) ** 2 + cos(radians(a["lat"])) * cos(radians(b["lat"])) * sin(dlng / 2) ** 2
+        return 6371 * 2 * asin(sqrt(h))
+    otros = [d for d in destinos_publicados() if d["slug"] != destino_info["slug"] and "lat" in d]
+    otros.sort(key=lambda d: km(destino_info, d))
+    if not otros:
+        return ""
+    base = {"es": "/destinos/", "en": "/en/destinos/", "pt": "/pt/destinos/"}[lang]
+    titulo = {"es": "Destinos cercanos", "en": "Nearby destinations", "pt": "Destinos próximos"}[lang]
+    aprox = {"es": "a unos", "en": "about", "pt": "a cerca de"}[lang]
+    # Distancia en línea recta: por ruta suele ser bastante más.
+    recta = {"es": "km en línea recta", "en": "km as the crow flies", "pt": "km em linha reta"}[lang]
+    items = "".join(
+        f'<a class="activity-item" href="{base}{d["slug"]}.html" style="text-decoration:none;color:inherit">'
+        f'<h3>{d["emoji"]} {d["nombre"]}</h3><p>{aprox} {round(km(destino_info, d), -1):.0f} {recta}</p></a>'
+        for d in otros[:cantidad]
+    )
+    return f"""<section class="dest-section dest-cercanos">
+        <h2>{titulo}</h2>
+        <div class="activities-grid">{items}</div>
+      </section>"""
+
+
+def destinos_publicados():
+    """Destinos activos de data/destinos.json que tienen contenido escrito en los tres idiomas."""
+    datos = json.loads(Path("data/destinos.json").read_text(encoding="utf-8"))["activos"]
+    return [d for d in datos if all((Path("contenido/destinos") / f"{d['slug']}.{l}.json").exists()
+                                    for l in ("es", "en", "pt"))]
+
+
 def render_destino_html(destino_info, contenido, idioma_cfg, foto):
     """Renderiza la página HTML completa del destino."""
     lang = idioma_cfg["lang"]
@@ -265,7 +302,7 @@ def render_destino_html(destino_info, contenido, idioma_cfg, foto):
         hero_img = f"""<figure class="dest-hero-image">
       <img src="{foto['url']}" srcset="{foto['url_small']} 400w, {foto['url']} 1080w"
            sizes="(max-width:600px) 400px, 1080px" alt="{contenido.get('photo_alt', nombre)}" loading="eager">
-      <figcaption>{ {"es": "Foto de", "en": "Photo by", "pt": "Foto de"}[lang] } <a href="{foto['author_url']}?utm_source=todopatagonia&utm_medium=referral" target="_blank" rel="noopener">{foto['author_name']}</a> { {"es": "en", "en": "on", "pt": "no"}[lang] } <a href="{foto['unsplash_url']}?utm_source=todopatagonia&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></figcaption>
+      <figcaption>{ {"es": "Foto de", "en": "Photo by", "pt": "Foto de"}[lang] } <a href="{foto['author_url']}?utm_source=todopatagonia&utm_medium=referral" target="_blank" rel="noopener">{foto['author_name']}</a> { {"es": "en", "en": "on", "pt": "no"}[lang] } <a href="{foto.get('fuente_url') or foto['unsplash_url'] + '?utm_source=todopatagonia&utm_medium=referral'}" target="_blank" rel="noopener">{foto.get('fuente_nombre', 'Unsplash')}</a></figcaption>
     </figure>"""
         og_image = f'<meta property="og:image" content="{foto["url"]}">'
     else:
@@ -416,6 +453,8 @@ def render_destino_html(destino_info, contenido, idioma_cfg, foto):
         </div>
       </section>
 
+      {cercanos_html(destino_info, lang)}
+
       <div class="dest-closing">
         <p>{contenido.get('closing','')}</p>
       </div>
@@ -440,7 +479,12 @@ def main():
     print("🗺️  Generador de páginas de destinos — TodoPatagonia.com")
     print("=" * 55)
 
-    for destino in DESTINOS_INFO:
+    destinos = destinos_publicados()
+    for d in destinos:
+        d.setdefault("gyg_query", d["nombre"])
+        d.setdefault("booking_query", d["nombre"])
+        d.setdefault("unsplash_query", d["nombre"] + " Patagonia")
+    for destino in destinos:
         print(f"\n📍 {destino['nombre']}")
 
         # Buscar foto UNA vez, compartir entre idiomas

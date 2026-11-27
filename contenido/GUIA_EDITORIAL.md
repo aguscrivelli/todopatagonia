@@ -46,3 +46,16 @@ read_time: 5
 ## Tono
 - Español rioplatense con voseo; inglés natural para viajeros; portugués de Brasil.
 - Práctico, cálido y sin exageraciones. Cerrar con una sección de consejos prácticos.
+
+## Destinos nuevos
+Un destino nuevo lleva cuatro cosas, todas en el mismo commit:
+1. `contenido/destinos/<slug>.es.json`, `.en.json` y `.pt.json`, con la misma estructura que los existentes
+   (title, meta_description, hero_subtitle, photo_alt, why_visit, activities, how_to_get_there, where_to_stay,
+   practical_tips, closing). Mismas reglas: datos verificados, sin hoteles ni precios, un idioma por archivo.
+2. Una entrada en `data/destinos.json` → `activos`: nombre, slug, emoji, descripcion_es/en/pt (una oración),
+   fecha_agregado, lat y lng (verificadas) y `foto_buscar` (términos para Wikimedia Commons) o `foto_archivo`.
+3. Marcar el destino con [x] en `contenido/destinos_pendientes.md`.
+Al subirlo, el workflow "Destinos · construir páginas" baja la foto, arma las páginas, actualiza los
+"destinos cercanos" de todos y publica. El mapa, la página de destinos y el sitemap se actualizan solos.
+Revisar la foto descargada (img/destinos/<slug>.jpg): si tiene personas en primer plano o no muestra el
+lugar, cambiar `foto_buscar`/`foto_archivo`, poner `"foto_rehacer": true` y volver a subir.

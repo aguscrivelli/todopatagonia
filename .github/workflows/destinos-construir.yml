@@ -1,0 +1,64 @@
+name: Destinos · construir páginas
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'contenido/destinos/**'
+      - 'data/destinos.json'
+  workflow_dispatch:
+
+concurrency:
+  group: publicacion-hostinger
+  cancel-in-progress: false
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install requests pillow python-slugify
+
+      - name: Fotos de destinos nuevos
+        run: PYTHONPATH=scripts python scripts/destinos_fotos.py
+
+      - name: Armar páginas de destinos (ES, EN, PT)
+        run: PYTHONPATH=scripts python scripts/generar_destinos.py
+
+      - name: Guardar en el repo
+        run: |
+          git config --global user.name "TodoPatagonia Bot"
+          git config --global user.email "bot@todopatagonia.com"
+          git add destinos/ en/destinos/ pt/destinos/ img/destinos/ contenido/destinos/fotos.json
+          git diff --staged --quiet || git commit -m "🗺️ Páginas de destinos actualizadas (ES/EN/PT)"
+          git pull --rebase origin main
+          git push
+
+      - name: Preparar sitio público
+        run: python3 scripts/preparar_publicacion.py
+
+      - name: Deploy a Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: /public_html/
+          local-dir: ./_public/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            .github/**
+            README.md
+            scripts/**
