@@ -6,6 +6,7 @@ on:
     paths:
       - 'instagram/cola.json'
       - 'scripts/instagram_render.py'
+      - 'scripts/instagram_historias.py'
   workflow_dispatch:
 
 concurrency:
@@ -37,7 +38,9 @@ jobs:
           done
 
       - name: Generar imágenes y página de la bio
-        run: python scripts/instagram_render.py
+        run: |
+          python scripts/instagram_render.py
+          python scripts/instagram_historias.py
 
       - name: Guardar imágenes en el repo
         run: |

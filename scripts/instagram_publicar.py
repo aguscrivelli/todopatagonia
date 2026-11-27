@@ -80,6 +80,13 @@ def publicar(post, medio, token, ig_id):
     return llamar("POST", f"{ig_id}/media_publish", token, creation_id=contenedor)["id"]
 
 
+def publicar_historia(medio, token, ig_id):
+    url = f"{SITIO}/{medio['historia']}"
+    contenedor = llamar("POST", f"{ig_id}/media", token, image_url=url, media_type="STORIES")["id"]
+    esperar_listo(contenedor, token)
+    return llamar("POST", f"{ig_id}/media_publish", token, creation_id=contenedor)["id"]
+
+
 def main():
     prueba = "--prueba" in sys.argv
     cola, medios, estado = cargar(COLA, []), cargar(MEDIOS, {}), cargar(ESTADO, {})
@@ -118,6 +125,12 @@ def main():
         registro["media_id"] = publicar(post, medio, token, ig_id)
         registro["fecha"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
         print(f"✅ Publicado {post['id']} (media {registro['media_id']})")
+        if os.environ.get("HISTORIA") == "true" and medio.get("historia"):
+            try:
+                registro["historia_id"] = publicar_historia(medio, token, ig_id)
+                print("✅ Historia publicada")
+            except Exception as e:  # si falla la historia, el post ya salió igual
+                print(f"⚠️  No se pudo publicar la historia: {e}")
     except Exception as e:
         registro["intentos"] = registro.get("intentos", 0) + 1
         registro["ultimo_error"] = str(e)[:300]
