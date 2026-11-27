@@ -1,0 +1,25 @@
+name: Portadas · descargar fotos
+
+on:
+  workflow_dispatch:
+
+jobs:
+  descargar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests pillow
+      - run: python scripts/portadas.py
+      - name: Guardar fotos
+        run: |
+          git config --global user.name "TodoPatagonia Bot"
+          git config --global user.email "bot@todopatagonia.com"
+          git add img/portadas data/portadas.json
+          git diff --staged --quiet || git commit -m "🖼️ Fotos de portada descargadas"
+          git pull --rebase origin main
+          git push
