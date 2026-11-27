@@ -1,9 +1,8 @@
 name: Generar páginas estáticas (actividades, cómo llegar)
 
 on:
-  schedule:
-    # Regenera el contenido cada 4 semanas (primer lunes del mes a las 10am UTC)
-    - cron: '0 10 1-7 * 1'
+  # Programación automática pausada: usaba la API paga de Anthropic y generaba datos sin verificar.
+  # Los artículos ahora se escriben a mano en contenido/blog/ y se arman con scripts/construir_blog.py.
   workflow_dispatch:
 
 concurrency:

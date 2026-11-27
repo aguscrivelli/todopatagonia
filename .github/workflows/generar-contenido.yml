@@ -1,9 +1,8 @@
 name: Generar contenido con IA
 
 on:
-  schedule:
-    # Publica un artículo nuevo cada lunes a las 9am UTC (6am Buenos Aires)
-    - cron: '0 9 * * 1'
+  # Programación automática pausada: usaba la API paga de Anthropic y generaba datos sin verificar.
+  # Los artículos ahora se escriben a mano en contenido/blog/ y se arman con scripts/construir_blog.py.
   workflow_dispatch:
     inputs:
       destino:

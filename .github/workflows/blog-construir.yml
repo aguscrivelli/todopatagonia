@@ -1,0 +1,57 @@
+name: Blog · construir artículos
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'contenido/blog/**'
+  workflow_dispatch:
+
+concurrency:
+  group: publicacion-hostinger
+  cancel-in-progress: false
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Armar artículos en ES, EN y PT
+        run: python scripts/construir_blog.py
+
+      - name: Guardar páginas en el repo
+        run: |
+          git config --global user.name "TodoPatagonia Bot"
+          git config --global user.email "bot@todopatagonia.com"
+          git add blog/ en/blog/ pt/blog/
+          git diff --staged --quiet || git commit -m "📝 Artículos del blog actualizados (ES/EN/PT)"
+          git pull --rebase origin main
+          git push
+
+      - name: Preparar sitio público
+        run: python3 scripts/preparar_publicacion.py
+
+      - name: Deploy a Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: /public_html/
+          local-dir: ./_public/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            .github/**
+            README.md
+            scripts/**
