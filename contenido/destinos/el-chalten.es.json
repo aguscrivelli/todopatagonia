@@ -1,0 +1,74 @@
+{
+  "title": "El Chaltén: trekking al pie del Fitz Roy",
+  "meta_description": "Guía de El Chaltén: senderos a Laguna de los Tres y Laguna Torre, cuándo ir, cómo llegar desde El Calafate y dónde alojarse.",
+  "hero_subtitle": "La Capital Nacional del Trekking, con senderos que salen caminando desde el pueblo.",
+  "photo_alt": "Cerro Fitz Roy nevado",
+  "why_visit": [
+    {
+      "emoji": "⛰️",
+      "title": "El Fitz Roy y el Cerro Torre",
+      "text": "Dos de las montañas más impresionantes de los Andes, a un día de caminata del pueblo."
+    },
+    {
+      "emoji": "🥾",
+      "title": "Senderos desde el pueblo",
+      "text": "No necesitás auto ni excursión: muchos senderos empiezan en las calles de El Chaltén."
+    },
+    {
+      "emoji": "🍂",
+      "title": "Bosques de lenga",
+      "text": "En otoño los bosques se tiñen de rojo y amarillo y el paisaje cambia por completo."
+    }
+  ],
+  "activities": [
+    {
+      "title": "Laguna de los Tres",
+      "text": "El clásico frente al Fitz Roy: un día largo con un último tramo muy empinado. Salí temprano y elegí un día despejado."
+    },
+    {
+      "title": "Laguna Torre",
+      "text": "Día completo sin grandes subidas, hasta una laguna con el glaciar y el Cerro Torre de fondo."
+    },
+    {
+      "title": "Mirador de los Cóndores",
+      "text": "Una caminata corta con vista al pueblo y al valle. Ideal para el día de llegada o el atardecer."
+    },
+    {
+      "title": "Loma del Pliegue Tumbado",
+      "text": "Una subida constante hasta un mirador con el Fitz Roy, el Cerro Torre y el lago Viedma en el mismo horizonte."
+    },
+    {
+      "title": "Lago del Desierto",
+      "text": "Al norte del pueblo, una excursión de día entre bosques, cascadas y lagos tranquilos."
+    }
+  ],
+  "how_to_get_there": "<p><strong>El aeropuerto más cercano</strong> es el de El Calafate (FTE), a unos 220 km. Desde allí hay buses diarios a El Chaltén, en un viaje de alrededor de tres horas.</p><p><strong>En auto:</strong> por la Ruta 40 y la ruta provincial 23, con paisajes de estepa y vistas al Fitz Roy al acercarte.</p><p><strong>En el pueblo:</strong> todo se recorre a pie. Pasá por el centro de visitantes del parque nacional, a la entrada, para informarte sobre los senderos.</p>",
+  "where_to_stay": {
+    "budget": "Hostels con habitaciones compartidas y cocina para huéspedes, además de campings en temporada. Son la opción más económica y un buen lugar para conocer otros viajeros.",
+    "midrange": "Hosterías, cabañas y hoteles pequeños, muchas veces con desayuno incluido. Las cabañas con cocina convienen a familias y grupos.",
+    "luxury": "Hoteles y lodges de categoría, con vistas al paisaje, spa o excursiones incluidas. Conviene reservarlos con mucha anticipación."
+  },
+  "practical_tips": [
+    {
+      "emoji": "☀️",
+      "title": "Mejor época",
+      "text": "La temporada de trekking va de octubre a abril. En invierno muchos alojamientos y comercios cierran."
+    },
+    {
+      "emoji": "🌬️",
+      "title": "Clima cambiante",
+      "text": "El viento y los cambios bruscos de tiempo son parte del viaje. Vestite en capas y llevá siempre un rompeviento."
+    },
+    {
+      "emoji": "📅",
+      "title": "Reservá con tiempo",
+      "text": "En temporada alta, alojamientos y excursiones se llenan. Conviene reservar apenas tengas las fechas."
+    },
+    {
+      "emoji": "💵",
+      "title": "Precios y pagos",
+      "text": "Los precios cambian seguido: consultá las tarifas vigentes antes de viajar y llevá algo de efectivo además de tarjeta."
+    }
+  ],
+  "closing": "Dejá días de margen: el Fitz Roy suele esconderse entre las nubes, y el día que se despeja es el día de la Laguna de los Tres."
+}

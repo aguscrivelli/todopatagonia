@@ -1,0 +1,79 @@
+{
+  "title": "El Calafate: glaciares y lagos en la Patagonia",
+  "meta_description": "Guía de El Calafate: el Glaciar Perito Moreno, navegaciones por el lago Argentino, qué hacer, cómo llegar y dónde alojarse.",
+  "hero_subtitle": "La puerta de entrada al Glaciar Perito Moreno, a orillas del lago Argentino.",
+  "photo_alt": "Paisaje glaciar cerca de El Calafate",
+  "why_visit": [
+    {
+      "emoji": "🧊",
+      "title": "El Perito Moreno",
+      "text": "Uno de los glaciares más accesibles del mundo: desde las pasarelas lo ves de frente y escuchás cómo se desprende el hielo."
+    },
+    {
+      "emoji": "🌍",
+      "title": "Patrimonio de la Humanidad",
+      "text": "El Parque Nacional Los Glaciares está reconocido por la UNESCO por sus campos de hielo y glaciares."
+    },
+    {
+      "emoji": "🚤",
+      "title": "Lagos y témpanos",
+      "text": "Las navegaciones por el lago Argentino llegan a otros glaciares y pasan entre témpanos de colores increíbles."
+    },
+    {
+      "emoji": "🥾",
+      "title": "Base para El Chaltén",
+      "text": "Desde El Calafate se sigue por ruta hacia El Chaltén, la capital del trekking."
+    }
+  ],
+  "activities": [
+    {
+      "title": "Pasarelas del Perito Moreno",
+      "text": "Varios kilómetros de recorridos frente al glaciar, con balcones a distintas alturas. Quedate un buen rato en un mismo punto para ver los desprendimientos."
+    },
+    {
+      "title": "Caminar sobre el hielo",
+      "text": "Caminatas con crampones sobre el glaciar, siempre con guías habilitados. Tienen cupos y límites de edad, y se agotan en temporada alta."
+    },
+    {
+      "title": "Navegación por el lago Argentino",
+      "text": "Salidas en barco frente al Perito Moreno y excursiones más largas hacia otros glaciares del parque, como el Upsala y el Spegazzini."
+    },
+    {
+      "title": "Reserva Laguna Nimez",
+      "text": "A pasos del centro, un sendero entre humedales donde se ven flamencos, cisnes de cuello negro y muchas otras aves."
+    },
+    {
+      "title": "Glaciarium",
+      "text": "Un centro de interpretación dedicado a los glaciares, ideal para entender lo que vas a ver en el parque."
+    }
+  ],
+  "how_to_get_there": "<p><strong>En avión:</strong> el Aeropuerto Internacional de El Calafate (FTE) recibe vuelos directos desde Buenos Aires, de unas 3 horas, y conexiones con otras ciudades. Queda a unos 20 km del centro.</p><p><strong>Por tierra:</strong> hay buses desde Río Gallegos, desde El Chaltén (a unos 220 km) y desde Puerto Natales, en Chile.</p><p><strong>Al glaciar:</strong> el Perito Moreno está a unos 80 km, por un camino asfaltado. Se llega en excursión, bus regular o auto.</p>",
+  "where_to_stay": {
+    "budget": "Hostels con habitaciones compartidas y cocina para huéspedes, además de campings en temporada. Son la opción más económica y un buen lugar para conocer otros viajeros.",
+    "midrange": "Hosterías, cabañas y hoteles pequeños, muchas veces con desayuno incluido. Las cabañas con cocina convienen a familias y grupos.",
+    "luxury": "Hoteles y lodges de categoría, con vistas al paisaje, spa o excursiones incluidas. Conviene reservarlos con mucha anticipación."
+  },
+  "practical_tips": [
+    {
+      "emoji": "☀️",
+      "title": "Mejor época",
+      "text": "De octubre a abril funcionan todas las excursiones y los días son largos. El parque abre todo el año."
+    },
+    {
+      "emoji": "🌬️",
+      "title": "Clima cambiante",
+      "text": "El viento y los cambios bruscos de tiempo son parte del viaje. Vestite en capas y llevá siempre un rompeviento."
+    },
+    {
+      "emoji": "📅",
+      "title": "Reservá con tiempo",
+      "text": "En temporada alta, alojamientos y excursiones se llenan. Conviene reservar apenas tengas las fechas."
+    },
+    {
+      "emoji": "💵",
+      "title": "Precios y pagos",
+      "text": "Los precios cambian seguido: consultá las tarifas vigentes antes de viajar y llevá algo de efectivo además de tarjeta."
+    }
+  ],
+  "closing": "Reservá al menos un día completo para el Perito Moreno y otro para navegar el lago. Y si podés, seguí viaje hacia El Chaltén."
+}

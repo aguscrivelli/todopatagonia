@@ -1,0 +1,74 @@
+{
+  "title": "Bariloche: lakes, mountains and forests",
+  "meta_description": "Bariloche guide: Circuito Chico, Cerro Campanario, Victoria Island, skiing at Catedral, how to get there and where to stay.",
+  "hero_subtitle": "On the shores of Lake Nahuel Huapi, a year-round destination.",
+  "photo_alt": "Lake Nahuel Huapi surrounded by mountains",
+  "why_visit": [
+    {
+      "emoji": "🏞️",
+      "title": "Nahuel Huapi National Park",
+      "text": "Lakes, forests and mountains inside Argentina's oldest national park."
+    },
+    {
+      "emoji": "⛷️",
+      "title": "Snow in winter",
+      "text": "Cerro Catedral is one of South America's best-known ski resorts."
+    },
+    {
+      "emoji": "🍫",
+      "title": "Food",
+      "text": "Chocolate, craft beer and mountain dishes with trout and venison."
+    }
+  ],
+  "activities": [
+    {
+      "title": "Circuito Chico",
+      "text": "The classic drive along Nahuel Huapi to the Llao Llao Peninsula, by car, bike or tour."
+    },
+    {
+      "title": "Cerro Campanario",
+      "text": "A chairlift takes you up in minutes to one of the area's best panoramic views."
+    },
+    {
+      "title": "Victoria Island and Arrayanes Forest",
+      "text": "A boat trip from Puerto Pañuelo to the island and the cinnamon-barked arrayán forest."
+    },
+    {
+      "title": "Cerro Catedral",
+      "text": "Skiing in winter and, in summer, lifts and trails such as the one to Refugio Frey."
+    },
+    {
+      "title": "Mount Tronador",
+      "text": "A full-day trip to the area's highest mountain and the Ventisquero Negro glacier."
+    }
+  ],
+  "how_to_get_there": "<p><strong>By plane:</strong> Bariloche International Airport (BRC) has direct flights from Buenos Aires, about two hours, and from other cities.</p><p><strong>By bus:</strong> long-distance services run from Buenos Aires and other cities; the trip from the capital takes about a day.</p><p><strong>From Chile:</strong> overland via the Cardenal Samoré Pass, which links the area with Osorno and Puerto Montt.</p>",
+  "where_to_stay": {
+    "budget": "Hostels with shared rooms and guest kitchens, plus campsites in season. They're the most affordable option and a good place to meet other travelers.",
+    "midrange": "Inns, cabins and small hotels, often with breakfast included. Cabins with kitchens suit families and groups.",
+    "luxury": "Upscale hotels and lodges with landscape views, spas or tours included. Book them well in advance."
+  },
+  "practical_tips": [
+    {
+      "emoji": "☀️",
+      "title": "Best time",
+      "text": "Summer for lakes and hiking; winter for snow. January and July are the busiest months."
+    },
+    {
+      "emoji": "🌬️",
+      "title": "Changeable weather",
+      "text": "Wind and sudden weather changes are part of the trip. Dress in layers and always carry a windbreaker."
+    },
+    {
+      "emoji": "📅",
+      "title": "Book ahead",
+      "text": "In high season, lodging and tours fill up. It's best to book as soon as you have your dates."
+    },
+    {
+      "emoji": "💵",
+      "title": "Prices and payments",
+      "text": "Prices change often: check current rates before you travel and carry some cash as well as cards."
+    }
+  ],
+  "closing": "Bariloche works as a base for exploring the Lake District, including the Seven Lakes Road to San Martín de los Andes."
+}

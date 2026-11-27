@@ -1,0 +1,74 @@
+{
+  "title": "Valdés Peninsula: whales and marine wildlife",
+  "meta_description": "Valdés Peninsula guide: whale watching, sea lions, elephant seals, penguins, when to go, how to get there and where to stay.",
+  "hero_subtitle": "One of the best places in the world to see whales from shore and at sea.",
+  "photo_alt": "Southern right whale at Valdés Peninsula",
+  "why_visit": [
+    {
+      "emoji": "🐋",
+      "title": "Southern right whale",
+      "text": "Every year they arrive in the gulfs to breed; the season runs roughly from June to December."
+    },
+    {
+      "emoji": "🦭",
+      "title": "Wildlife all year",
+      "text": "Sea lions and elephant seals live on the peninsula's shores much of the year."
+    },
+    {
+      "emoji": "🌍",
+      "title": "World Heritage Site",
+      "text": "The peninsula is recognized by UNESCO for the importance of its marine wildlife."
+    }
+  ],
+  "activities": [
+    {
+      "title": "Whale-watching boat trips",
+      "text": "In season, boat trips leave from Puerto Pirámides, the only town on the peninsula."
+    },
+    {
+      "title": "Whales from shore",
+      "text": "In parts of the gulf, such as the coast near Puerto Madryn, whales come very close to shore."
+    },
+    {
+      "title": "Driving around the peninsula",
+      "text": "Wildlife viewpoints such as Punta Delgada, Caleta Valdés and Punta Norte, linked by gravel roads."
+    },
+    {
+      "title": "Penguins",
+      "text": "In spring and summer, Magellanic penguins arrive on the Chubut coast; Punta Tombo, to the south, is one of the best-known colonies."
+    },
+    {
+      "title": "Puerto Madryn",
+      "text": "The base town, with a waterfront, beaches and diving in Golfo Nuevo."
+    }
+  ],
+  "how_to_get_there": "<p><strong>By plane:</strong> the most used airports are Trelew (REL) and Puerto Madryn (PMY). From Trelew it's about an hour by road to Puerto Madryn.</p><p><strong>By bus:</strong> long-distance services reach Puerto Madryn from Buenos Aires and other cities.</p><p><strong>On the peninsula:</strong> explore on a tour from Puerto Madryn or by car. Inner roads are gravel: drive carefully.</p>",
+  "where_to_stay": {
+    "budget": "Hostels with shared rooms and guest kitchens, plus campsites in season. They're the most affordable option and a good place to meet other travelers.",
+    "midrange": "Inns, cabins and small hotels, often with breakfast included. Cabins with kitchens suit families and groups.",
+    "luxury": "Upscale hotels and lodges with landscape views, spas or tours included. Book them well in advance."
+  },
+  "practical_tips": [
+    {
+      "emoji": "🐋",
+      "title": "When to go",
+      "text": "For whales, roughly June to December. Animal cycles vary a little each year: check before you travel."
+    },
+    {
+      "emoji": "🌬️",
+      "title": "Changeable weather",
+      "text": "Wind and sudden weather changes are part of the trip. Dress in layers and always carry a windbreaker."
+    },
+    {
+      "emoji": "📅",
+      "title": "Book ahead",
+      "text": "In high season, lodging and tours fill up. It's best to book as soon as you have your dates."
+    },
+    {
+      "emoji": "💵",
+      "title": "Prices and payments",
+      "text": "Prices change often: check current rates before you travel and carry some cash as well as cards."
+    }
+  ],
+  "closing": "Plan at least two days: one for a whale-watching trip and another to explore the peninsula at a relaxed pace."
+}

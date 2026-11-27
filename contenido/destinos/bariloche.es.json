@@ -1,0 +1,74 @@
+{
+  "title": "Bariloche: lagos, montañas y bosques",
+  "meta_description": "Guía de Bariloche: Circuito Chico, Cerro Campanario, Isla Victoria, esquí en el Catedral, cómo llegar y dónde alojarse.",
+  "hero_subtitle": "A orillas del lago Nahuel Huapi, un destino para todo el año.",
+  "photo_alt": "Lago Nahuel Huapi rodeado de montañas",
+  "why_visit": [
+    {
+      "emoji": "🏞️",
+      "title": "Parque Nacional Nahuel Huapi",
+      "text": "Lagos, bosques y cerros dentro del parque nacional más antiguo de la Argentina."
+    },
+    {
+      "emoji": "⛷️",
+      "title": "Nieve en invierno",
+      "text": "El Cerro Catedral es uno de los centros de esquí más conocidos de Sudamérica."
+    },
+    {
+      "emoji": "🍫",
+      "title": "Gastronomía",
+      "text": "Chocolate, cerveza artesanal y platos de montaña con trucha y ciervo."
+    }
+  ],
+  "activities": [
+    {
+      "title": "Circuito Chico",
+      "text": "El paseo clásico por la costa del Nahuel Huapi hasta la península Llao Llao, en auto, bici o excursión."
+    },
+    {
+      "title": "Cerro Campanario",
+      "text": "Una aerosilla sube en pocos minutos a una de las vistas panorámicas más lindas de la zona."
+    },
+    {
+      "title": "Isla Victoria y Bosque de Arrayanes",
+      "text": "Navegación desde Puerto Pañuelo a la isla y al bosque de arrayanes, de corteza color canela."
+    },
+    {
+      "title": "Cerro Catedral",
+      "text": "Esquí en invierno y, en verano, medios de elevación y senderos como el que lleva al Refugio Frey."
+    },
+    {
+      "title": "Cerro Tronador",
+      "text": "Excursión de día completo a la montaña más alta de la zona y al Ventisquero Negro."
+    }
+  ],
+  "how_to_get_there": "<p><strong>En avión:</strong> el Aeropuerto Internacional de Bariloche (BRC) recibe vuelos directos desde Buenos Aires, de unas dos horas, y desde otras ciudades.</p><p><strong>En bus:</strong> hay servicios de larga distancia desde Buenos Aires y otras ciudades; el viaje desde la capital lleva alrededor de un día.</p><p><strong>Desde Chile:</strong> por tierra a través del Paso Cardenal Samoré, que une la zona con Osorno y Puerto Montt.</p>",
+  "where_to_stay": {
+    "budget": "Hostels con habitaciones compartidas y cocina para huéspedes, además de campings en temporada. Son la opción más económica y un buen lugar para conocer otros viajeros.",
+    "midrange": "Hosterías, cabañas y hoteles pequeños, muchas veces con desayuno incluido. Las cabañas con cocina convienen a familias y grupos.",
+    "luxury": "Hoteles y lodges de categoría, con vistas al paisaje, spa o excursiones incluidas. Conviene reservarlos con mucha anticipación."
+  },
+  "practical_tips": [
+    {
+      "emoji": "☀️",
+      "title": "Mejor época",
+      "text": "Verano para lagos y trekking; invierno para la nieve. Enero y julio son los meses de mayor demanda."
+    },
+    {
+      "emoji": "🌬️",
+      "title": "Clima cambiante",
+      "text": "El viento y los cambios bruscos de tiempo son parte del viaje. Vestite en capas y llevá siempre un rompeviento."
+    },
+    {
+      "emoji": "📅",
+      "title": "Reservá con tiempo",
+      "text": "En temporada alta, alojamientos y excursiones se llenan. Conviene reservar apenas tengas las fechas."
+    },
+    {
+      "emoji": "💵",
+      "title": "Precios y pagos",
+      "text": "Los precios cambian seguido: consultá las tarifas vigentes antes de viajar y llevá algo de efectivo además de tarjeta."
+    }
+  ],
+  "closing": "Bariloche funciona como base para recorrer la Patagonia de los lagos, incluido el Camino de los Siete Lagos hacia San Martín de los Andes."
+}

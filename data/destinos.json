@@ -4,9 +4,9 @@
       "nombre": "El Calafate",
       "slug": "el-calafate",
       "emoji": "🧊",
-      "descripcion_es": "La puerta de entrada al Glaciar Perito Moreno, uno de los pocos glaciares del mundo que aún crece.",
-      "descripcion_en": "Gateway to the Perito Moreno Glacier, one of the few glaciers in the world that is still growing.",
-      "descripcion_pt": "A porta de entrada para o Glaciar Perito Moreno, um dos poucos glaciares do mundo que ainda cresce.",
+      "descripcion_es": "La puerta de entrada al Glaciar Perito Moreno, uno de los glaciares más accesibles del mundo.",
+      "descripcion_en": "Gateway to the Perito Moreno Glacier, one of the most accessible glaciers in the world.",
+      "descripcion_pt": "A porta de entrada para o Glaciar Perito Moreno, um dos glaciares mais acessíveis do mundo.",
       "fecha_agregado": "2024-01-01"
     },
     {
@@ -22,18 +22,18 @@
       "nombre": "Ushuaia",
       "slug": "ushuaia",
       "emoji": "🐧",
-      "descripcion_es": "La ciudad más austral del mundo. Fin del mundo, glaciares y pingüinos a minutos del centro.",
-      "descripcion_en": "The southernmost city in the world. End of the world, glaciers and penguins minutes from downtown.",
-      "descripcion_pt": "A cidade mais austral do mundo. Fim do mundo, glaciares e pinguins a minutos do centro.",
+      "descripcion_es": "Una de las ciudades más australes del mundo: Canal Beagle, bosques y pingüinos.",
+      "descripcion_en": "One of the southernmost cities in the world: Beagle Channel, forests and penguins.",
+      "descripcion_pt": "Uma das cidades mais austrais do mundo: Canal Beagle, bosques e pinguins.",
       "fecha_agregado": "2024-01-01"
     },
     {
       "nombre": "El Chaltén",
       "slug": "el-chalten",
       "emoji": "⛰️",
-      "descripcion_es": "La capital nacional del trekking. El Fitz Roy y el Cerro Torre al alcance de todos.",
-      "descripcion_en": "The national trekking capital. Fitz Roy and Cerro Torre within reach of everyone.",
-      "descripcion_pt": "A capital nacional do trekking. Fitz Roy e Cerro Torre ao alcance de todos.",
+      "descripcion_es": "La capital nacional del trekking, con senderos al Fitz Roy y al Cerro Torre que salen del pueblo.",
+      "descripcion_en": "Argentina's trekking capital, with trails to Fitz Roy and Cerro Torre starting right in town.",
+      "descripcion_pt": "A capital nacional do trekking, com trilhas para o Fitz Roy e o Cerro Torre que saem do povoado.",
       "fecha_agregado": "2024-01-01"
     },
     {
@@ -49,9 +49,9 @@
       "nombre": "Torres del Paine",
       "slug": "torres-del-paine",
       "emoji": "🗻",
-      "descripcion_es": "El parque más famoso de Chile. Circuitos W y O entre cumbres, glaciares y pumas.",
-      "descripcion_en": "Chile's most famous park. W and O circuits through peaks, glaciers and pumas.",
-      "descripcion_pt": "O parque mais famoso do Chile. Circuitos W e O entre cumes, glaciares e pumas.",
+      "descripcion_es": "Uno de los parques más famosos de Chile. Circuitos W y O entre cumbres, glaciares y pumas.",
+      "descripcion_en": "One of Chile's most famous parks. The W and O treks through peaks, glaciers and puma country.",
+      "descripcion_pt": "Um dos parques mais famosos do Chile. Circuitos W e O entre cumes, glaciares e pumas.",
       "fecha_agregado": "2024-01-01"
     }
   ],

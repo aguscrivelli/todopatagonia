@@ -1,0 +1,79 @@
+{
+  "title": "El Calafate: glaciares e lagos na Patagônia",
+  "meta_description": "Guia de El Calafate: o Glaciar Perito Moreno, navegações pelo lago Argentino, o que fazer, como chegar e onde se hospedar.",
+  "hero_subtitle": "A porta de entrada para o Glaciar Perito Moreno, às margens do lago Argentino.",
+  "photo_alt": "Paisagem glacial perto de El Calafate",
+  "why_visit": [
+    {
+      "emoji": "🧊",
+      "title": "O Perito Moreno",
+      "text": "Um dos glaciares mais acessíveis do mundo: das passarelas você o vê de frente e ouve o gelo se desprender."
+    },
+    {
+      "emoji": "🌍",
+      "title": "Patrimônio da Humanidade",
+      "text": "O Parque Nacional Los Glaciares é reconhecido pela UNESCO pelos seus campos de gelo e glaciares."
+    },
+    {
+      "emoji": "🚤",
+      "title": "Lagos e icebergs",
+      "text": "As navegações pelo lago Argentino chegam a outros glaciares e passam entre icebergs de cores incríveis."
+    },
+    {
+      "emoji": "🥾",
+      "title": "Base para El Chaltén",
+      "text": "De El Calafate se segue de carro ou ônibus até El Chaltén, a capital do trekking."
+    }
+  ],
+  "activities": [
+    {
+      "title": "Passarelas do Perito Moreno",
+      "text": "Vários quilômetros de percursos diante do glaciar, com sacadas em diferentes alturas. Fique um bom tempo no mesmo ponto para ver os desprendimentos."
+    },
+    {
+      "title": "Caminhar sobre o gelo",
+      "text": "Caminhadas com grampões sobre o glaciar, sempre com guias habilitados. Têm vagas limitadas e limites de idade, e esgotam na alta temporada."
+    },
+    {
+      "title": "Navegação pelo lago Argentino",
+      "text": "Saídas de barco diante do Perito Moreno e passeios mais longos até outros glaciares do parque, como o Upsala e o Spegazzini."
+    },
+    {
+      "title": "Reserva Laguna Nimez",
+      "text": "A poucos passos do centro, uma trilha entre áreas úmidas onde se veem flamingos, cisnes-de-pescoço-preto e muitas outras aves."
+    },
+    {
+      "title": "Glaciarium",
+      "text": "Um centro de interpretação dedicado aos glaciares, ideal para entender o que você vai ver no parque."
+    }
+  ],
+  "how_to_get_there": "<p><strong>De avião:</strong> o Aeroporto Internacional de El Calafate (FTE) recebe voos diretos de Buenos Aires, de cerca de 3 horas, e conexões com outras cidades. Fica a cerca de 20 km do centro.</p><p><strong>Por terra:</strong> há ônibus de Río Gallegos, de El Chaltén (a cerca de 220 km) e de Puerto Natales, no Chile.</p><p><strong>Até o glaciar:</strong> o Perito Moreno fica a cerca de 80 km, por uma estrada asfaltada. Dá para ir com passeio, ônibus regular ou carro.</p>",
+  "where_to_stay": {
+    "budget": "Hostels com quartos compartilhados e cozinha para hóspedes, além de campings na temporada. São a opção mais econômica e um bom lugar para conhecer outros viajantes.",
+    "midrange": "Pousadas, cabanas e hotéis pequenos, muitas vezes com café da manhã incluído. As cabanas com cozinha são boas para famílias e grupos.",
+    "luxury": "Hotéis e lodges de alto padrão, com vista para a paisagem, spa ou passeios incluídos. Vale reservar com bastante antecedência."
+  },
+  "practical_tips": [
+    {
+      "emoji": "☀️",
+      "title": "Melhor época",
+      "text": "De outubro a abril todos os passeios funcionam e os dias são longos. O parque abre o ano todo."
+    },
+    {
+      "emoji": "🌬️",
+      "title": "Clima instável",
+      "text": "O vento e as mudanças bruscas de tempo fazem parte da viagem. Vista-se em camadas e leve sempre um corta-vento."
+    },
+    {
+      "emoji": "📅",
+      "title": "Reserve com antecedência",
+      "text": "Na alta temporada, hospedagens e passeios lotam. Vale reservar assim que tiver as datas."
+    },
+    {
+      "emoji": "💵",
+      "title": "Preços e pagamentos",
+      "text": "Os preços mudam com frequência: consulte as tarifas atuais antes de viajar e leve algum dinheiro em espécie além do cartão."
+    }
+  ],
+  "closing": "Reserve pelo menos um dia inteiro para o Perito Moreno e outro para navegar o lago. E, se puder, siga viagem até El Chaltén."
+}

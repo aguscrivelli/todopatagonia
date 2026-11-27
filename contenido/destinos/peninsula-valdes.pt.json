@@ -1,0 +1,74 @@
+{
+  "title": "Península Valdés: baleias e fauna marinha",
+  "meta_description": "Guia da Península Valdés: observação de baleias, lobos e elefantes-marinhos, pinguins, quando ir, como chegar e onde se hospedar.",
+  "hero_subtitle": "Um dos melhores lugares do mundo para ver baleias da costa e no mar.",
+  "photo_alt": "Baleia-franca-austral na Península Valdés",
+  "why_visit": [
+    {
+      "emoji": "🐋",
+      "title": "Baleia-franca-austral",
+      "text": "Todo ano elas chegam aos golfos para se reproduzir; a temporada vai, aproximadamente, de junho a dezembro."
+    },
+    {
+      "emoji": "🦭",
+      "title": "Fauna o ano todo",
+      "text": "Lobos e elefantes-marinhos vivem nas costas da península boa parte do ano."
+    },
+    {
+      "emoji": "🌍",
+      "title": "Patrimônio da Humanidade",
+      "text": "A península é reconhecida pela UNESCO pela importância da sua fauna marinha."
+    }
+  ],
+  "activities": [
+    {
+      "title": "Avistamento embarcado",
+      "text": "Na temporada, as saídas de barco partem de Puerto Pirámides, o único povoado da península."
+    },
+    {
+      "title": "Baleias da costa",
+      "text": "Em alguns trechos do golfo, como a costa perto de Puerto Madryn, as baleias chegam bem perto da margem."
+    },
+    {
+      "title": "Percurso pela península",
+      "text": "Mirantes de fauna como Punta Delgada, Caleta Valdés e Punta Norte, ligados por estradas de cascalho."
+    },
+    {
+      "title": "Pinguins",
+      "text": "Na primavera e no verão, o pinguim-de-magalhães chega à costa de Chubut; Punta Tombo, ao sul, é uma das colônias mais conhecidas."
+    },
+    {
+      "title": "Puerto Madryn",
+      "text": "A cidade-base, com orla, praias e mergulho no golfo Nuevo."
+    }
+  ],
+  "how_to_get_there": "<p><strong>De avião:</strong> os aeroportos mais usados são Trelew (REL) e Puerto Madryn (PMY). De Trelew é cerca de uma hora de estrada até Puerto Madryn.</p><p><strong>De ônibus:</strong> há linhas de longa distância até Puerto Madryn de Buenos Aires e outras cidades.</p><p><strong>Na península:</strong> percorre-se com passeio saindo de Puerto Madryn ou de carro. As estradas internas são de cascalho: dirija com cuidado.</p>",
+  "where_to_stay": {
+    "budget": "Hostels com quartos compartilhados e cozinha para hóspedes, além de campings na temporada. São a opção mais econômica e um bom lugar para conhecer outros viajantes.",
+    "midrange": "Pousadas, cabanas e hotéis pequenos, muitas vezes com café da manhã incluído. As cabanas com cozinha são boas para famílias e grupos.",
+    "luxury": "Hotéis e lodges de alto padrão, com vista para a paisagem, spa ou passeios incluídos. Vale reservar com bastante antecedência."
+  },
+  "practical_tips": [
+    {
+      "emoji": "🐋",
+      "title": "Quando ir",
+      "text": "Para baleias, aproximadamente de junho a dezembro. Os ciclos dos animais mudam um pouco a cada ano: consulte antes de viajar."
+    },
+    {
+      "emoji": "🌬️",
+      "title": "Clima instável",
+      "text": "O vento e as mudanças bruscas de tempo fazem parte da viagem. Vista-se em camadas e leve sempre um corta-vento."
+    },
+    {
+      "emoji": "📅",
+      "title": "Reserve com antecedência",
+      "text": "Na alta temporada, hospedagens e passeios lotam. Vale reservar assim que tiver as datas."
+    },
+    {
+      "emoji": "💵",
+      "title": "Preços e pagamentos",
+      "text": "Os preços mudam com frequência: consulte as tarifas atuais antes de viajar e leve algum dinheiro em espécie além do cartão."
+    }
+  ],
+  "closing": "Reserve pelo menos dois dias: um para o avistamento embarcado e outro para percorrer a península com calma."
+}

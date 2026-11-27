@@ -1,0 +1,78 @@
+{
+  "title": "Ushuaia: the city at the end of the world",
+  "meta_description": "Ushuaia guide: Beagle Channel, Tierra del Fuego National Park, penguins, hiking, how to get there and where to stay.",
+  "hero_subtitle": "Between the mountains and the Beagle Channel, at Argentina's southern tip.",
+  "photo_alt": "Penguins on the Beagle Channel shore",
+  "why_visit": [
+    {
+      "emoji": "🌊",
+      "title": "The Beagle Channel",
+      "text": "Boat trips among islands with sea lions, birds and the Les Eclaireurs lighthouse."
+    },
+    {
+      "emoji": "🐧",
+      "title": "Penguins",
+      "text": "In season you can visit the Martillo Island penguin colony, with trips from the city."
+    },
+    {
+      "emoji": "🌲",
+      "title": "Tierra del Fuego National Park",
+      "text": "Forests, lakes and bays a few kilometers away, with trails for every level."
+    }
+  ],
+  "activities": [
+    {
+      "title": "Beagle Channel boat trip",
+      "text": "Ushuaia's classic outing: islands with marine wildlife and views of the city from the water."
+    },
+    {
+      "title": "Tierra del Fuego National Park",
+      "text": "Coastal and forest trails, lakes and Lapataia Bay. Go on your own or on a tour."
+    },
+    {
+      "title": "End of the World Train",
+      "text": "A historic ride that enters the national park. Great with kids."
+    },
+    {
+      "title": "Laguna Esmeralda",
+      "text": "A half-day hike through forest and peat bog to a lake of intense green."
+    },
+    {
+      "title": "Martial Glacier",
+      "text": "A trail climbing from the edge of the city, with views of the channel."
+    },
+    {
+      "title": "Maritime and Prison Museum",
+      "text": "Housed in Ushuaia's old prison, it tells the story of the city and southern navigation."
+    }
+  ],
+  "how_to_get_there": "<p><strong>By plane:</strong> Malvinas Argentinas International Airport (USH) has direct flights from Buenos Aires, about three and a half hours, and from other cities.</p><p><strong>Overland:</strong> from the mainland you cross the Strait of Magellan by ferry and pass through Chilean territory. It's a long trip that requires valid documents.</p><p><strong>Around town:</strong> taxis, private cars and tours with transfers. The national park is a few kilometers away.</p>",
+  "where_to_stay": {
+    "budget": "Hostels with shared rooms and guest kitchens, plus campsites in season. They're the most affordable option and a good place to meet other travelers.",
+    "midrange": "Inns, cabins and small hotels, often with breakfast included. Cabins with kitchens suit families and groups.",
+    "luxury": "Upscale hotels and lodges with landscape views, spas or tours included. Book them well in advance."
+  },
+  "practical_tips": [
+    {
+      "emoji": "☀️",
+      "title": "Best time",
+      "text": "In summer the days are very long and there are more tours. In winter, Ushuaia is a snow destination."
+    },
+    {
+      "emoji": "🌬️",
+      "title": "Changeable weather",
+      "text": "Wind and sudden weather changes are part of the trip. Dress in layers and always carry a windbreaker."
+    },
+    {
+      "emoji": "📅",
+      "title": "Book ahead",
+      "text": "In high season, lodging and tours fill up. It's best to book as soon as you have your dates."
+    },
+    {
+      "emoji": "💵",
+      "title": "Prices and payments",
+      "text": "Prices change often: check current rates before you travel and carry some cash as well as cards."
+    }
+  ],
+  "closing": "Ushuaia combines sea, mountains and forest within a few kilometers. Three or four days cover the essentials."
+}

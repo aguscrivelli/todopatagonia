@@ -1,0 +1,74 @@
+{
+  "title": "Torres del Paine: o grande parque da Patagônia chilena",
+  "meta_description": "Guia de Torres del Paine: circuitos W e O, mirantes, fauna, como chegar de Puerto Natales ou El Calafate e onde se hospedar.",
+  "hero_subtitle": "Torres de granito, lagos turquesa e glaciares no sul do Chile.",
+  "photo_alt": "Lago e montanhas em Torres del Paine",
+  "why_visit": [
+    {
+      "emoji": "🗻",
+      "title": "O maciço do Paine",
+      "text": "As Torres e os Cuernos del Paine formam uma das paisagens de montanha mais famosas do mundo."
+    },
+    {
+      "emoji": "🥾",
+      "title": "Trekking",
+      "text": "Os circuitos W e O estão entre os trekkings mais procurados da América do Sul."
+    },
+    {
+      "emoji": "🦙",
+      "title": "Fauna",
+      "text": "Guanacos, emas, condores e uma das maiores chances de ver pumas em liberdade."
+    }
+  ],
+  "activities": [
+    {
+      "title": "Mirante Base Las Torres",
+      "text": "Uma caminhada longa e exigente que termina diante das três torres de granito. Dá para fazer num dia."
+    },
+    {
+      "title": "Circuito W",
+      "text": "Vários dias pelos vales mais conhecidos do parque. Exige reservas confirmadas em refúgios ou campings."
+    },
+    {
+      "title": "Lago Grey",
+      "text": "Um lago com icebergs e a frente do Glaciar Grey, aonde chegam navegações na temporada."
+    },
+    {
+      "title": "Mirantes de carro",
+      "text": "Salto Grande, o mirante Cuernos e o lago Pehoé se visitam em caminhadas curtas a partir da estrada."
+    },
+    {
+      "title": "Observação de pumas",
+      "text": "Passeios especializados com rastreadores aumentam muito as chances de ver um."
+    }
+  ],
+  "how_to_get_there": "<p><strong>Do Chile:</strong> voa-se até Punta Arenas (PUQ) e segue-se de ônibus até Puerto Natales, a cidade-base, e dali ao parque.</p><p><strong>Da Argentina:</strong> o mais comum é combiná-lo com El Calafate, cruzando por terra até Puerto Natales.</p><p><strong>Até o parque:</strong> há ônibus de Puerto Natales, passeios de um dia e carros alugados. A entrada é paga e vale resolvê-la antes de viajar.</p>",
+  "where_to_stay": {
+    "budget": "Campings dentro do parque, com reserva prévia, e pousadas em Puerto Natales.",
+    "midrange": "Refúgios do circuito e hotéis em Puerto Natales, a opção mais usada para passeios de um dia.",
+    "luxury": "Hotéis e lodges dentro do parque, muitos com pensão completa e passeios incluídos."
+  },
+  "practical_tips": [
+    {
+      "emoji": "🛂",
+      "title": "Fronteira e reservas",
+      "text": "Se você vem da Argentina, leve os documentos em dia. Para dormir dentro do parque, é preciso ter reservas confirmadas."
+    },
+    {
+      "emoji": "🌬️",
+      "title": "Clima instável",
+      "text": "O vento e as mudanças bruscas de tempo fazem parte da viagem. Vista-se em camadas e leve sempre um corta-vento."
+    },
+    {
+      "emoji": "📅",
+      "title": "Reserve com antecedência",
+      "text": "Na alta temporada, hospedagens e passeios lotam. Vale reservar assim que tiver as datas."
+    },
+    {
+      "emoji": "💵",
+      "title": "Preços e pagamentos",
+      "text": "Os preços mudam com frequência: consulte as tarifas atuais antes de viajar e leve algum dinheiro em espécie além do cartão."
+    }
+  ],
+  "closing": "Mesmo com um só dia, Torres del Paine vale a viagem. Se puder, fique mais e percorra-o a pé."
+}

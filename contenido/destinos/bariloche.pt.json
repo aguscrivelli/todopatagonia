@@ -1,0 +1,74 @@
+{
+  "title": "Bariloche: lagos, montanhas e bosques",
+  "meta_description": "Guia de Bariloche: Circuito Chico, Cerro Campanario, Ilha Victoria, esqui no Catedral, como chegar e onde se hospedar.",
+  "hero_subtitle": "Às margens do lago Nahuel Huapi, um destino para o ano todo.",
+  "photo_alt": "Lago Nahuel Huapi cercado de montanhas",
+  "why_visit": [
+    {
+      "emoji": "🏞️",
+      "title": "Parque Nacional Nahuel Huapi",
+      "text": "Lagos, bosques e montanhas dentro do parque nacional mais antigo da Argentina."
+    },
+    {
+      "emoji": "⛷️",
+      "title": "Neve no inverno",
+      "text": "O Cerro Catedral é uma das estações de esqui mais conhecidas da América do Sul."
+    },
+    {
+      "emoji": "🍫",
+      "title": "Gastronomia",
+      "text": "Chocolate, cerveja artesanal e pratos de montanha com truta e cervo."
+    }
+  ],
+  "activities": [
+    {
+      "title": "Circuito Chico",
+      "text": "O passeio clássico pela margem do Nahuel Huapi até a península Llao Llao, de carro, bicicleta ou com agência."
+    },
+    {
+      "title": "Cerro Campanario",
+      "text": "Um teleférico sobe em poucos minutos até uma das vistas panorâmicas mais bonitas da região."
+    },
+    {
+      "title": "Ilha Victoria e Bosque de Arrayanes",
+      "text": "Navegação de Puerto Pañuelo até a ilha e o bosque de arrayanes, de casca cor de canela."
+    },
+    {
+      "title": "Cerro Catedral",
+      "text": "Esqui no inverno e, no verão, teleféricos e trilhas como a que leva ao Refugio Frey."
+    },
+    {
+      "title": "Cerro Tronador",
+      "text": "Passeio de dia inteiro até a montanha mais alta da região e o Ventisquero Negro."
+    }
+  ],
+  "how_to_get_there": "<p><strong>De avião:</strong> o Aeroporto Internacional de Bariloche (BRC) recebe voos diretos de Buenos Aires, de cerca de duas horas, e de outras cidades.</p><p><strong>De ônibus:</strong> há linhas de longa distância de Buenos Aires e outras cidades; a viagem desde a capital leva cerca de um dia.</p><p><strong>Do Chile:</strong> por terra pela passagem Cardenal Samoré, que liga a região a Osorno e Puerto Montt.</p>",
+  "where_to_stay": {
+    "budget": "Hostels com quartos compartilhados e cozinha para hóspedes, além de campings na temporada. São a opção mais econômica e um bom lugar para conhecer outros viajantes.",
+    "midrange": "Pousadas, cabanas e hotéis pequenos, muitas vezes com café da manhã incluído. As cabanas com cozinha são boas para famílias e grupos.",
+    "luxury": "Hotéis e lodges de alto padrão, com vista para a paisagem, spa ou passeios incluídos. Vale reservar com bastante antecedência."
+  },
+  "practical_tips": [
+    {
+      "emoji": "☀️",
+      "title": "Melhor época",
+      "text": "Verão para lagos e trilhas; inverno para a neve. Janeiro e julho são os meses de maior procura."
+    },
+    {
+      "emoji": "🌬️",
+      "title": "Clima instável",
+      "text": "O vento e as mudanças bruscas de tempo fazem parte da viagem. Vista-se em camadas e leve sempre um corta-vento."
+    },
+    {
+      "emoji": "📅",
+      "title": "Reserve com antecedência",
+      "text": "Na alta temporada, hospedagens e passeios lotam. Vale reservar assim que tiver as datas."
+    },
+    {
+      "emoji": "💵",
+      "title": "Preços e pagamentos",
+      "text": "Os preços mudam com frequência: consulte as tarifas atuais antes de viajar e leve algum dinheiro em espécie além do cartão."
+    }
+  ],
+  "closing": "Bariloche funciona como base para conhecer a região dos lagos, incluindo o Caminho dos Sete Lagos até San Martín de los Andes."
+}

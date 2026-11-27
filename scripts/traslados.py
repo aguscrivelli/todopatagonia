@@ -14,7 +14,7 @@ GUIAS = {
         "Compare on Bookaway",
     ),
     "pt/destinos/el-chalten.html": (
-        "/pt", "Traslados de El Calafate a El Chaltén",
+        "/pt", "Traslados de El Calafate para El Chaltén",
         "Compare ônibus, traslados compartilhados e privativos. Antes de reservar, confira se a saída é da rodoviária ou do aeroporto.",
         "Comparar na Bookaway",
     ),

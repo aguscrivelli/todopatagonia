@@ -13,7 +13,10 @@ import random
 from pathlib import Path
 from datetime import datetime
 
-import anthropic
+try:
+    import anthropic
+except ImportError:  # solo hace falta para generar con la API
+    anthropic = None
 from slugify import slugify
 
 BOOKING_AFFILIATE = "101940420"
@@ -84,7 +87,7 @@ IDIOMAS = {
         "cta_booking_btn": "Ver hoteles en Booking.com",
         "cta_tours": "Tours y excursiones en {dest}",
         "cta_tours_btn": "Ver tours en GetYourGuide",
-        "footer_legal": "© 2024 TodoPatagonia.com · <a href='/afiliados.html'>Aviso de afiliados</a> · <a href='/privacidad.html'>Privacidad</a>",
+        "footer_legal": "© 2026 TodoPatagonia.com · <a href='/afiliados.html'>Aviso de afiliados</a> · <a href='/privacidad.html'>Privacidad</a>",
         "nav": {"destinos": "Destinos", "actividades": "Actividades", "como_llegar": "Cómo llegar", "blog": "Blog"},
         "section_highlights": "Por qué visitar",
         "section_activities": "Qué hacer",
@@ -105,7 +108,7 @@ IDIOMAS = {
         "cta_booking_btn": "View hotels on Booking.com",
         "cta_tours": "Tours & activities in {dest}",
         "cta_tours_btn": "View tours on GetYourGuide",
-        "footer_legal": "© 2024 TodoPatagonia.com · <a href='/en/affiliates.html'>Affiliate Disclosure</a> · <a href='/en/privacy.html'>Privacy</a>",
+        "footer_legal": "© 2026 TodoPatagonia.com · <a href='/en/affiliates.html'>Affiliate Disclosure</a> · <a href='/en/privacy.html'>Privacy</a>",
         "nav": {"destinos": "Destinations", "actividades": "Activities", "como_llegar": "How to Get There", "blog": "Blog"},
         "section_highlights": "Why Visit",
         "section_activities": "What to Do",
@@ -126,7 +129,7 @@ IDIOMAS = {
         "cta_booking_btn": "Ver hotéis no Booking.com",
         "cta_tours": "Tours e atividades em {dest}",
         "cta_tours_btn": "Ver tours no GetYourGuide",
-        "footer_legal": "© 2024 TodoPatagonia.com · <a href='/pt/afiliados.html'>Aviso de afiliados</a> · <a href='/pt/privacidade.html'>Privacidade</a>",
+        "footer_legal": "© 2026 TodoPatagonia.com · <a href='/pt/afiliados.html'>Aviso de afiliados</a> · <a href='/pt/privacidade.html'>Privacidade</a>",
         "nav": {"destinos": "Destinos", "actividades": "Atividades", "como_llegar": "Como Chegar", "blog": "Blog"},
         "section_highlights": "Por que visitar",
         "section_activities": "O que fazer",
@@ -261,8 +264,8 @@ def render_destino_html(destino_info, contenido, idioma_cfg, foto):
     if foto:
         hero_img = f"""<figure class="dest-hero-image">
       <img src="{foto['url']}" srcset="{foto['url_small']} 400w, {foto['url']} 1080w"
-           sizes="(max-width:600px) 400px, 1080px" alt="{foto['alt']}" loading="eager">
-      <figcaption>Foto de <a href="{foto['author_url']}?utm_source=todopatagonia&utm_medium=referral" target="_blank" rel="noopener">{foto['author_name']}</a> en <a href="{foto['unsplash_url']}?utm_source=todopatagonia&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></figcaption>
+           sizes="(max-width:600px) 400px, 1080px" alt="{contenido.get('photo_alt', nombre)}" loading="eager">
+      <figcaption>{ {"es": "Foto de", "en": "Photo by", "pt": "Foto de"}[lang] } <a href="{foto['author_url']}?utm_source=todopatagonia&utm_medium=referral" target="_blank" rel="noopener">{foto['author_name']}</a> { {"es": "en", "en": "on", "pt": "no"}[lang] } <a href="{foto['unsplash_url']}?utm_source=todopatagonia&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></figcaption>
     </figure>"""
         og_image = f'<meta property="og:image" content="{foto["url"]}">'
     else:
@@ -441,8 +444,12 @@ def main():
         print(f"\n📍 {destino['nombre']}")
 
         # Buscar foto UNA vez, compartir entre idiomas
-        print("   📸 Buscando foto Unsplash...")
-        foto = buscar_foto_unsplash(destino["unsplash_query"])
+        # Contenido escrito a mano en contenido/destinos/ (sin API) si existe.
+        fotos = Path("contenido/destinos/fotos.json")
+        foto = json.loads(fotos.read_text(encoding="utf-8")).get(destino["slug"]) if fotos.exists() else None
+        if foto is None:
+            print("   📸 Buscando foto Unsplash...")
+            foto = buscar_foto_unsplash(destino["unsplash_query"])
         if foto:
             print(f"   → {foto['author_name']}")
         else:
@@ -454,7 +461,11 @@ def main():
 
             print(f"   🌐 Generando [{idioma_key.upper()}]...", end=" ", flush=True)
             try:
-                contenido = generar_contenido_destino(destino, idioma_cfg)
+                propio = Path("contenido/destinos") / f"{destino['slug']}.{idioma_key}.json"
+                if propio.exists():
+                    contenido = json.loads(propio.read_text(encoding="utf-8"))
+                else:
+                    contenido = generar_contenido_destino(destino, idioma_cfg)
                 html = render_destino_html(destino, contenido, idioma_cfg, foto)
                 dest_dir.mkdir(parents=True, exist_ok=True)
                 dest_file.write_text(html, encoding="utf-8")

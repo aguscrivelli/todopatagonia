@@ -1,0 +1,78 @@
+{
+  "title": "Ushuaia: la ciudad del fin del mundo",
+  "meta_description": "Guía de Ushuaia: Canal Beagle, Parque Nacional Tierra del Fuego, pingüinos, trekking, cómo llegar y dónde alojarse.",
+  "hero_subtitle": "Entre la cordillera y el Canal Beagle, en el extremo sur de la Argentina.",
+  "photo_alt": "Pingüinos en la costa del Canal Beagle",
+  "why_visit": [
+    {
+      "emoji": "🌊",
+      "title": "El Canal Beagle",
+      "text": "Navegaciones entre islas con lobos marinos, aves y el faro Les Eclaireurs."
+    },
+    {
+      "emoji": "🐧",
+      "title": "Pingüinos",
+      "text": "En temporada se visita la pingüinera de Isla Martillo, con salidas desde la ciudad."
+    },
+    {
+      "emoji": "🌲",
+      "title": "Parque Nacional Tierra del Fuego",
+      "text": "Bosques, lagos y bahías a pocos kilómetros, con senderos para todos los niveles."
+    }
+  ],
+  "activities": [
+    {
+      "title": "Navegación por el Canal Beagle",
+      "text": "La excursión clásica de Ushuaia: islas con fauna marina y vistas de la ciudad desde el agua."
+    },
+    {
+      "title": "Parque Nacional Tierra del Fuego",
+      "text": "Senderos costeros y de bosque, lagos y la bahía Lapataia. Se puede ir por cuenta propia o en excursión."
+    },
+    {
+      "title": "Tren del Fin del Mundo",
+      "text": "Un paseo histórico que entra al parque nacional. Ideal para hacer con chicos."
+    },
+    {
+      "title": "Laguna Esmeralda",
+      "text": "Un trekking de medio día entre bosque y turba hasta una laguna de color verde intenso."
+    },
+    {
+      "title": "Glaciar Martial",
+      "text": "Un sendero que sube desde las afueras de la ciudad, con vistas al canal."
+    },
+    {
+      "title": "Museo Marítimo y del Presidio",
+      "text": "Funciona en la antigua cárcel de Ushuaia y cuenta la historia de la ciudad y de la navegación austral."
+    }
+  ],
+  "how_to_get_there": "<p><strong>En avión:</strong> el Aeropuerto Internacional Malvinas Argentinas (USH) recibe vuelos directos desde Buenos Aires, de unas tres horas y media, y desde otras ciudades.</p><p><strong>Por tierra:</strong> desde el continente se cruza el estrecho de Magallanes en ferry y se pasa por territorio chileno. Es un viaje largo que requiere documentación al día.</p><p><strong>En la ciudad:</strong> taxis, remises y excursiones con traslado. El parque nacional queda a pocos kilómetros.</p>",
+  "where_to_stay": {
+    "budget": "Hostels con habitaciones compartidas y cocina para huéspedes, además de campings en temporada. Son la opción más económica y un buen lugar para conocer otros viajeros.",
+    "midrange": "Hosterías, cabañas y hoteles pequeños, muchas veces con desayuno incluido. Las cabañas con cocina convienen a familias y grupos.",
+    "luxury": "Hoteles y lodges de categoría, con vistas al paisaje, spa o excursiones incluidas. Conviene reservarlos con mucha anticipación."
+  },
+  "practical_tips": [
+    {
+      "emoji": "☀️",
+      "title": "Mejor época",
+      "text": "En verano los días son larguísimos y hay más excursiones. En invierno, Ushuaia es destino de nieve."
+    },
+    {
+      "emoji": "🌬️",
+      "title": "Clima cambiante",
+      "text": "El viento y los cambios bruscos de tiempo son parte del viaje. Vestite en capas y llevá siempre un rompeviento."
+    },
+    {
+      "emoji": "📅",
+      "title": "Reservá con tiempo",
+      "text": "En temporada alta, alojamientos y excursiones se llenan. Conviene reservar apenas tengas las fechas."
+    },
+    {
+      "emoji": "💵",
+      "title": "Precios y pagos",
+      "text": "Los precios cambian seguido: consultá las tarifas vigentes antes de viajar y llevá algo de efectivo además de tarjeta."
+    }
+  ],
+  "closing": "Ushuaia combina mar, montaña y bosque en pocos kilómetros. Con tres o cuatro días podés recorrer lo esencial."
+}

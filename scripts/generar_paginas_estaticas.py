@@ -57,7 +57,7 @@ IDIOMAS = {
             ("/privacidad.html", "Privacidad"),
             ("/afiliados.html", "Aviso de afiliados"),
         ],
-        "footer_copy": "© 2024 TodoPatagonia.com · Sitio independiente de viajes · <a href='/afiliados.html'>Aviso de afiliados</a>",
+        "footer_copy": "© 2026 TodoPatagonia.com · Sitio independiente de viajes · <a href='/afiliados.html'>Aviso de afiliados</a>",
         "prompt_lang": "Spanish (Argentina)",
         "booking_cta": "Reservá tu alojamiento en Patagonia",
         "booking_btn": "Buscar hoteles en Booking.com",
@@ -95,7 +95,7 @@ IDIOMAS = {
             ("/en/privacy.html", "Privacy"),
             ("/en/affiliates.html", "Affiliate Disclosure"),
         ],
-        "footer_copy": "© 2024 TodoPatagonia.com · Independent travel site · <a href='/en/affiliates.html'>Affiliate Disclosure</a>",
+        "footer_copy": "© 2026 TodoPatagonia.com · Independent travel site · <a href='/en/affiliates.html'>Affiliate Disclosure</a>",
         "prompt_lang": "English",
         "booking_cta": "Find your Patagonia accommodation",
         "booking_btn": "Search hotels on Booking.com",
@@ -133,7 +133,7 @@ IDIOMAS = {
             ("/pt/privacidade.html", "Privacidade"),
             ("/pt/afiliados.html", "Aviso de Afiliados"),
         ],
-        "footer_copy": "© 2024 TodoPatagonia.com · Site independente de viagens · <a href='/pt/afiliados.html'>Aviso de Afiliados</a>",
+        "footer_copy": "© 2026 TodoPatagonia.com · Site independente de viagens · <a href='/pt/afiliados.html'>Aviso de Afiliados</a>",
         "prompt_lang": "Brazilian Portuguese",
         "booking_cta": "Reserve sua acomodação na Patagônia",
         "booking_btn": "Buscar hotéis no Booking.com",
@@ -758,7 +758,7 @@ def render_legal_html(lang, tipo, cfg):
       <ul>
         <li><strong>Booking.com Partner Program:</strong> If you book accommodation through our links, we receive a small commission from Booking.com. The price you pay is exactly the same.</li>
         <li><strong>GetYourGuide Partner Program:</strong> If you purchase tours or activities through our links, we receive a commission. No additional cost to you.</li>
-        <li><strong>Google AdSense:</strong> We display Google ads on some pages of the site.</li>
+        <li><strong>Google AdSense:</strong> We may display Google ads on some pages of the site.</li>
       </ul>
       <p>These commissions allow us to keep the site free and continue publishing useful content about Patagonia. We only recommend services we trust. The opinions expressed on this site are independent and not influenced by affiliate agreements.</p>"""
         else:  # pt
@@ -768,7 +768,7 @@ def render_legal_html(lang, tipo, cfg):
       <ul>
         <li><strong>Programa de Parceiros Booking.com:</strong> Se você reservar acomodação através dos nossos links, recebemos uma pequena comissão do Booking.com. O preço que você paga é exatamente o mesmo.</li>
         <li><strong>Programa de Parceiros GetYourGuide:</strong> Se você comprar passeios ou atividades através dos nossos links, recebemos uma comissão. Sem custo adicional para você.</li>
-        <li><strong>Google AdSense:</strong> Exibimos anúncios do Google em algumas páginas do site.</li>
+        <li><strong>Google AdSense:</strong> Podemos exibir anúncios do Google em algumas páginas do site.</li>
       </ul>
       <p>Essas comissões nos permitem manter o site gratuito e continuar publicando conteúdo útil sobre a Patagônia. Recomendamos apenas serviços em que confiamos. As opiniões expressas neste site são independentes e não são influenciadas por acordos de afiliados.</p>"""
 

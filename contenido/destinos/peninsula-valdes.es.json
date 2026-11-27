@@ -1,0 +1,74 @@
+{
+  "title": "Península Valdés: ballenas y fauna marina",
+  "meta_description": "Guía de Península Valdés: avistaje de ballenas, lobos y elefantes marinos, pingüinos, cuándo ir, cómo llegar y dónde alojarse.",
+  "hero_subtitle": "Uno de los mejores lugares del mundo para ver ballenas desde la costa y en el mar.",
+  "photo_alt": "Ballena franca austral en Península Valdés",
+  "why_visit": [
+    {
+      "emoji": "🐋",
+      "title": "Ballena franca austral",
+      "text": "Cada año llegan a los golfos para reproducirse; la temporada va, aproximadamente, de junio a diciembre."
+    },
+    {
+      "emoji": "🦭",
+      "title": "Fauna todo el año",
+      "text": "Lobos y elefantes marinos viven en las costas de la península gran parte del año."
+    },
+    {
+      "emoji": "🌍",
+      "title": "Patrimonio de la Humanidad",
+      "text": "La península está reconocida por la UNESCO por la importancia de su fauna marina."
+    }
+  ],
+  "activities": [
+    {
+      "title": "Avistaje embarcado",
+      "text": "En temporada, las salidas en barco parten de Puerto Pirámides, el único pueblo de la península."
+    },
+    {
+      "title": "Ballenas desde la costa",
+      "text": "En algunos sectores del golfo, como la costa cercana a Puerto Madryn, las ballenas se acercan mucho a la orilla."
+    },
+    {
+      "title": "Recorrido por la península",
+      "text": "Miradores de fauna como Punta Delgada, Caleta Valdés y Punta Norte, unidos por caminos de ripio."
+    },
+    {
+      "title": "Pingüinos",
+      "text": "En primavera y verano, el pingüino de Magallanes llega a la costa de Chubut; Punta Tombo, al sur, es una de las colonias más conocidas."
+    },
+    {
+      "title": "Puerto Madryn",
+      "text": "La ciudad base, con costanera, playas y buceo en el golfo Nuevo."
+    }
+  ],
+  "how_to_get_there": "<p><strong>En avión:</strong> los aeropuertos más usados son Trelew (REL) y Puerto Madryn (PMY). Desde Trelew hay alrededor de una hora por ruta hasta Puerto Madryn.</p><p><strong>En bus:</strong> hay servicios de larga distancia hasta Puerto Madryn desde Buenos Aires y otras ciudades.</p><p><strong>En la península:</strong> se recorre en excursión desde Puerto Madryn o en auto. Los caminos internos son de ripio: manejá con precaución.</p>",
+  "where_to_stay": {
+    "budget": "Hostels con habitaciones compartidas y cocina para huéspedes, además de campings en temporada. Son la opción más económica y un buen lugar para conocer otros viajeros.",
+    "midrange": "Hosterías, cabañas y hoteles pequeños, muchas veces con desayuno incluido. Las cabañas con cocina convienen a familias y grupos.",
+    "luxury": "Hoteles y lodges de categoría, con vistas al paisaje, spa o excursiones incluidas. Conviene reservarlos con mucha anticipación."
+  },
+  "practical_tips": [
+    {
+      "emoji": "🐋",
+      "title": "Cuándo ir",
+      "text": "Para ballenas, de junio a diciembre aproximadamente. Los ciclos de los animales cambian un poco cada año: consultá antes de viajar."
+    },
+    {
+      "emoji": "🌬️",
+      "title": "Clima cambiante",
+      "text": "El viento y los cambios bruscos de tiempo son parte del viaje. Vestite en capas y llevá siempre un rompeviento."
+    },
+    {
+      "emoji": "📅",
+      "title": "Reservá con tiempo",
+      "text": "En temporada alta, alojamientos y excursiones se llenan. Conviene reservar apenas tengas las fechas."
+    },
+    {
+      "emoji": "💵",
+      "title": "Precios y pagos",
+      "text": "Los precios cambian seguido: consultá las tarifas vigentes antes de viajar y llevá algo de efectivo además de tarjeta."
+    }
+  ],
+  "closing": "Calculá al menos dos días: uno para el avistaje embarcado y otro para recorrer la península con calma."
+}

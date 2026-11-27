@@ -1,0 +1,79 @@
+{
+  "title": "El Calafate: glaciers and lakes in Patagonia",
+  "meta_description": "El Calafate guide: Perito Moreno Glacier, boat trips on Lake Argentino, things to do, how to get there and where to stay.",
+  "hero_subtitle": "The gateway to Perito Moreno Glacier, on the shores of Lake Argentino.",
+  "photo_alt": "Glacier landscape near El Calafate",
+  "why_visit": [
+    {
+      "emoji": "🧊",
+      "title": "Perito Moreno",
+      "text": "One of the most accessible glaciers in the world: from the walkways you see it face to face and hear the ice break off."
+    },
+    {
+      "emoji": "🌍",
+      "title": "World Heritage Site",
+      "text": "Los Glaciares National Park is recognized by UNESCO for its ice fields and glaciers."
+    },
+    {
+      "emoji": "🚤",
+      "title": "Lakes and icebergs",
+      "text": "Boat trips on Lake Argentino reach other glaciers and sail among icebergs of incredible colors."
+    },
+    {
+      "emoji": "🥾",
+      "title": "Base for El Chaltén",
+      "text": "From El Calafate you can continue by road to El Chaltén, the trekking capital."
+    }
+  ],
+  "activities": [
+    {
+      "title": "Perito Moreno walkways",
+      "text": "Several kilometers of trails facing the glacier, with balconies at different heights. Stay a while in one spot to watch the ice calve."
+    },
+    {
+      "title": "Walking on the ice",
+      "text": "Crampon hikes on the glacier, always with licensed guides. Spots and age limits apply, and they sell out in high season."
+    },
+    {
+      "title": "Boat trips on Lake Argentino",
+      "text": "Boat trips in front of Perito Moreno and longer excursions to other glaciers in the park, such as Upsala and Spegazzini."
+    },
+    {
+      "title": "Laguna Nimez Reserve",
+      "text": "Steps from downtown, a trail through wetlands where you can see flamingos, black-necked swans and many other birds."
+    },
+    {
+      "title": "Glaciarium",
+      "text": "An interpretation center dedicated to glaciers, ideal for understanding what you'll see in the park."
+    }
+  ],
+  "how_to_get_there": "<p><strong>By plane:</strong> El Calafate International Airport (FTE) has direct flights from Buenos Aires, about 3 hours, and connections with other cities. It's about 20 km from town.</p><p><strong>Overland:</strong> there are buses from Río Gallegos, from El Chaltén (about 220 km away) and from Puerto Natales, Chile.</p><p><strong>To the glacier:</strong> Perito Moreno is about 80 km away on a paved road. Go on a tour, by scheduled bus or by car.</p>",
+  "where_to_stay": {
+    "budget": "Hostels with shared rooms and guest kitchens, plus campsites in season. They're the most affordable option and a good place to meet other travelers.",
+    "midrange": "Inns, cabins and small hotels, often with breakfast included. Cabins with kitchens suit families and groups.",
+    "luxury": "Upscale hotels and lodges with landscape views, spas or tours included. Book them well in advance."
+  },
+  "practical_tips": [
+    {
+      "emoji": "☀️",
+      "title": "Best time",
+      "text": "From October to April all tours run and days are long. The park is open all year."
+    },
+    {
+      "emoji": "🌬️",
+      "title": "Changeable weather",
+      "text": "Wind and sudden weather changes are part of the trip. Dress in layers and always carry a windbreaker."
+    },
+    {
+      "emoji": "📅",
+      "title": "Book ahead",
+      "text": "In high season, lodging and tours fill up. It's best to book as soon as you have your dates."
+    },
+    {
+      "emoji": "💵",
+      "title": "Prices and payments",
+      "text": "Prices change often: check current rates before you travel and carry some cash as well as cards."
+    }
+  ],
+  "closing": "Set aside at least one full day for Perito Moreno and another for the lake. And if you can, continue on to El Chaltén."
+}

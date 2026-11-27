@@ -1,0 +1,74 @@
+{
+  "title": "Torres del Paine: Chilean Patagonia's great park",
+  "meta_description": "Torres del Paine guide: W and O treks, viewpoints, wildlife, how to get there from Puerto Natales or El Calafate and where to stay.",
+  "hero_subtitle": "Granite towers, turquoise lakes and glaciers in southern Chile.",
+  "photo_alt": "Lake and mountains in Torres del Paine",
+  "why_visit": [
+    {
+      "emoji": "🗻",
+      "title": "The Paine massif",
+      "text": "The Towers and the Horns of Paine form one of the world's most famous mountain landscapes."
+    },
+    {
+      "emoji": "🥾",
+      "title": "Trekking",
+      "text": "The W and O circuits are among South America's most sought-after treks."
+    },
+    {
+      "emoji": "🦙",
+      "title": "Wildlife",
+      "text": "Guanacos, rheas, condors and one of the best chances to see wild pumas."
+    }
+  ],
+  "activities": [
+    {
+      "title": "Base of the Towers viewpoint",
+      "text": "A long, demanding hike ending in front of the three granite towers. It can be done as a day hike."
+    },
+    {
+      "title": "W Trek",
+      "text": "Several days through the park's best-known valleys. Requires confirmed bookings at refugios or campsites."
+    },
+    {
+      "title": "Lake Grey",
+      "text": "A lake with icebergs and the front of Grey Glacier, reached by boat trips in season."
+    },
+    {
+      "title": "Viewpoints by car",
+      "text": "Salto Grande, the Cuernos viewpoint and Lake Pehoé can be visited on short walks from the road."
+    },
+    {
+      "title": "Puma tracking",
+      "text": "Specialized tours with trackers greatly improve the odds of seeing one."
+    }
+  ],
+  "how_to_get_there": "<p><strong>From Chile:</strong> fly to Punta Arenas (PUQ) and take a bus to Puerto Natales, the base town, and from there to the park.</p><p><strong>From Argentina:</strong> most travelers combine it with El Calafate, crossing overland to Puerto Natales.</p><p><strong>To the park:</strong> there are buses from Puerto Natales, day tours and rental cars. There's an entrance fee, best arranged before your trip.</p>",
+  "where_to_stay": {
+    "budget": "Campsites inside the park, booked in advance, and guesthouses in Puerto Natales.",
+    "midrange": "Refugios on the trek and hotels in Puerto Natales, the usual choice for day trips.",
+    "luxury": "Hotels and lodges inside the park, many with full board and excursions included."
+  },
+  "practical_tips": [
+    {
+      "emoji": "🛂",
+      "title": "Border and bookings",
+      "text": "If you come from Argentina, carry valid documents. You need confirmed bookings to sleep inside the park."
+    },
+    {
+      "emoji": "🌬️",
+      "title": "Changeable weather",
+      "text": "Wind and sudden weather changes are part of the trip. Dress in layers and always carry a windbreaker."
+    },
+    {
+      "emoji": "📅",
+      "title": "Book ahead",
+      "text": "In high season, lodging and tours fill up. It's best to book as soon as you have your dates."
+    },
+    {
+      "emoji": "💵",
+      "title": "Prices and payments",
+      "text": "Prices change often: check current rates before you travel and carry some cash as well as cards."
+    }
+  ],
+  "closing": "Even with a single day, Torres del Paine is worth the trip. If you can, stay longer and explore it on foot."
+}

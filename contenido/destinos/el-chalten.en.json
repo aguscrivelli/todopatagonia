@@ -1,0 +1,74 @@
+{
+  "title": "El Chaltén: hiking at the foot of Fitz Roy",
+  "meta_description": "El Chaltén guide: trails to Laguna de los Tres and Laguna Torre, when to go, how to get there from El Calafate and where to stay.",
+  "hero_subtitle": "Argentina's National Trekking Capital, with trails that start right from town.",
+  "photo_alt": "Snow-covered Mount Fitz Roy",
+  "why_visit": [
+    {
+      "emoji": "⛰️",
+      "title": "Fitz Roy and Cerro Torre",
+      "text": "Two of the most impressive mountains in the Andes, a day's hike from town."
+    },
+    {
+      "emoji": "🥾",
+      "title": "Trails from town",
+      "text": "You don't need a car or a tour: many trails start in the streets of El Chaltén."
+    },
+    {
+      "emoji": "🍂",
+      "title": "Lenga forests",
+      "text": "In autumn the forests turn red and yellow and the landscape changes completely."
+    }
+  ],
+  "activities": [
+    {
+      "title": "Laguna de los Tres",
+      "text": "The classic hike to Fitz Roy: a long day with a very steep final section. Start early and pick a clear day."
+    },
+    {
+      "title": "Laguna Torre",
+      "text": "A full day without big climbs, to a lake with the glacier and Cerro Torre behind it."
+    },
+    {
+      "title": "Mirador de los Cóndores",
+      "text": "A short walk with views over the town and valley. Ideal for your arrival day or sunset."
+    },
+    {
+      "title": "Loma del Pliegue Tumbado",
+      "text": "A steady climb to a viewpoint with Fitz Roy, Cerro Torre and Lake Viedma on the same horizon."
+    },
+    {
+      "title": "Lago del Desierto",
+      "text": "North of town, a day trip among forests, waterfalls and quiet lakes."
+    }
+  ],
+  "how_to_get_there": "<p><strong>The nearest airport</strong> is El Calafate (FTE), about 220 km away. There are daily buses to El Chaltén, a trip of around three hours.</p><p><strong>By car:</strong> via Route 40 and provincial route 23, with steppe scenery and views of Fitz Roy as you approach.</p><p><strong>In town:</strong> everything is walkable. Stop at the national park visitor center at the entrance for trail information.</p>",
+  "where_to_stay": {
+    "budget": "Hostels with shared rooms and guest kitchens, plus campsites in season. They're the most affordable option and a good place to meet other travelers.",
+    "midrange": "Inns, cabins and small hotels, often with breakfast included. Cabins with kitchens suit families and groups.",
+    "luxury": "Upscale hotels and lodges with landscape views, spas or tours included. Book them well in advance."
+  },
+  "practical_tips": [
+    {
+      "emoji": "☀️",
+      "title": "Best time",
+      "text": "The trekking season runs from October to April. In winter many lodgings and shops close."
+    },
+    {
+      "emoji": "🌬️",
+      "title": "Changeable weather",
+      "text": "Wind and sudden weather changes are part of the trip. Dress in layers and always carry a windbreaker."
+    },
+    {
+      "emoji": "📅",
+      "title": "Book ahead",
+      "text": "In high season, lodging and tours fill up. It's best to book as soon as you have your dates."
+    },
+    {
+      "emoji": "💵",
+      "title": "Prices and payments",
+      "text": "Prices change often: check current rates before you travel and carry some cash as well as cards."
+    }
+  ],
+  "closing": "Leave spare days: Fitz Roy often hides in the clouds, and the day it clears is your Laguna de los Tres day."
+}
