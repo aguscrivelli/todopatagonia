@@ -40,5 +40,14 @@
     "author_name": "Agus Buscaglia",
     "author_url": "https://unsplash.com/@agusbusca",
     "unsplash_url": "https://unsplash.com/photos/penguins-on-green-grass-field-during-daytime-zBVhMwd7g_A"
+  },
+  "puerto-madryn": {
+    "url": "/img/destinos/puerto-madryn.jpg",
+    "url_small": "/img/destinos/puerto-madryn.jpg",
+    "author_name": "Horacio_Fernandez (CC BY 3.0)",
+    "author_url": "https://commons.wikimedia.org/wiki/File:Costa_patag%C3%B3nica_del_Golfo_Nuevo_._-_panoramio_(1).jpg",
+    "fuente_nombre": "Wikimedia Commons",
+    "fuente_url": "https://commons.wikimedia.org/wiki/File:Costa_patag%C3%B3nica_del_Golfo_Nuevo_._-_panoramio_(1).jpg",
+    "titulo": "File:Costa patagónica del Golfo Nuevo . - panoramio (1).jpg"
   }
 }
