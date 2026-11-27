@@ -2,6 +2,7 @@
 import shutil
 from pathlib import Path
 
+from seo import procesar as aplicar_seo
 from traslados import agregar_traslados
 from visuales_editoriales import aplicar_visuales
 
@@ -21,6 +22,7 @@ def main():
         html = agregar_traslados(path, html).encode()
         script = b'<script src="/js/affiliate-clicks.js?v=2" defer></script>'
         page.write_bytes(html.replace(b"</body>", script + b"\n</body>", 1))
+    aplicar_seo(output)
 
 
 if __name__ == "__main__":
