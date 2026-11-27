@@ -4,7 +4,7 @@ Cada semana se toma el primero sin marcar, se publica en ES, EN y PT y se marca 
 Orden: demanda de viajeros y potencial de alojamiento/excursiones. Se pueden agregar al final.
 Formato: nombre (slug) — región.
 
-- [ ] Puerto Madryn (puerto-madryn) — Costa atlántica, Chubut
+- [x] Puerto Madryn (puerto-madryn) — Costa atlántica, Chubut
 - [ ] San Martín de los Andes (san-martin-de-los-andes) — Lagos, Neuquén
 - [ ] Villa La Angostura (villa-la-angostura) — Lagos, Neuquén
 - [ ] Puerto Natales (puerto-natales) — Magallanes, Chile

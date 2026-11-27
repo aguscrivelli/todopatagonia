@@ -65,6 +65,18 @@
       "fecha_agregado": "2024-01-01",
       "lat": -50.9423,
       "lng": -73.4068
+    },
+    {
+      "nombre": "Puerto Madryn",
+      "slug": "puerto-madryn",
+      "emoji": "🌊",
+      "descripcion_es": "Ciudad frente al golfo Nuevo y base para Península Valdés, con ballenas desde la costa en temporada.",
+      "descripcion_en": "A city on Golfo Nuevo and the base for Valdés Peninsula, with whales visible from shore in season.",
+      "descripcion_pt": "Cidade diante do golfo Nuevo e base para a Península Valdés, com baleias vistas da costa na temporada.",
+      "fecha_agregado": "2026-11-27",
+      "lat": -42.7692,
+      "lng": -65.0385,
+      "foto_buscar": "Puerto Madryn golfo Nuevo"
     }
   ],
   "pendientes": [
@@ -77,16 +89,6 @@
       "descripcion_pt": "Vila alpina com lagos, florestas e o Parque Nacional Lanín. A joia do norte neuquino.",
       "unsplash_query": "San Martin de los Andes lake Argentina Lanin",
       "gyg_query": "San Martin de los Andes"
-    },
-    {
-      "nombre": "Puerto Madryn",
-      "slug": "puerto-madryn",
-      "emoji": "🌊",
-      "descripcion_es": "Capital del turismo de naturaleza patagónico. Base ideal para visitar Península Valdés.",
-      "descripcion_en": "Capital of Patagonian nature tourism. The ideal base to visit Península Valdés.",
-      "descripcion_pt": "Capital do turismo de natureza patagônico. Base ideal para visitar a Península Valdés.",
-      "unsplash_query": "Puerto Madryn beach Patagonia Argentina coast",
-      "gyg_query": "Puerto Madryn"
     },
     {
       "nombre": "Neuquén",

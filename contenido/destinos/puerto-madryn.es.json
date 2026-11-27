@@ -1,0 +1,78 @@
+{
+  "title": "Puerto Madryn: la base para Península Valdés",
+  "meta_description": "Guía de Puerto Madryn: ballenas desde la costa, Punta Loma, buceo, el Ecocentro y cómo usarla de base para Península Valdés.",
+  "hero_subtitle": "Una ciudad frente al golfo Nuevo, con ballenas a la vista en temporada.",
+  "photo_alt": "Costa de Puerto Madryn sobre el golfo Nuevo",
+  "why_visit": [
+    {
+      "emoji": "🐋",
+      "title": "Ballenas desde la costa",
+      "text": "En temporada, las ballenas francas se acercan tanto a algunas playas del golfo que se ven sin subir a un barco."
+    },
+    {
+      "emoji": "🧭",
+      "title": "Base para Península Valdés",
+      "text": "La mayoría de las excursiones a la península salen desde la ciudad."
+    },
+    {
+      "emoji": "🏛️",
+      "title": "Historia galesa",
+      "text": "Los colonos galeses llegaron a esta costa en 1865 y su huella sigue presente en la región."
+    }
+  ],
+  "activities": [
+    {
+      "title": "Costanera y playas",
+      "text": "Varios kilómetros de costanera para caminar o andar en bici frente al golfo."
+    },
+    {
+      "title": "Avistaje desde la costa",
+      "text": "Al norte de la ciudad hay playas desde donde, en temporada, las ballenas se ven muy cerca de la orilla."
+    },
+    {
+      "title": "Punta Loma",
+      "text": "Una reserva cercana con un apostadero de lobos marinos y miradores sobre la costa."
+    },
+    {
+      "title": "Buceo y snorkel",
+      "text": "Las aguas del golfo Nuevo son un destino conocido para bucear, con salidas para principiantes y buzos con experiencia."
+    },
+    {
+      "title": "Ecocentro",
+      "text": "Un centro de interpretación sobre el mar patagónico, en una de las puntas de la costa."
+    },
+    {
+      "title": "Excursiones de día",
+      "text": "Desde la ciudad se visitan Península Valdés, la pingüinera de Punta Tombo en temporada y los pueblos galeses del valle del Chubut."
+    }
+  ],
+  "how_to_get_there": "<p><strong>En avión:</strong> Puerto Madryn tiene aeropuerto (PMY) y muchos viajeros llegan por el de Trelew (REL), a alrededor de una hora por ruta.</p><p><strong>En bus:</strong> hay servicios de larga distancia desde Buenos Aires y otras ciudades del país.</p><p><strong>Para moverte:</strong> excursiones con traslado o auto de alquiler, muy útil para recorrer la península a tu ritmo.</p>",
+  "where_to_stay": {
+    "budget": "Hostels con habitaciones compartidas y cocina para huéspedes, además de campings en temporada. Son la opción más económica y un buen lugar para conocer otros viajeros.",
+    "midrange": "Hosterías, cabañas y hoteles pequeños, muchas veces con desayuno incluido. Las cabañas con cocina convienen a familias y grupos.",
+    "luxury": "Hoteles y lodges de categoría, con vistas al paisaje, spa o excursiones incluidas. Conviene reservarlos con mucha anticipación."
+  },
+  "practical_tips": [
+    {
+      "emoji": "🐋",
+      "title": "Cuándo ir",
+      "text": "Para ver ballenas, de junio a diciembre aproximadamente. En verano, la ciudad es también destino de playa."
+    },
+    {
+      "emoji": "🌬️",
+      "title": "Clima cambiante",
+      "text": "El viento y los cambios bruscos de tiempo son parte del viaje. Vestite en capas y llevá siempre un rompeviento."
+    },
+    {
+      "emoji": "📅",
+      "title": "Reservá con tiempo",
+      "text": "En temporada alta, alojamientos y excursiones se llenan. Conviene reservar apenas tengas las fechas."
+    },
+    {
+      "emoji": "💵",
+      "title": "Precios y pagos",
+      "text": "Los precios cambian seguido: consultá las tarifas vigentes antes de viajar y llevá algo de efectivo además de tarjeta."
+    }
+  ],
+  "closing": "Puerto Madryn combina ciudad, playa y fauna. Con tres días podés recorrer la península y disfrutar del golfo."
+}
