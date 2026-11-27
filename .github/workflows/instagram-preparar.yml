@@ -1,0 +1,68 @@
+name: Instagram · preparar imágenes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'instagram/cola.json'
+      - 'scripts/instagram_render.py'
+  workflow_dispatch:
+
+concurrency:
+  group: publicacion-hostinger
+  cancel-in-progress: false
+
+jobs:
+  preparar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias y tipografías
+        run: |
+          pip install pillow requests
+          sudo apt-get install -y -qq fonts-dejavu-core > /dev/null || true
+          mkdir -p /tmp/fuentes
+          for peso in Bold Regular; do
+            curl -sfL -o /tmp/fuentes/Montserrat-$peso.ttf \
+              "https://github.com/JulietaUla/Montserrat/raw/master/fonts/ttf/Montserrat-$peso.ttf" || true
+          done
+
+      - name: Generar imágenes y página de la bio
+        run: python scripts/instagram_render.py
+
+      - name: Guardar imágenes en el repo
+        run: |
+          git config --global user.name "TodoPatagonia Bot"
+          git config --global user.email "bot@todopatagonia.com"
+          git add ig/ ig.html instagram/medios.json
+          git diff --staged --quiet || git commit -m "📸 Imágenes de Instagram generadas"
+          git pull --rebase origin main
+          git push
+
+      - name: Preparar sitio público
+        run: python3 scripts/preparar_publicacion.py
+
+      - name: Deploy a Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: /public_html/
+          local-dir: ./_public/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            .github/**
+            README.md
+            scripts/**

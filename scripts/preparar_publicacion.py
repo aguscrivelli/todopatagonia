@@ -10,7 +10,7 @@ def main():
     output = Path("_public")
     shutil.copytree(
         ".", output, dirs_exist_ok=True,
-        ignore=shutil.ignore_patterns(".git", ".github", "_public", "scripts", "README.md"),
+        ignore=shutil.ignore_patterns(".git", ".github", "_public", "scripts", "instagram", "README.md"),
     )
     for page in output.rglob("*.html"):
         html = page.read_bytes()

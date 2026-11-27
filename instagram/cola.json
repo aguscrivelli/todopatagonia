@@ -1,0 +1,359 @@
+[
+  {
+    "id": "01-perito-moreno-claves",
+    "tipo": "carrusel",
+    "link": "/destinos/el-calafate.html",
+    "foto": {"archivo": "153_-_Glacier_Perito_Moreno_-_Grotte_glaciaire_-_Janvier_2010.jpg"},
+    "slides": [
+      {"antetitulo": "El Calafate", "titulo": "Perito Moreno: 5 claves antes de ir", "texto": "Lo que conviene saber para aprovechar el glaciar más famoso de la Patagonia."},
+      {"numero": 1, "titulo": "Queda a unos 80 km de El Calafate", "texto": "Se llega en auto, excursión o bus regular. Calculá el día entero: el camino ya es parte del paseo."},
+      {"numero": 2, "titulo": "Las pasarelas son el gran mirador", "texto": "Varios kilómetros de recorridos frente al glaciar, con circuitos de distinta dificultad."},
+      {"numero": 3, "titulo": "Los derrumbes piden paciencia", "texto": "Bloques de hielo caen al lago Argentino. Quedarse un buen rato en un mismo punto aumenta las chances de verlo."},
+      {"numero": 4, "titulo": "Abrigo, aunque sea verano", "texto": "El aire que baja del hielo enfría todo. Llevá capas, rompeviento y gorro."},
+      {"numero": 5, "titulo": "Caminar sobre el hielo se reserva", "texto": "Las caminatas con crampones son guiadas y en temporada alta se agotan. Reservalas con anticipación."}
+    ],
+    "cierre": {"titulo": "La guía completa de El Calafate", "texto": "Cómo llegar, dónde dormir y qué excursiones valen la pena."},
+    "texto": "🧊 ¿Vas al Perito Moreno? Estas son las 5 cosas que conviene saber antes de ir.\n\nEl glaciar se puede recorrer desde las pasarelas, navegar frente a sus paredes o caminar sobre el hielo. Cada experiencia es distinta, y en temporada alta las excursiones se llenan rápido.\n\n👉 Guía completa de El Calafate en todopatagonia.com (link en la bio).\n\n💾 Guardalo para tu viaje y compartilo con quien viaja con vos.",
+    "hashtags": ["PeritoMoreno", "ElCalafate", "Patagonia", "PatagoniaArgentina", "Glaciar", "ViajarPorArgentina", "Santacruz", "Travel"]
+  },
+  {
+    "id": "02-fitz-roy",
+    "tipo": "foto",
+    "link": "/destinos/el-chalten.html",
+    "foto": {"archivo": "Fitz_Roy_Chalten_Argentina_Todor_Bozhinov_2013.jpg"},
+    "rotulo": "Fitz Roy · El Chaltén",
+    "texto": "🏔️ El Fitz Roy, el cerro que da sentido a El Chaltén, la Capital Nacional del Trekking.\n\nDesde el pueblo salen senderos para todos los niveles: miradores de una hora y caminatas de día completo hasta la Laguna de los Tres, a los pies de la montaña.\n\n👉 Todo sobre El Chaltén en todopatagonia.com (link en la bio).\n\n¿Ya lo viste en persona? Contanos en los comentarios 👇",
+    "hashtags": ["FitzRoy", "ElChalten", "Trekking", "Patagonia", "PatagoniaArgentina", "Montaña", "Hiking"]
+  },
+  {
+    "id": "03-ushuaia-verano",
+    "tipo": "carrusel",
+    "link": "/destinos/ushuaia.html",
+    "foto": {"buscar": "Ushuaia Beagle Channel"},
+    "slides": [
+      {"antetitulo": "Ushuaia", "titulo": "6 planes para el fin del mundo", "texto": "Qué hacer en Ushuaia en verano, de lo clásico a lo menos conocido."},
+      {"numero": 1, "titulo": "Navegar el Canal Beagle", "texto": "Islas con lobos marinos, aves y el faro Les Eclaireurs, el más fotografiado de la ciudad."},
+      {"numero": 2, "titulo": "Ver pingüinos en Isla Martillo", "texto": "Una colonia de pingüinos que se visita en temporada, con salidas desde Ushuaia."},
+      {"numero": 3, "titulo": "Parque Nacional Tierra del Fuego", "texto": "Bosques, lagos y bahías a pocos kilómetros de la ciudad, con senderos cortos y largos."},
+      {"numero": 4, "titulo": "Tren del Fin del Mundo", "texto": "Un recorrido histórico que entra al parque nacional. Ideal para hacer con chicos."},
+      {"numero": 5, "titulo": "Trekking a Laguna Esmeralda", "texto": "Una caminata de medio día con turba y bosque hasta una laguna de color increíble."},
+      {"numero": 6, "titulo": "Subir al Glaciar Martial", "texto": "Vistas sobre la ciudad y el canal, a pocos minutos del centro."}
+    ],
+    "cierre": {"titulo": "La guía completa de Ushuaia", "texto": "Excursiones, cómo llegar y dónde alojarse."},
+    "texto": "🐧 Ushuaia en verano: 6 planes para aprovechar la ciudad más austral del mundo.\n\nEn diciembre y enero los días son larguísimos, así que da para combinar navegación, trekking y parque nacional en pocos días.\n\n👉 Guía completa de Ushuaia en todopatagonia.com (link en la bio).\n\n💾 Guardalo para armar tu itinerario.",
+    "hashtags": ["Ushuaia", "FinDelMundo", "TierraDelFuego", "CanalBeagle", "Patagonia", "Pinguinos", "ViajarPorArgentina"]
+  },
+  {
+    "id": "04-ballena-valdes",
+    "tipo": "foto",
+    "link": "/destinos/peninsula-valdes.html",
+    "foto": {"archivo": "Tail_of_a_whale_near_Valdes_Peninsula.jpg"},
+    "rotulo": "Península Valdés",
+    "texto": "🐋 La cola de una ballena franca austral frente a Península Valdés.\n\nCada año llegan a los golfos de Chubut para reproducirse y criar. La temporada de avistaje va, aproximadamente, de junio a diciembre, y se sale en embarcaciones desde Puerto Pirámides.\n\n👉 Guía de Península Valdés en todopatagonia.com (link en la bio).",
+    "hashtags": ["PeninsulaValdes", "BallenaFranca", "Chubut", "PuertoMadryn", "Patagonia", "AvistajeDeBallenas", "Wildlife"]
+  },
+  {
+    "id": "05-cuando-viajar",
+    "tipo": "carrusel",
+    "link": "/destinos.html",
+    "foto": {"buscar": "Patagonia lake mountains autumn"},
+    "slides": [
+      {"antetitulo": "Planificá tu viaje", "titulo": "¿Cuándo viajar a la Patagonia?", "texto": "Cada estación tiene lo suyo. Elegí según lo que querés ver."},
+      {"numero": 1, "titulo": "Verano (diciembre a febrero)", "texto": "Días largos y clima más amable para trekking. Es temporada alta: más gente y precios más altos. Y viento."},
+      {"numero": 2, "titulo": "Otoño (marzo y abril)", "texto": "Bosques rojos y amarillos, menos turistas y buena luz para fotos. Las noches ya son frías."},
+      {"numero": 3, "titulo": "Invierno (junio a agosto)", "texto": "Nieve y esquí en Bariloche y Ushuaia. Algunos senderos y excursiones cierran o cambian."},
+      {"numero": 4, "titulo": "Primavera (septiembre a noviembre)", "texto": "Ballenas en Península Valdés y llegada de los pingüinos a la costa. Clima cambiante."}
+    ],
+    "cierre": {"titulo": "Elegí tu destino", "texto": "Guías de El Calafate, El Chaltén, Ushuaia, Bariloche y más."},
+    "texto": "📅 ¿Cuándo conviene viajar a la Patagonia? Depende de lo que quieras hacer.\n\n☀️ Verano para trekking.\n🍂 Otoño para colores y menos gente.\n❄️ Invierno para la nieve.\n🐋 Primavera para la fauna marina.\n\n👉 Todas las guías de destinos en todopatagonia.com (link en la bio).\n\n¿En qué estación te gustaría ir? 👇",
+    "hashtags": ["Patagonia", "PatagoniaArgentina", "ViajarPorArgentina", "TipsDeViaje", "Bariloche", "Ushuaia", "ElCalafate"]
+  },
+  {
+    "id": "06-torres-del-paine",
+    "tipo": "foto",
+    "link": "/destinos/torres-del-paine.html",
+    "foto": {"archivo": "Torres-del-paine.jpg"},
+    "rotulo": "Torres del Paine · Chile",
+    "texto": "🗻 Torres del Paine, del lado chileno de la Patagonia.\n\nSe combina muy bien con El Calafate: se cruza por tierra hasta Puerto Natales, la base para entrar al parque. El circuito W es el trekking más famoso, aunque también se puede recorrer en excursiones de un día.\n\n👉 Guía de Torres del Paine en todopatagonia.com (link en la bio).",
+    "hashtags": ["TorresDelPaine", "PatagoniaChilena", "PuertoNatales", "Patagonia", "CircuitoW", "Trekking", "Chile"]
+  },
+  {
+    "id": "07-chalten-senderos",
+    "tipo": "carrusel",
+    "link": "/destinos/el-chalten.html",
+    "foto": {"buscar": "El Chaltén trail Laguna de los Tres"},
+    "slides": [
+      {"antetitulo": "El Chaltén", "titulo": "4 senderos imperdibles", "texto": "De la caminata corta del primer día al gran clásico frente al Fitz Roy."},
+      {"numero": 1, "titulo": "Mirador de los Cóndores", "texto": "Corto y cerca del pueblo. Ideal para el día de llegada y para ver el atardecer sobre el valle."},
+      {"numero": 2, "titulo": "Laguna Torre", "texto": "Día completo, sin grandes subidas. Termina frente al Cerro Torre y su glaciar."},
+      {"numero": 3, "titulo": "Laguna de los Tres", "texto": "El clásico frente al Fitz Roy. Día largo, con un último tramo muy empinado. Salí temprano."},
+      {"numero": 4, "titulo": "Loma del Pliegue Tumbado", "texto": "Una de las vistas más completas: Fitz Roy y Cerro Torre en el mismo horizonte."}
+    ],
+    "cierre": {"titulo": "Todo sobre El Chaltén", "texto": "Cómo llegar desde El Calafate, dónde dormir y más senderos."},
+    "texto": "🥾 El Chaltén tiene senderos para todos los niveles, y muchos salen caminando desde el pueblo.\n\nUn consejo: dejá días de margen. El clima cambia rápido y no siempre se ve el Fitz Roy despejado.\n\n👉 Guía completa de El Chaltén en todopatagonia.com (link en la bio).\n\n💾 Guardalo para tu viaje.",
+    "hashtags": ["ElChalten", "FitzRoy", "CerroTorre", "Trekking", "Patagonia", "Senderismo", "Hiking"]
+  },
+  {
+    "id": "08-bariloche-lago",
+    "tipo": "foto",
+    "link": "/destinos/bariloche.html",
+    "foto": {"archivo": "Bariloche-_Argentina2.jpg"},
+    "rotulo": "Bariloche · Nahuel Huapi",
+    "texto": "🏔️ Bariloche y el lago Nahuel Huapi.\n\nEn verano es base para lagos, playas de agua fría, cerros y trekking. En invierno, para la nieve. Por eso funciona todo el año.\n\n👉 Guía de Bariloche en todopatagonia.com (link en la bio).\n\n¿Verano o invierno? 👇",
+    "hashtags": ["Bariloche", "NahuelHuapi", "RioNegro", "Patagonia", "PatagoniaArgentina", "Lagos", "ViajarPorArgentina"]
+  },
+  {
+    "id": "09-como-llegar",
+    "tipo": "carrusel",
+    "link": "/como-llegar.html",
+    "foto": {"buscar": "airplane Patagonia mountains window"},
+    "slides": [
+      {"antetitulo": "Planificá tu viaje", "titulo": "Cómo llegar a la Patagonia", "texto": "Las distancias son enormes. Elegir bien cómo moverse ahorra días."},
+      {"numero": 1, "titulo": "En avión, a la puerta de entrada", "texto": "Los aeropuertos clave son El Calafate, Bariloche y Ushuaia. Para Península Valdés, Trelew o Puerto Madryn."},
+      {"numero": 2, "titulo": "En micro de larga distancia", "texto": "Más económico y lento. Sirve para tramos entre ciudades, como El Calafate–El Chaltén."},
+      {"numero": 3, "titulo": "En auto por la Ruta 40", "texto": "La forma más libre de recorrer. Planificá combustible: en algunos tramos las estaciones están muy separadas."},
+      {"numero": 4, "titulo": "Cruzar a Chile", "texto": "Torres del Paine se combina con El Calafate cruzando por tierra a Puerto Natales. Llevá la documentación al día."}
+    ],
+    "cierre": {"titulo": "Guía completa: cómo llegar", "texto": "Vuelos, micros, rutas y combinaciones entre destinos."},
+    "texto": "✈️ ¿Cómo se llega a la Patagonia? Avión, micro, auto o una combinación de los tres.\n\nEl error más común es subestimar las distancias: entre algunos destinos hay un día entero de viaje.\n\n👉 Guía completa en todopatagonia.com (link en la bio).\n\n💾 Guardalo para planificar.",
+    "hashtags": ["Patagonia", "ComoLlegar", "Ruta40", "ViajarPorArgentina", "TipsDeViaje", "Mochileros", "RoadTrip"]
+  },
+  {
+    "id": "10-flamencos-calafate",
+    "tipo": "foto",
+    "link": "/blog/fauna-de-el-calafate-guia-completa-de-animales.html",
+    "foto": {"buscar": "flamingos Laguna Nimez El Calafate"},
+    "rotulo": "Fauna de El Calafate",
+    "texto": "🦩 Sí, en El Calafate hay flamencos.\n\nLa Reserva Laguna Nimez, a pasos del centro, es uno de los mejores lugares para ver aves. Y en la zona también se pueden avistar cóndores, guanacos y zorros.\n\n👉 Guía de fauna de El Calafate en todopatagonia.com (link en la bio).",
+    "hashtags": ["ElCalafate", "Flamencos", "LagunaNimez", "Aves", "FaunaPatagonica", "Patagonia", "Birdwatching"]
+  },
+  {
+    "id": "11-circuito-chico",
+    "tipo": "carrusel",
+    "link": "/destinos/bariloche.html",
+    "foto": {"buscar": "Llao Llao Bariloche view"},
+    "slides": [
+      {"antetitulo": "Bariloche", "titulo": "Circuito Chico: 5 paradas", "texto": "El paseo clásico de Bariloche, en auto, bici o excursión."},
+      {"numero": 1, "titulo": "Cerro Campanario", "texto": "Se sube en aerosilla y la vista panorámica de lagos e islas es de las mejores de la zona."},
+      {"numero": 2, "titulo": "Península Llao Llao", "texto": "El hotel histórico, la capilla San Eduardo y senderos cortos por el bosque."},
+      {"numero": 3, "titulo": "Punto Panorámico", "texto": "Parada obligada para la foto del lago Moreno y el cerro López."},
+      {"numero": 4, "titulo": "Bahía López", "texto": "Una bahía tranquila con vista al cerro López. Buen lugar para frenar un rato."},
+      {"numero": 5, "titulo": "Colonia Suiza", "texto": "Pueblo de los primeros colonos, con feria y gastronomía. Queda a un desvío corto."}
+    ],
+    "cierre": {"titulo": "La guía completa de Bariloche", "texto": "Excursiones, cerros y dónde alojarse."},
+    "texto": "🚲 El Circuito Chico es el paseo clásico de Bariloche y se puede hacer en un día.\n\nEn bici es una experiencia aparte, pero ojo: tiene subidas. Si vas en auto, salí temprano para encontrar lugar en los miradores.\n\n👉 Guía completa de Bariloche en todopatagonia.com (link en la bio).\n\n💾 Guardalo para tu viaje.",
+    "hashtags": ["Bariloche", "CircuitoChico", "LlaoLlao", "CerroCampanario", "Patagonia", "ViajarPorArgentina", "RioNegro"]
+  },
+  {
+    "id": "12-frente-perito-moreno",
+    "tipo": "foto",
+    "link": "/destinos/el-calafate.html",
+    "foto": {"buscar": "Perito Moreno glacier front"},
+    "rotulo": "Glaciar Perito Moreno",
+    "texto": "🧊 Una pared de hielo de varias decenas de metros sobre el lago Argentino.\n\nEl Perito Moreno es uno de los glaciares más visitados del mundo y forma parte del Parque Nacional Los Glaciares, Patrimonio de la Humanidad.\n\n👉 Cómo visitarlo, en todopatagonia.com (link en la bio).",
+    "hashtags": ["PeritoMoreno", "ElCalafate", "LosGlaciares", "Patagonia", "Glaciar", "PatagoniaArgentina", "Travel"]
+  },
+  {
+    "id": "13-que-llevar",
+    "tipo": "carrusel",
+    "link": "/actividades.html",
+    "foto": {"buscar": "hiker backpack Patagonia"},
+    "slides": [
+      {"antetitulo": "Checklist", "titulo": "Qué llevar a la Patagonia", "texto": "Lo esencial para no pasar frío ni arruinar una excursión."},
+      {"numero": 1, "titulo": "Ropa en capas", "texto": "Térmica, abrigo intermedio y una capa exterior. Te sacás y te ponés según el momento del día."},
+      {"numero": 2, "titulo": "Rompeviento impermeable", "texto": "El viento patagónico es protagonista. Es la prenda que más vas a usar."},
+      {"numero": 3, "titulo": "Gorro y guantes, también en verano", "texto": "En glaciares, navegaciones y miradores la temperatura baja de golpe."},
+      {"numero": 4, "titulo": "Protector solar y lentes de sol", "texto": "El sol pega fuerte, sobre todo cerca del hielo y la nieve."},
+      {"numero": 5, "titulo": "Calzado de trekking ya usado", "texto": "Nada de estrenar zapatillas en una caminata de un día completo."}
+    ],
+    "cierre": {"titulo": "Actividades en la Patagonia", "texto": "Trekking, glaciares, fauna, kayak y más."},
+    "texto": "🎒 Checklist para la Patagonia: lo que no puede faltar en tu valija.\n\nLa regla de oro: capas. En un mismo día podés tener sol, viento, lluvia y frío.\n\n👉 Más tips y actividades en todopatagonia.com (link en la bio).\n\n💾 Guardalo para cuando armes la valija.",
+    "hashtags": ["Patagonia", "QueLlevar", "TipsDeViaje", "Trekking", "Mochileros", "ViajarPorArgentina", "Checklist"]
+  },
+  {
+    "id": "14-puerto-ushuaia",
+    "tipo": "foto",
+    "link": "/destinos/ushuaia.html",
+    "foto": {"archivo": "UshuaiaPort.jpg"},
+    "rotulo": "Ushuaia · Tierra del Fuego",
+    "texto": "⚓ El puerto de Ushuaia, entre la cordillera y el Canal Beagle.\n\nDe acá salen las navegaciones por el canal y también los barcos que van a la Antártida.\n\n👉 Guía de Ushuaia en todopatagonia.com (link en la bio).",
+    "hashtags": ["Ushuaia", "TierraDelFuego", "CanalBeagle", "FinDelMundo", "Patagonia", "ViajarPorArgentina", "Travel"]
+  },
+  {
+    "id": "15-valdes-calendario",
+    "tipo": "carrusel",
+    "link": "/destinos/peninsula-valdes.html",
+    "foto": {"buscar": "Peninsula Valdes sea lions"},
+    "slides": [
+      {"antetitulo": "Península Valdés", "titulo": "Calendario de fauna", "texto": "Qué animales ver según el mes. Los períodos son aproximados."},
+      {"numero": 1, "titulo": "Ballena franca austral", "texto": "Aproximadamente de junio a diciembre, con avistajes embarcados desde Puerto Pirámides."},
+      {"numero": 2, "titulo": "Orcas en Punta Norte", "texto": "Sobre todo en marzo y abril, cuando cazan cerca de la costa. Verlas requiere suerte y paciencia."},
+      {"numero": 3, "titulo": "Pingüino de Magallanes", "texto": "Llegan a la costa de Chubut en primavera y se quedan hasta fines del verano."},
+      {"numero": 4, "titulo": "Elefantes y lobos marinos", "texto": "Presentes gran parte del año en la costa de la península."}
+    ],
+    "cierre": {"titulo": "Guía de Península Valdés", "texto": "Cómo llegar, excursiones y cuándo ir."},
+    "texto": "🐋 Península Valdés es uno de los mejores lugares del mundo para ver fauna marina. Pero qué ves depende del mes.\n\nConsultá siempre las fechas del año en que viajás: los ciclos de los animales cambian un poco de temporada en temporada.\n\n👉 Guía completa en todopatagonia.com (link en la bio).\n\n💾 Guardalo.",
+    "hashtags": ["PeninsulaValdes", "Chubut", "Ballenas", "Orcas", "Pinguinos", "Patagonia", "Wildlife"]
+  },
+  {
+    "id": "16-cerro-torre",
+    "tipo": "foto",
+    "link": "/destinos/el-chalten.html",
+    "foto": {"buscar": "Cerro Torre Laguna Torre"},
+    "rotulo": "Laguna Torre · El Chaltén",
+    "texto": "🏔️ El Cerro Torre, una de las agujas de granito más impresionantes de los Andes.\n\nEl sendero a la Laguna Torre sale desde El Chaltén y es una caminata de día completo, sin grandes desniveles.\n\n👉 Senderos de El Chaltén en todopatagonia.com (link en la bio).",
+    "hashtags": ["CerroTorre", "ElChalten", "LagunaTorre", "Trekking", "Patagonia", "Montaña", "Hiking"]
+  },
+  {
+    "id": "17-paine-w-vs-o",
+    "tipo": "carrusel",
+    "link": "/destinos/torres-del-paine.html",
+    "foto": {"buscar": "Torres del Paine Base Las Torres"},
+    "slides": [
+      {"antetitulo": "Torres del Paine", "titulo": "Circuito W o circuito O", "texto": "Los dos grandes trekkings del parque, comparados."},
+      {"numero": 1, "titulo": "Circuito W", "texto": "El más popular. Unos 4 o 5 días, pasando por los tres valles más famosos del parque."},
+      {"numero": 2, "titulo": "Circuito O", "texto": "La vuelta completa al macizo. Más días, más exigente y con tramos más solitarios."},
+      {"numero": 3, "titulo": "Reservas obligatorias", "texto": "Los campamentos y refugios se reservan con anticipación. Sin reserva no se puede pernoctar."},
+      {"numero": 4, "titulo": "Si tenés un solo día", "texto": "El mirador Base Las Torres se puede hacer en el día. Es largo y exigente, pero vale cada paso."}
+    ],
+    "cierre": {"titulo": "Guía de Torres del Paine", "texto": "Cómo llegar desde El Calafate y Puerto Natales."},
+    "texto": "🥾 ¿W o O? Las dos formas clásicas de recorrer Torres del Paine a pie.\n\nSi es tu primera vez y tenés pocos días, el W concentra los paisajes más conocidos. El O es para quien busca la experiencia completa.\n\n👉 Guía completa en todopatagonia.com (link en la bio).\n\n💾 Guardalo para planificar.",
+    "hashtags": ["TorresDelPaine", "CircuitoW", "CircuitoO", "PatagoniaChilena", "Trekking", "Patagonia", "Hiking"]
+  },
+  {
+    "id": "18-pinguinos-martillo",
+    "tipo": "foto",
+    "link": "/destinos/ushuaia.html",
+    "foto": {"buscar": "Isla Martillo penguins"},
+    "rotulo": "Isla Martillo · Ushuaia",
+    "texto": "🐧 Pingüinos en Isla Martillo, sobre el Canal Beagle.\n\nLa colonia se visita en temporada, entre la primavera y el final del verano, con excursiones que salen desde Ushuaia. Conviene reservar con tiempo.\n\n👉 Guía de Ushuaia en todopatagonia.com (link en la bio).",
+    "hashtags": ["Pinguinos", "IslaMartillo", "Ushuaia", "CanalBeagle", "TierraDelFuego", "Patagonia", "Wildlife"]
+  },
+  {
+    "id": "19-ruta-7-dias",
+    "tipo": "carrusel",
+    "link": "/destinos/el-calafate.html",
+    "foto": {"buscar": "Lago Argentino El Calafate"},
+    "slides": [
+      {"antetitulo": "Itinerario", "titulo": "7 días: El Calafate y El Chaltén", "texto": "Una ruta posible para tu primer viaje al sur."},
+      {"numero": 1, "titulo": "Días 1 y 2 · El Calafate", "texto": "Llegada y día completo en el Perito Moreno: pasarelas y navegación frente al glaciar."},
+      {"numero": 2, "titulo": "Día 3 · Lagos y glaciares", "texto": "Navegación por el lago Argentino o la Reserva Laguna Nimez si querés un día más tranquilo."},
+      {"numero": 3, "titulo": "Día 4 · Rumbo a El Chaltén", "texto": "Unas tres horas por ruta. A la tarde, el Mirador de los Cóndores."},
+      {"numero": 4, "titulo": "Días 5 y 6 · Trekking", "texto": "Laguna de los Tres y Laguna Torre. Si el clima no ayuda, intercambiá los días."},
+      {"numero": 5, "titulo": "Día 7 · Regreso", "texto": "Vuelta a El Calafate para tomar el avión."}
+    ],
+    "cierre": {"titulo": "Armá tu viaje", "texto": "Guías de El Calafate y El Chaltén en el sitio."},
+    "texto": "🗺️ ¿Una semana en el sur? Esta es una ruta posible para combinar glaciares y trekking.\n\nEs un punto de partida: si tenés más días, sumá Torres del Paine cruzando a Chile.\n\n👉 Guías de cada destino en todopatagonia.com (link en la bio).\n\n💾 Guardalo y etiquetá a tu compañero de viaje.",
+    "hashtags": ["Itinerario", "ElCalafate", "ElChalten", "Patagonia", "ViajarPorArgentina", "PeritoMoreno", "FitzRoy"]
+  },
+  {
+    "id": "20-guanacos-paine",
+    "tipo": "foto",
+    "link": "/blog/fauna-en-torres-del-paine-guia-completa-para-avistar.html",
+    "foto": {"buscar": "guanaco Torres del Paine"},
+    "rotulo": "Guanacos · Torres del Paine",
+    "texto": "🦙 Los guanacos son los vecinos más fáciles de encontrar en Torres del Paine.\n\nEl parque también es hogar de pumas, cóndores y ñandúes. Verlos depende de la suerte, la hora y la paciencia.\n\n👉 Guía de fauna de Torres del Paine en todopatagonia.com (link en la bio).",
+    "hashtags": ["Guanaco", "TorresDelPaine", "FaunaPatagonica", "Patagonia", "PatagoniaChilena", "Wildlife", "Naturaleza"]
+  },
+  {
+    "id": "21-errores-comunes",
+    "tipo": "carrusel",
+    "link": "/como-llegar.html",
+    "foto": {"buscar": "Ruta 40 Patagonia road"},
+    "slides": [
+      {"antetitulo": "Tips", "titulo": "5 errores al viajar a la Patagonia", "texto": "Y cómo evitarlos."},
+      {"numero": 1, "titulo": "Subestimar las distancias", "texto": "Entre destinos puede haber cientos de kilómetros. No intentes ver todo en pocos días."},
+      {"numero": 2, "titulo": "No reservar en temporada alta", "texto": "Alojamientos y excursiones clave se agotan en enero y febrero."},
+      {"numero": 3, "titulo": "Viajar sin abrigo en verano", "texto": "El viento y el clima cambiante hacen que el abrigo sea obligatorio todo el año."},
+      {"numero": 4, "titulo": "Planificar sin días de margen", "texto": "El clima manda. Un día extra te salva un trekking o una navegación."},
+      {"numero": 5, "titulo": "Quedarse sin combustible", "texto": "En la Ruta 40 hay tramos largos sin estaciones de servicio. Cargá siempre que puedas."}
+    ],
+    "cierre": {"titulo": "Planificá bien tu viaje", "texto": "Guía de cómo llegar y moverse por la Patagonia."},
+    "texto": "⚠️ 5 errores comunes al viajar a la Patagonia (y cómo evitarlos).\n\nEl número uno es querer abarcar todo. Menos destinos con más días suele ser mejor plan.\n\n👉 Más tips en todopatagonia.com (link en la bio).\n\n¿Cometiste alguno? Contanos 👇",
+    "hashtags": ["Patagonia", "TipsDeViaje", "Ruta40", "ViajarPorArgentina", "Mochileros", "RoadTrip", "PatagoniaArgentina"]
+  },
+  {
+    "id": "22-ruta-40",
+    "tipo": "foto",
+    "link": "/como-llegar.html",
+    "foto": {"buscar": "Ruta Nacional 40 Santa Cruz"},
+    "rotulo": "Ruta 40",
+    "texto": "🛣️ La Ruta 40 recorre la Argentina de norte a sur, al pie de la cordillera.\n\nEn la Patagonia une destinos como El Calafate, El Chaltén y Bariloche, con paisajes de estepa infinita entre medio.\n\n👉 Cómo moverse por la Patagonia en todopatagonia.com (link en la bio).",
+    "hashtags": ["Ruta40", "RoadTrip", "Patagonia", "PatagoniaArgentina", "ViajarPorArgentina", "Estepa", "Travel"]
+  },
+  {
+    "id": "23-dormir-paine",
+    "tipo": "carrusel",
+    "link": "/blog/alojamiento-en-torres-del-paine-guia-completa-2024.html",
+    "foto": {"buscar": "Puerto Natales"},
+    "slides": [
+      {"antetitulo": "Torres del Paine", "titulo": "¿Dónde dormir?", "texto": "Tres formas de alojarse según tu presupuesto y tu plan."},
+      {"numero": 1, "titulo": "Hoteles dentro del parque", "texto": "Despertarte frente al macizo no tiene precio. Bueno, sí tiene: son la opción más cara."},
+      {"numero": 2, "titulo": "Refugios y campings", "texto": "La opción de quien hace el W o el O. Se reservan con anticipación y son obligatorios para pernoctar."},
+      {"numero": 3, "titulo": "Base en Puerto Natales", "texto": "Más opciones y precios. Desde acá salen excursiones de día al parque."}
+    ],
+    "cierre": {"titulo": "Guía de alojamiento", "texto": "Opciones y consejos para reservar en Torres del Paine."},
+    "texto": "🏕️ ¿Dónde dormir para visitar Torres del Paine? Hotel, refugio, camping o base en Puerto Natales.\n\nLa clave es reservar temprano: en temporada alta los lugares dentro del parque se agotan meses antes.\n\n👉 Guía de alojamiento en todopatagonia.com (link en la bio).\n\n💾 Guardalo.",
+    "hashtags": ["TorresDelPaine", "PuertoNatales", "Alojamiento", "PatagoniaChilena", "Camping", "Patagonia", "Trekking"]
+  },
+  {
+    "id": "24-campanario",
+    "tipo": "foto",
+    "link": "/destinos/bariloche.html",
+    "foto": {"buscar": "Cerro Campanario view Bariloche"},
+    "rotulo": "Cerro Campanario · Bariloche",
+    "texto": "🌄 La vista desde el Cerro Campanario, una de las más lindas de Bariloche.\n\nSe sube en aerosilla en pocos minutos y desde arriba se ven los lagos, la península Llao Llao y los cerros que rodean la ciudad.\n\n👉 Qué hacer en Bariloche en todopatagonia.com (link en la bio).",
+    "hashtags": ["Bariloche", "CerroCampanario", "NahuelHuapi", "Patagonia", "RioNegro", "ViajarPorArgentina", "Paisajes"]
+  },
+  {
+    "id": "25-san-martin-andes",
+    "tipo": "carrusel",
+    "link": "/blog/alojamiento-en-san-martin-de-los-andes-guia-completa-2024.html",
+    "foto": {"buscar": "San Martín de los Andes Lago Lácar"},
+    "slides": [
+      {"antetitulo": "Neuquén", "titulo": "San Martín de los Andes", "texto": "Un pueblo de montaña tranquilo, a orillas del lago Lácar."},
+      {"numero": 1, "titulo": "Lago Lácar", "texto": "Playas, kayak y navegación en verano, con el pueblo a pasos."},
+      {"numero": 2, "titulo": "Camino de los Siete Lagos", "texto": "La ruta escénica que lo une con Villa La Angostura y Bariloche."},
+      {"numero": 3, "titulo": "Cerro Chapelco", "texto": "Esquí en invierno; trekking y bici de montaña en verano."},
+      {"numero": 4, "titulo": "Base para el Parque Lanín", "texto": "Lagos, bosques de araucarias y el volcán Lanín a pocas horas."}
+    ],
+    "cierre": {"titulo": "Dónde dormir en San Martín", "texto": "Guía de alojamiento en el sitio."},
+    "texto": "🌲 San Martín de los Andes: lago, montaña y uno de los extremos del Camino de los Siete Lagos.\n\nEs una alternativa más tranquila a Bariloche y funciona en verano y en invierno.\n\n👉 Guía de alojamiento en todopatagonia.com (link en la bio).\n\n💾 Guardalo para tu viaje.",
+    "hashtags": ["SanMartinDeLosAndes", "Neuquen", "SieteLagos", "LagoLacar", "Patagonia", "ViajarPorArgentina", "Chapelco"]
+  },
+  {
+    "id": "26-faro-eclaireurs",
+    "tipo": "foto",
+    "link": "/destinos/ushuaia.html",
+    "foto": {"buscar": "Les Eclaireurs lighthouse"},
+    "rotulo": "Faro Les Eclaireurs · Canal Beagle",
+    "texto": "🗼 El faro Les Eclaireurs, en el Canal Beagle.\n\nEs una de las paradas de las navegaciones que salen desde Ushuaia, junto con islas con lobos marinos y cormoranes.\n\n👉 Excursiones en Ushuaia en todopatagonia.com (link en la bio).",
+    "hashtags": ["Ushuaia", "LesEclaireurs", "CanalBeagle", "FinDelMundo", "TierraDelFuego", "Patagonia", "Faro"]
+  },
+  {
+    "id": "27-sabores-patagonia",
+    "tipo": "carrusel",
+    "link": "/blog/gastronomia-en-comodoro-rivadavia-sabores-de-la-patagonia.html",
+    "foto": {"buscar": "cordero patagónico asado"},
+    "slides": [
+      {"antetitulo": "Gastronomía", "titulo": "5 sabores de la Patagonia", "texto": "Lo que no te podés ir sin probar."},
+      {"numero": 1, "titulo": "Cordero patagónico", "texto": "Al asador, cocinado durante horas. El plato emblema del sur."},
+      {"numero": 2, "titulo": "Centolla", "texto": "El gran clásico de Ushuaia y Tierra del Fuego."},
+      {"numero": 3, "titulo": "Trucha", "texto": "Presente en las cartas de la zona de lagos, de Bariloche a San Martín de los Andes."},
+      {"numero": 4, "titulo": "Calafate", "texto": "El fruto que le da nombre a la ciudad. Dicen que quien lo come, vuelve a la Patagonia."},
+      {"numero": 5, "titulo": "Pescados y mariscos", "texto": "La costa atlántica, de Puerto Madryn a Comodoro Rivadavia, tiene su propia cocina de mar."}
+    ],
+    "cierre": {"titulo": "Sabores de la Patagonia", "texto": "Guía gastronómica en el sitio."},
+    "texto": "🍽️ La Patagonia también se viaja comiendo.\n\nCordero, centolla, trucha, frutos del bosque y mariscos de la costa atlántica. ¿Cuál es tu favorito?\n\n👉 Guía gastronómica en todopatagonia.com (link en la bio).\n\n💾 Guardalo para tu próximo viaje.",
+    "hashtags": ["Gastronomia", "CorderoPatagonico", "Centolla", "Patagonia", "ComidaArgentina", "Calafate", "Foodie"]
+  },
+  {
+    "id": "28-siete-lagos",
+    "tipo": "foto",
+    "link": "/blog/alojamiento-en-san-martin-de-los-andes-guia-completa-2024.html",
+    "foto": {"buscar": "Ruta de los Siete Lagos"},
+    "rotulo": "Camino de los Siete Lagos",
+    "texto": "🚗 El Camino de los Siete Lagos, entre San Martín de los Andes y Villa La Angostura.\n\nEs uno de los tramos de ruta más lindos de la Argentina: bosques, lagos y miradores a cada curva. Hacelo sin apuro.\n\n👉 Guía de San Martín de los Andes en todopatagonia.com (link en la bio).",
+    "hashtags": ["SieteLagos", "Neuquen", "SanMartinDeLosAndes", "VillaLaAngostura", "Patagonia", "RoadTrip", "ViajarPorArgentina"]
+  }
+]
