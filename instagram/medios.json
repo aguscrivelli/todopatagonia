@@ -304,5 +304,14 @@
       "ig/27-sabores-patagonia/6.jpg",
       "ig/27-sabores-patagonia/7.jpg"
     ]
+  },
+  "08-bariloche-lago": {
+    "titulo": "File:NahuelHuapiyBariloche.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/NahuelHuapiyBariloche.jpg/1920px-NahuelHuapiyBariloche.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "fuente": "https://commons.wikimedia.org/wiki/File:NahuelHuapiyBariloche.jpg",
+    "credito": "Elemaki / Wikimedia Commons (CC BY 3.0)",
+    "imagenes": [
+      "ig/08-bariloche-lago/1.jpg"
+    ]
   }
 }
