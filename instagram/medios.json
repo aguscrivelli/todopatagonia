@@ -227,5 +227,82 @@
     "imagenes": [
       "ig/28-siete-lagos/1.jpg"
     ]
+  },
+  "06-torres-del-paine": {
+    "titulo": "File:Cuernos del Paine (Lago Pehoé) - panoramio.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Cuernos_del_Paine_%28Lago_Peho%C3%A9%29_-_panoramio.jpg/1920px-Cuernos_del_Paine_%28Lago_Peho%C3%A9%29_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Cuernos_del_Paine_(Lago_Peho%C3%A9)_-_panoramio.jpg",
+    "credito": "Elvis Boaventura / Wikimedia Commons (CC BY 3.0)",
+    "imagenes": [
+      "ig/06-torres-del-paine/1.jpg"
+    ]
+  },
+  "07-chalten-senderos": {
+    "titulo": "File:Laguna de los Tres color.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Laguna_de_los_Tres_color.jpg/1920px-Laguna_de_los_Tres_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Laguna_de_los_Tres_color.jpg",
+    "credito": "Almonroth / Wikimedia Commons (CC BY-SA 3.0)",
+    "imagenes": [
+      "ig/07-chalten-senderos/1.jpg",
+      "ig/07-chalten-senderos/2.jpg",
+      "ig/07-chalten-senderos/3.jpg",
+      "ig/07-chalten-senderos/4.jpg",
+      "ig/07-chalten-senderos/5.jpg",
+      "ig/07-chalten-senderos/6.jpg"
+    ]
+  },
+  "13-que-llevar": {
+    "titulo": "File:Fitz Roy group - Laguna Capri - 01.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Fitz_Roy_group_-_Laguna_Capri_-_01.JPG/1920px-Fitz_Roy_group_-_Laguna_Capri_-_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Fitz_Roy_group_-_Laguna_Capri_-_01.JPG",
+    "credito": "Gagea / Wikimedia Commons (CC BY-SA 3.0)",
+    "imagenes": [
+      "ig/13-que-llevar/1.jpg",
+      "ig/13-que-llevar/2.jpg",
+      "ig/13-que-llevar/3.jpg",
+      "ig/13-que-llevar/4.jpg",
+      "ig/13-que-llevar/5.jpg",
+      "ig/13-que-llevar/6.jpg",
+      "ig/13-que-llevar/7.jpg"
+    ]
+  },
+  "14-puerto-ushuaia": {
+    "titulo": "File:UshuaiaPort.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/UshuaiaPort.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "fuente": "https://commons.wikimedia.org/wiki/File:UshuaiaPort.jpg",
+    "credito": "Kkkr / Wikimedia Commons (CC BY-SA 3.0)",
+    "imagenes": [
+      "ig/14-puerto-ushuaia/1.jpg"
+    ]
+  },
+  "19-ruta-7-dias": {
+    "titulo": "File:Tèmpanos (iceberg) Lago Argentino Brazo Norte Patagonia Argentina Luca Galuzzi 2005.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/T%C3%A8mpanos_%28iceberg%29_Lago_Argentino_Brazo_Norte_Patagonia_Argentina_Luca_Galuzzi_2005.JPG/1920px-T%C3%A8mpanos_%28iceberg%29_Lago_Argentino_Brazo_Norte_Patagonia_Argentina_Luca_Galuzzi_2005.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "fuente": "https://commons.wikimedia.org/wiki/File:T%C3%A8mpanos_(iceberg)_Lago_Argentino_Brazo_Norte_Patagonia_Argentina_Luca_Galuzzi_2005.JPG",
+    "credito": "Luca Galuzzi (Lucag) / Wikimedia Commons (CC BY-SA 2.5)",
+    "imagenes": [
+      "ig/19-ruta-7-dias/1.jpg",
+      "ig/19-ruta-7-dias/2.jpg",
+      "ig/19-ruta-7-dias/3.jpg",
+      "ig/19-ruta-7-dias/4.jpg",
+      "ig/19-ruta-7-dias/5.jpg",
+      "ig/19-ruta-7-dias/6.jpg",
+      "ig/19-ruta-7-dias/7.jpg"
+    ]
+  },
+  "27-sabores-patagonia": {
+    "titulo": "File:Cordero patagonico al asador Neuquen.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Cordero_patagonico_al_asador_Neuquen.JPG/1920px-Cordero_patagonico_al_asador_Neuquen.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Cordero_patagonico_al_asador_Neuquen.JPG",
+    "credito": "Albasmalko / Wikimedia Commons (CC BY-SA 3.0)",
+    "imagenes": [
+      "ig/27-sabores-patagonia/1.jpg",
+      "ig/27-sabores-patagonia/2.jpg",
+      "ig/27-sabores-patagonia/3.jpg",
+      "ig/27-sabores-patagonia/4.jpg",
+      "ig/27-sabores-patagonia/5.jpg",
+      "ig/27-sabores-patagonia/6.jpg",
+      "ig/27-sabores-patagonia/7.jpg"
+    ]
   }
 }
