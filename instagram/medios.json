@@ -12,7 +12,8 @@
       "ig/01-perito-moreno-claves/5.jpg",
       "ig/01-perito-moreno-claves/6.jpg",
       "ig/01-perito-moreno-claves/7.jpg"
-    ]
+    ],
+    "historia": "ig/01-perito-moreno-claves/historia.jpg"
   },
   "02-fitz-roy": {
     "titulo": "File:Fitz Roy Chalten Argentina Todor Bozhinov 2013.jpg",
@@ -21,7 +22,8 @@
     "credito": "own work (Todor Bozhinov) / Wikimedia Commons (CC BY-SA 4.0)",
     "imagenes": [
       "ig/02-fitz-roy/1.jpg"
-    ]
+    ],
+    "historia": "ig/02-fitz-roy/historia.jpg"
   },
   "03-ushuaia-verano": {
     "titulo": "File:Ushuaia and the Beagle Channel (5525434752).jpg",
@@ -37,7 +39,8 @@
       "ig/03-ushuaia-verano/6.jpg",
       "ig/03-ushuaia-verano/7.jpg",
       "ig/03-ushuaia-verano/8.jpg"
-    ]
+    ],
+    "historia": "ig/03-ushuaia-verano/historia.jpg"
   },
   "04-ballena-valdes": {
     "titulo": "File:Tail of a whale near Valdes Peninsula.jpg",
@@ -46,7 +49,8 @@
     "credito": "Edith Schreurs / Wikimedia Commons (CC BY-SA 2.0)",
     "imagenes": [
       "ig/04-ballena-valdes/1.jpg"
-    ]
+    ],
+    "historia": "ig/04-ballena-valdes/historia.jpg"
   },
   "09-como-llegar": {
     "titulo": "File:Patagonia view (Unsplash).jpg",
@@ -60,7 +64,8 @@
       "ig/09-como-llegar/4.jpg",
       "ig/09-como-llegar/5.jpg",
       "ig/09-como-llegar/6.jpg"
-    ]
+    ],
+    "historia": "ig/09-como-llegar/historia.jpg"
   },
   "10-flamencos-calafate": {
     "titulo": "File:Wildlife in and around Reserva Laguna Nimez in El Calafate, Argentina - Chilaen Flamingo (Phoenicopterus chilensis) - (25068581522).jpg",
@@ -69,7 +74,8 @@
     "credito": "Murray Foubister / Wikimedia Commons (CC BY-SA 2.0)",
     "imagenes": [
       "ig/10-flamencos-calafate/1.jpg"
-    ]
+    ],
+    "historia": "ig/10-flamencos-calafate/historia.jpg"
   },
   "11-circuito-chico": {
     "titulo": "File:Llao Llao Peninsula.jpg",
@@ -84,7 +90,8 @@
       "ig/11-circuito-chico/5.jpg",
       "ig/11-circuito-chico/6.jpg",
       "ig/11-circuito-chico/7.jpg"
-    ]
+    ],
+    "historia": "ig/11-circuito-chico/historia.jpg"
   },
   "12-frente-perito-moreno": {
     "titulo": "File:Perito Moreno Glacier Front.jpg",
@@ -93,7 +100,8 @@
     "credito": "Justraveling.com / Wikimedia Commons (CC BY-SA 4.0)",
     "imagenes": [
       "ig/12-frente-perito-moreno/1.jpg"
-    ]
+    ],
+    "historia": "ig/12-frente-perito-moreno/historia.jpg"
   },
   "15-valdes-calendario": {
     "titulo": "File:Peninsula Valdes sea lions JF.jpg",
@@ -107,7 +115,8 @@
       "ig/15-valdes-calendario/4.jpg",
       "ig/15-valdes-calendario/5.jpg",
       "ig/15-valdes-calendario/6.jpg"
-    ]
+    ],
+    "historia": "ig/15-valdes-calendario/historia.jpg"
   },
   "16-cerro-torre": {
     "titulo": "File:Cerro torre laguna torre.jpg",
@@ -116,7 +125,8 @@
     "credito": "Stefan.straub / Wikimedia Commons (CC BY-SA 4.0)",
     "imagenes": [
       "ig/16-cerro-torre/1.jpg"
-    ]
+    ],
+    "historia": "ig/16-cerro-torre/historia.jpg"
   },
   "17-paine-w-vs-o": {
     "titulo": "File:Cordillera Paine; vista desde el mirador Base de las Torres, Parque nacional Torres del Paine, Chile.jpg",
@@ -130,7 +140,8 @@
       "ig/17-paine-w-vs-o/4.jpg",
       "ig/17-paine-w-vs-o/5.jpg",
       "ig/17-paine-w-vs-o/6.jpg"
-    ]
+    ],
+    "historia": "ig/17-paine-w-vs-o/historia.jpg"
   },
   "18-pinguinos-martillo": {
     "titulo": "File:Two Magellanic Penguin chicks (Spheniscus magellanicus) molting At Isla Martillo In Tierra del Fuego Argentina.jpg",
@@ -139,7 +150,8 @@
     "credito": "MatheusR42 / Wikimedia Commons (CC BY 4.0)",
     "imagenes": [
       "ig/18-pinguinos-martillo/1.jpg"
-    ]
+    ],
+    "historia": "ig/18-pinguinos-martillo/historia.jpg"
   },
   "20-guanacos-paine": {
     "titulo": "File:Guanaco (Lama guanicoe) Leona Amarga.jpg",
@@ -148,7 +160,8 @@
     "credito": "Charles J. Sharp / Wikimedia Commons (CC BY-SA 4.0)",
     "imagenes": [
       "ig/20-guanacos-paine/1.jpg"
-    ]
+    ],
+    "historia": "ig/20-guanacos-paine/historia.jpg"
   },
   "21-errores-comunes": {
     "titulo": "File:Ruta 40, Santa Cruz.jpg",
@@ -163,7 +176,8 @@
       "ig/21-errores-comunes/5.jpg",
       "ig/21-errores-comunes/6.jpg",
       "ig/21-errores-comunes/7.jpg"
-    ]
+    ],
+    "historia": "ig/21-errores-comunes/historia.jpg"
   },
   "22-ruta-40": {
     "titulo": "File:Ruta Nacional 40 Santa Cruz.jpg",
@@ -172,7 +186,8 @@
     "credito": "Oscar871217 / Wikimedia Commons (CC BY 3.0)",
     "imagenes": [
       "ig/22-ruta-40/1.jpg"
-    ]
+    ],
+    "historia": "ig/22-ruta-40/historia.jpg"
   },
   "23-dormir-paine": {
     "titulo": "File:2019-03-12 01 CNS PUERTO NATALES LSG-1617 – Puerto Natales, Chile.jpg",
@@ -185,7 +200,8 @@
       "ig/23-dormir-paine/3.jpg",
       "ig/23-dormir-paine/4.jpg",
       "ig/23-dormir-paine/5.jpg"
-    ]
+    ],
+    "historia": "ig/23-dormir-paine/historia.jpg"
   },
   "24-campanario": {
     "titulo": "File:Cerro Campanario Bariloche Argentina - panoramio.jpg",
@@ -194,7 +210,8 @@
     "credito": "Hiroki Ogawa / Wikimedia Commons (CC BY 3.0)",
     "imagenes": [
       "ig/24-campanario/1.jpg"
-    ]
+    ],
+    "historia": "ig/24-campanario/historia.jpg"
   },
   "25-san-martin-andes": {
     "titulo": "File:Lago Lácar en San Martin de los Andes Argentina.JPG",
@@ -208,7 +225,8 @@
       "ig/25-san-martin-andes/4.jpg",
       "ig/25-san-martin-andes/5.jpg",
       "ig/25-san-martin-andes/6.jpg"
-    ]
+    ],
+    "historia": "ig/25-san-martin-andes/historia.jpg"
   },
   "26-faro-eclaireurs": {
     "titulo": "File:Les Eclaireurs Lighthouse.jpg",
@@ -217,7 +235,8 @@
     "credito": "Ricardo Martins / Wikimedia Commons (CC BY 2.0)",
     "imagenes": [
       "ig/26-faro-eclaireurs/1.jpg"
-    ]
+    ],
+    "historia": "ig/26-faro-eclaireurs/historia.jpg"
   },
   "28-siete-lagos": {
     "titulo": "File:CAMINO DE LOS SIETE LAGOS.JPG",
@@ -226,7 +245,8 @@
     "credito": "No machine-readable author provided. Albasmalko assumed (based on copyright clai / Wikimedia Commons (Public domain)",
     "imagenes": [
       "ig/28-siete-lagos/1.jpg"
-    ]
+    ],
+    "historia": "ig/28-siete-lagos/historia.jpg"
   },
   "06-torres-del-paine": {
     "titulo": "File:Cuernos del Paine (Lago Pehoé) - panoramio.jpg",
@@ -235,7 +255,8 @@
     "credito": "Elvis Boaventura / Wikimedia Commons (CC BY 3.0)",
     "imagenes": [
       "ig/06-torres-del-paine/1.jpg"
-    ]
+    ],
+    "historia": "ig/06-torres-del-paine/historia.jpg"
   },
   "07-chalten-senderos": {
     "titulo": "File:Laguna de los Tres color.jpg",
@@ -249,7 +270,8 @@
       "ig/07-chalten-senderos/4.jpg",
       "ig/07-chalten-senderos/5.jpg",
       "ig/07-chalten-senderos/6.jpg"
-    ]
+    ],
+    "historia": "ig/07-chalten-senderos/historia.jpg"
   },
   "13-que-llevar": {
     "titulo": "File:Fitz Roy group - Laguna Capri - 01.JPG",
@@ -264,7 +286,8 @@
       "ig/13-que-llevar/5.jpg",
       "ig/13-que-llevar/6.jpg",
       "ig/13-que-llevar/7.jpg"
-    ]
+    ],
+    "historia": "ig/13-que-llevar/historia.jpg"
   },
   "14-puerto-ushuaia": {
     "titulo": "File:UshuaiaPort.jpg",
@@ -273,7 +296,8 @@
     "credito": "Kkkr / Wikimedia Commons (CC BY-SA 3.0)",
     "imagenes": [
       "ig/14-puerto-ushuaia/1.jpg"
-    ]
+    ],
+    "historia": "ig/14-puerto-ushuaia/historia.jpg"
   },
   "19-ruta-7-dias": {
     "titulo": "File:Tèmpanos (iceberg) Lago Argentino Brazo Norte Patagonia Argentina Luca Galuzzi 2005.JPG",
@@ -288,7 +312,8 @@
       "ig/19-ruta-7-dias/5.jpg",
       "ig/19-ruta-7-dias/6.jpg",
       "ig/19-ruta-7-dias/7.jpg"
-    ]
+    ],
+    "historia": "ig/19-ruta-7-dias/historia.jpg"
   },
   "27-sabores-patagonia": {
     "titulo": "File:Cordero patagonico al asador Neuquen.JPG",
@@ -303,7 +328,8 @@
       "ig/27-sabores-patagonia/5.jpg",
       "ig/27-sabores-patagonia/6.jpg",
       "ig/27-sabores-patagonia/7.jpg"
-    ]
+    ],
+    "historia": "ig/27-sabores-patagonia/historia.jpg"
   },
   "08-bariloche-lago": {
     "titulo": "File:NahuelHuapiyBariloche.jpg",
@@ -312,7 +338,8 @@
     "credito": "Elemaki / Wikimedia Commons (CC BY 3.0)",
     "imagenes": [
       "ig/08-bariloche-lago/1.jpg"
-    ]
+    ],
+    "historia": "ig/08-bariloche-lago/historia.jpg"
   },
   "05-cuando-viajar": {
     "titulo": "File:Lenga in Autumn Splendor (3328803692).jpg",
@@ -326,6 +353,7 @@
       "ig/05-cuando-viajar/4.jpg",
       "ig/05-cuando-viajar/5.jpg",
       "ig/05-cuando-viajar/6.jpg"
-    ]
+    ],
+    "historia": "ig/05-cuando-viajar/historia.jpg"
   }
 }
