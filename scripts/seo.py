@@ -23,7 +23,7 @@ DESCRIPCIONES = {
     "en": "TodoPatagonia: travel guides to Argentine and Chilean Patagonia.",
     "pt": "TodoPatagonia: guias de viagem para a Patagônia argentina e chilena.",
 }
-EXCLUIR = ("ig.html", "ig/")
+EXCLUIR = ("ig.html", "ig/", "google")
 # Verificación de Google Search Console (va en la portada).
 GSC = '<meta name="google-site-verification" content="5TKB8u_pCKPpnMqXJNifmhv5zk_yJ3HHZf1ut4_BH18" />'
 

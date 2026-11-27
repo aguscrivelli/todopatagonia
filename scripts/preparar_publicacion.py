@@ -14,6 +14,8 @@ def main():
         ignore=shutil.ignore_patterns(".git", ".github", "_public", "scripts", "instagram", "README.md"),
     )
     for page in output.rglob("*.html"):
+        if page.name.startswith("google") and page.parent == output:
+            continue  # archivo de verificación de Search Console: va tal cual
         html = page.read_bytes()
         if b"</body>" not in html:
             raise ValueError(f"Falta el cierre de body en {page}")
