@@ -43,12 +43,26 @@ def credito(photo, css=""):
     return f'<a {css}href="{COMMONS}{photo[0]}">{escape(photo[1])}</a>'
 
 
+def portada_de_la_semana(hoy=None):
+    """Foto de portada: rota entre las de data/portadas.json, una por semana."""
+    import json
+    from datetime import date
+    from pathlib import Path
+
+    fotos = [p for p in json.loads(Path("data/portadas.json").read_text(encoding="utf-8")) if p.get("activa")]
+    anio, semana, _ = (hoy or date.today()).isocalendar()
+    return fotos[(anio * 53 + semana) % len(fotos)]
+
+
 def aplicar_visuales(path, html):
     if path in PORTADAS:
         start = '<section class="hero">'
-        image = foto(HERO, HERO[PORTADAS[path]], 'class="hero-foto" fetchpriority="high"')
+        p = portada_de_la_semana()
+        lang = {2: "es", 3: "en", 4: "pt"}[PORTADAS[path]]
+        image = f'<img src="{p["imagen"]}" alt="{escape(p[lang])}" class="hero-foto" fetchpriority="high">'
         html = html.replace(start, '<section class="hero hero-fotografica">' + image, 1)
-        html = html.replace('</section>', credito(HERO, 'class="hero-credito" ') + '</section>', 1)
+        enlace = f'<a class="hero-credito" href="{p["fuente"]}">{escape(p[lang])} · {escape(p["credito"])}</a>'
+        html = html.replace('</section>', enlace + '</section>', 1)
     elif path in PAGINAS_ACTIVIDADES:
         label_index = PAGINAS_ACTIVIDADES[path]
         figures = []

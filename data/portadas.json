@@ -12,30 +12,6 @@
     "activa": true
   },
   {
-    "clave": "cuernos-del-paine",
-    "imagen": "/img/portadas/cuernos-del-paine.jpg",
-    "ancho": 2992,
-    "alto": 2000,
-    "credito": "Elvis Boaventura · CC BY 3.0",
-    "fuente": "https://commons.wikimedia.org/wiki/File:Cuernos_del_Paine_(Lago_Peho%C3%A9)_-_panoramio.jpg",
-    "es": "Cuernos del Paine y lago Pehoé, Torres del Paine",
-    "en": "Cuernos del Paine and Lake Pehoé, Torres del Paine",
-    "pt": "Cuernos del Paine e lago Pehoé, Torres del Paine",
-    "activa": true
-  },
-  {
-    "clave": "laguna-de-los-tres",
-    "imagen": "/img/portadas/laguna-de-los-tres.jpg",
-    "ancho": 5411,
-    "alto": 3607,
-    "credito": "Almonroth · CC BY-SA 3.0",
-    "fuente": "https://commons.wikimedia.org/wiki/File:Laguna_de_los_Tres_color.jpg",
-    "es": "Laguna de los Tres, El Chaltén",
-    "en": "Laguna de los Tres, El Chaltén",
-    "pt": "Laguna de los Tres, El Chaltén",
-    "activa": true
-  },
-  {
     "clave": "perito-moreno",
     "imagen": "/img/portadas/perito-moreno.jpg",
     "ancho": 5310,
@@ -48,27 +24,15 @@
     "activa": true
   },
   {
-    "clave": "cerro-torre",
-    "imagen": "/img/portadas/cerro-torre.jpg",
-    "ancho": 1800,
-    "alto": 1226,
-    "credito": "Stefan.straub · CC BY-SA 4.0",
-    "fuente": "https://commons.wikimedia.org/wiki/File:Cerro_torre_laguna_torre.jpg",
-    "es": "Cerro Torre y laguna Torre, El Chaltén",
-    "en": "Cerro Torre and Laguna Torre, El Chaltén",
-    "pt": "Cerro Torre e Laguna Torre, El Chaltén",
-    "activa": true
-  },
-  {
-    "clave": "lago-argentino",
-    "imagen": "/img/portadas/lago-argentino.jpg",
-    "ancho": 2000,
-    "alto": 1333,
-    "credito": "Luca Galuzzi (Lucag) · CC BY-SA 2.5",
-    "fuente": "https://commons.wikimedia.org/wiki/File:T%C3%A8mpanos_(iceberg)_Lago_Argentino_Brazo_Norte_Patagonia_Argentina_Luca_Galuzzi_2005.JPG",
-    "es": "Témpanos en el lago Argentino",
-    "en": "Icebergs on Lake Argentino",
-    "pt": "Icebergs no lago Argentino",
+    "clave": "cuernos-del-paine",
+    "imagen": "/img/portadas/cuernos-del-paine.jpg",
+    "ancho": 2992,
+    "alto": 2000,
+    "credito": "Elvis Boaventura · CC BY 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Cuernos_del_Paine_(Lago_Peho%C3%A9)_-_panoramio.jpg",
+    "es": "Cuernos del Paine y lago Pehoé, Torres del Paine",
+    "en": "Cuernos del Paine and Lake Pehoé, Torres del Paine",
+    "pt": "Cuernos del Paine e lago Pehoé, Torres del Paine",
     "activa": true
   },
   {
@@ -84,15 +48,39 @@
     "activa": true
   },
   {
-    "clave": "ushuaia",
-    "imagen": "/img/portadas/ushuaia.jpg",
-    "ancho": 5616,
-    "alto": 3744,
-    "credito": "Liam Quinn from Canada · CC BY-SA 2.0",
-    "fuente": "https://commons.wikimedia.org/wiki/File:Ushuaia_and_the_Beagle_Channel_(5525434752).jpg",
-    "es": "Ushuaia y el Canal Beagle",
-    "en": "Ushuaia and the Beagle Channel",
-    "pt": "Ushuaia e o Canal Beagle",
+    "clave": "laguna-de-los-tres",
+    "imagen": "/img/portadas/laguna-de-los-tres.jpg",
+    "ancho": 5411,
+    "alto": 3607,
+    "credito": "Almonroth · CC BY-SA 3.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Laguna_de_los_Tres_color.jpg",
+    "es": "Laguna de los Tres, El Chaltén",
+    "en": "Laguna de los Tres, El Chaltén",
+    "pt": "Laguna de los Tres, El Chaltén",
+    "activa": true
+  },
+  {
+    "clave": "lago-argentino",
+    "imagen": "/img/portadas/lago-argentino.jpg",
+    "ancho": 2000,
+    "alto": 1333,
+    "credito": "Luca Galuzzi (Lucag) · CC BY-SA 2.5",
+    "fuente": "https://commons.wikimedia.org/wiki/File:T%C3%A8mpanos_(iceberg)_Lago_Argentino_Brazo_Norte_Patagonia_Argentina_Luca_Galuzzi_2005.JPG",
+    "es": "Témpanos en el lago Argentino",
+    "en": "Icebergs on Lake Argentino",
+    "pt": "Icebergs no lago Argentino",
+    "activa": true
+  },
+  {
+    "clave": "cerro-torre",
+    "imagen": "/img/portadas/cerro-torre.jpg",
+    "ancho": 1800,
+    "alto": 1226,
+    "credito": "Stefan.straub · CC BY-SA 4.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Cerro_torre_laguna_torre.jpg",
+    "es": "Cerro Torre y laguna Torre, El Chaltén",
+    "en": "Cerro Torre and Laguna Torre, El Chaltén",
+    "pt": "Cerro Torre e Laguna Torre, El Chaltén",
     "activa": true
   },
   {
@@ -105,6 +93,18 @@
     "es": "Lago Lácar, San Martín de los Andes",
     "en": "Lake Lácar, San Martín de los Andes",
     "pt": "Lago Lácar, San Martín de los Andes",
+    "activa": true
+  },
+  {
+    "clave": "ushuaia",
+    "imagen": "/img/portadas/ushuaia.jpg",
+    "ancho": 5616,
+    "alto": 3744,
+    "credito": "Liam Quinn from Canada · CC BY-SA 2.0",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Ushuaia_and_the_Beagle_Channel_(5525434752).jpg",
+    "es": "Ushuaia y el Canal Beagle",
+    "en": "Ushuaia and the Beagle Channel",
+    "pt": "Ushuaia e o Canal Beagle",
     "activa": true
   }
 ]
