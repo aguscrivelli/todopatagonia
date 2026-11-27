@@ -1,0 +1,137 @@
+{
+  "page_title": "How to get to Patagonia: flights, buses and roads",
+  "meta_description": "How to reach Bariloche, El Calafate, Ushuaia, El Chaltén, Valdés Peninsula and Torres del Paine: airports, connections and border crossings.",
+  "hero_title": "How to get to Patagonia",
+  "hero_subtitle": "Distances are huge: choosing how to travel wisely saves you days.",
+  "intro": "Most travelers reach Patagonia by plane and combine flights with buses or rental cars between destinations. Some places are hundreds of kilometers apart, so it pays to plan a few bases and calculate transfers carefully.",
+  "destinations": [
+    {
+      "name": "Bariloche",
+      "emoji": "🏔️",
+      "nearest_airport": "Bariloche International Airport (BRC)",
+      "from_buenos_aires": "Direct flights of about 2 hours. By bus, the trip takes about a full day.",
+      "from_santiago": "Overland from Osorno or Puerto Montt via the Cardenal Samoré Pass.",
+      "local_transport": "City buses, tours and rental cars.",
+      "best_tip": "In January and during ski season, book flights well in advance."
+    },
+    {
+      "name": "El Calafate",
+      "emoji": "🧊",
+      "nearest_airport": "El Calafate International Airport (FTE)",
+      "from_buenos_aires": "Direct flights of about 3 hours.",
+      "from_santiago": "Overland from Puerto Natales, crossing the border.",
+      "local_transport": "Buses, tours and rental cars. The airport is about 20 km from town.",
+      "best_tip": "It's the base for Perito Moreno and the gateway to El Chaltén."
+    },
+    {
+      "name": "Ushuaia",
+      "emoji": "🌍",
+      "nearest_airport": "Malvinas Argentinas International Airport (USH)",
+      "from_buenos_aires": "Direct flights of about 3.5 hours.",
+      "from_santiago": "Via Punta Arenas, by plane or on a long overland trip that crosses the Strait of Magellan by ferry.",
+      "local_transport": "Taxis, private cars and tours.",
+      "best_tip": "Wind can delay flights: avoid tight connections."
+    },
+    {
+      "name": "El Chaltén",
+      "emoji": "⛰️",
+      "nearest_airport": "No airport: the nearest is El Calafate (FTE), about 220 km away",
+      "from_buenos_aires": "Fly to El Calafate, then take a bus of about 3 hours.",
+      "from_santiago": "",
+      "local_transport": "You get around on foot: many trails start in town.",
+      "best_tip": "In high season, book the bus from El Calafate ahead of time."
+    },
+    {
+      "name": "Valdés Peninsula",
+      "emoji": "🐋",
+      "nearest_airport": "Trelew (REL) and Puerto Madryn (PMY) airports",
+      "from_buenos_aires": "Flights to Trelew of about 2 hours, then around an hour by road to Puerto Madryn.",
+      "from_santiago": "",
+      "local_transport": "Tours from Puerto Madryn or your own car. Puerto Pirámides is the starting point for whale watching.",
+      "best_tip": "Roads inside the peninsula are gravel: drive carefully."
+    },
+    {
+      "name": "Torres del Paine",
+      "emoji": "🏕️",
+      "nearest_airport": "Punta Arenas Airport (PUQ), Chile",
+      "from_buenos_aires": "Fly to El Calafate and cross overland to Puerto Natales, or fly via Santiago to Punta Arenas.",
+      "from_santiago": "Flights to Punta Arenas, then about 3 hours by bus to Puerto Natales.",
+      "local_transport": "Buses from Puerto Natales to the park.",
+      "best_tip": "You need confirmed reservations to sleep inside the park."
+    }
+  ],
+  "transport_modes": [
+    {
+      "mode": "Plane",
+      "emoji": "✈️",
+      "pros": [
+        "The fastest way to cover long distances",
+        "Direct flights from Buenos Aires to the main destinations"
+      ],
+      "cons": [
+        "Wind and weather can cause delays"
+      ],
+      "tip": "Fly into one city and out of another to avoid backtracking."
+    },
+    {
+      "mode": "Bus",
+      "emoji": "🚌",
+      "pros": [
+        "Budget-friendly option",
+        "Good network between Patagonian towns"
+      ],
+      "cons": [
+        "Very long rides between some destinations"
+      ],
+      "tip": "For short legs, such as El Calafate–El Chaltén, it's the best choice."
+    },
+    {
+      "mode": "Rental car",
+      "emoji": "🚗",
+      "pros": [
+        "Freedom to stop at viewpoints and remote places",
+        "Convenient for groups and families"
+      ],
+      "cons": [
+        "Long distances with widely spaced gas stations"
+      ],
+      "tip": "If you plan to cross into Chile, ask the rental company for permission to leave the country."
+    }
+  ],
+  "border_crossings": [
+    {
+      "name": "Cardenal Samoré Pass",
+      "info": "Connects Bariloche and Villa La Angostura with Osorno and Puerto Montt, Chile. It may close temporarily due to snow in winter."
+    },
+    {
+      "name": "Crossings between El Calafate and Puerto Natales",
+      "info": "Used to combine El Calafate with Torres del Paine. Buses cover the full route."
+    },
+    {
+      "name": "Integración Austral Pass (Monte Aymond)",
+      "info": "Connects Río Gallegos with Punta Arenas and is part of the overland route to Tierra del Fuego."
+    },
+    {
+      "name": "When entering Chile",
+      "info": "Carry valid documents and don't bring fruit, vegetables, meat or dairy: Chile's agricultural control is strict."
+    }
+  ],
+  "booking_tips": [
+    {
+      "title": "Book early for summer",
+      "description": "January and February see the highest demand for flights and buses."
+    },
+    {
+      "title": "Consider open-jaw routes",
+      "description": "Arriving in one destination and leaving from another saves days of transfers."
+    },
+    {
+      "title": "Leave time between connections",
+      "description": "Weather can delay flights and close border crossings."
+    },
+    {
+      "title": "Book buses between towns",
+      "description": "In high season, the busiest routes fill up."
+    }
+  ]
+}

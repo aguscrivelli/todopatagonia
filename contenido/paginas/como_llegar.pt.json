@@ -1,0 +1,137 @@
+{
+  "page_title": "Como chegar à Patagônia: voos, ônibus e estradas",
+  "meta_description": "Como chegar a Bariloche, El Calafate, Ushuaia, El Chaltén, Península Valdés e Torres del Paine: aeroportos, conexões e passagens de fronteira.",
+  "hero_title": "Como chegar à Patagônia",
+  "hero_subtitle": "As distâncias são enormes: escolher bem como se deslocar economiza dias de viagem.",
+  "intro": "A maioria dos viajantes chega à Patagônia de avião e combina voos com ônibus ou carros alugados entre os destinos. Alguns pontos ficam a centenas de quilômetros uns dos outros, então vale planejar poucas bases e calcular bem os traslados.",
+  "destinations": [
+    {
+      "name": "Bariloche",
+      "emoji": "🏔️",
+      "nearest_airport": "Aeroporto Internacional de Bariloche (BRC)",
+      "from_buenos_aires": "Voos diretos de cerca de 2 horas. De ônibus, a viagem leva cerca de um dia.",
+      "from_santiago": "Por terra saindo de Osorno ou Puerto Montt, pela passagem Cardenal Samoré.",
+      "local_transport": "Ônibus urbanos, passeios e carros alugados.",
+      "best_tip": "Em janeiro e na temporada de esqui, reserve os voos com antecedência."
+    },
+    {
+      "name": "El Calafate",
+      "emoji": "🧊",
+      "nearest_airport": "Aeroporto Internacional de El Calafate (FTE)",
+      "from_buenos_aires": "Voos diretos de cerca de 3 horas.",
+      "from_santiago": "Por terra saindo de Puerto Natales, cruzando a fronteira.",
+      "local_transport": "Ônibus, passeios e carros alugados. O aeroporto fica a cerca de 20 km do centro.",
+      "best_tip": "É a base para o Perito Moreno e a porta de entrada para El Chaltén."
+    },
+    {
+      "name": "Ushuaia",
+      "emoji": "🌍",
+      "nearest_airport": "Aeroporto Internacional Malvinas Argentinas (USH)",
+      "from_buenos_aires": "Voos diretos de cerca de 3 horas e meia.",
+      "from_santiago": "Via Punta Arenas, de avião ou numa longa viagem por terra que cruza o estreito de Magalhães de balsa.",
+      "local_transport": "Táxis, carros com motorista e passeios.",
+      "best_tip": "O vento pode atrasar voos: evite conexões muito apertadas."
+    },
+    {
+      "name": "El Chaltén",
+      "emoji": "⛰️",
+      "nearest_airport": "Não tem aeroporto: o mais próximo é El Calafate (FTE), a cerca de 220 km",
+      "from_buenos_aires": "Voo até El Calafate e depois ônibus de cerca de 3 horas.",
+      "from_santiago": "",
+      "local_transport": "Tudo se faz a pé: muitas trilhas saem do povoado.",
+      "best_tip": "Na alta temporada, reserve o ônibus saindo de El Calafate com antecedência."
+    },
+    {
+      "name": "Península Valdés",
+      "emoji": "🐋",
+      "nearest_airport": "Aeroportos de Trelew (REL) e Puerto Madryn (PMY)",
+      "from_buenos_aires": "Voos até Trelew de cerca de 2 horas e depois cerca de uma hora de estrada até Puerto Madryn.",
+      "from_santiago": "",
+      "local_transport": "Passeios saindo de Puerto Madryn ou carro próprio. Puerto Pirámides é o ponto de partida dos avistamentos.",
+      "best_tip": "As estradas internas da península são de cascalho: dirija com cuidado."
+    },
+    {
+      "name": "Torres del Paine",
+      "emoji": "🏕️",
+      "nearest_airport": "Aeroporto de Punta Arenas (PUQ), no Chile",
+      "from_buenos_aires": "Voando até El Calafate e cruzando por terra até Puerto Natales, ou com voos via Santiago até Punta Arenas.",
+      "from_santiago": "Voos até Punta Arenas e depois cerca de 3 horas de ônibus até Puerto Natales.",
+      "local_transport": "Ônibus de Puerto Natales até o parque.",
+      "best_tip": "Para dormir dentro do parque, é preciso ter reservas confirmadas."
+    }
+  ],
+  "transport_modes": [
+    {
+      "mode": "Avião",
+      "emoji": "✈️",
+      "pros": [
+        "A forma mais rápida de cobrir grandes distâncias",
+        "Voos diretos de Buenos Aires para os principais destinos"
+      ],
+      "cons": [
+        "O vento e o clima podem causar atrasos"
+      ],
+      "tip": "Chegue por uma cidade e volte por outra para não refazer o caminho."
+    },
+    {
+      "mode": "Ônibus",
+      "emoji": "🚌",
+      "pros": [
+        "Opção econômica",
+        "Boa rede entre as cidades patagônicas"
+      ],
+      "cons": [
+        "Viagens muito longas entre alguns destinos"
+      ],
+      "tip": "Para trechos curtos, como El Calafate–El Chaltén, é a melhor opção."
+    },
+    {
+      "mode": "Carro alugado",
+      "emoji": "🚗",
+      "pros": [
+        "Liberdade para parar em mirantes e lugares remotos",
+        "Prático para grupos e famílias"
+      ],
+      "cons": [
+        "Grandes distâncias com postos de combustível espaçados"
+      ],
+      "tip": "Se for cruzar para o Chile, peça à locadora a autorização para sair do país."
+    }
+  ],
+  "border_crossings": [
+    {
+      "name": "Passagem Cardenal Samoré",
+      "info": "Liga Bariloche e Villa La Angostura a Osorno e Puerto Montt, no Chile. Pode fechar temporariamente por causa da neve no inverno."
+    },
+    {
+      "name": "Passagens entre El Calafate e Puerto Natales",
+      "info": "São usadas para combinar El Calafate com Torres del Paine. Há ônibus que fazem o percurso completo."
+    },
+    {
+      "name": "Passagem Integración Austral (Monte Aymond)",
+      "info": "Liga Río Gallegos a Punta Arenas e faz parte da rota terrestre para a Terra do Fogo."
+    },
+    {
+      "name": "Ao entrar no Chile",
+      "info": "Leve os documentos em dia e não leve frutas, verduras, carnes nem laticínios: o controle sanitário chileno é rigoroso."
+    }
+  ],
+  "booking_tips": [
+    {
+      "title": "Reserve cedo para o verão",
+      "description": "Janeiro e fevereiro concentram a maior procura por voos e ônibus."
+    },
+    {
+      "title": "Pense em roteiros abertos",
+      "description": "Chegar por um destino e sair por outro economiza dias de traslado."
+    },
+    {
+      "title": "Deixe folga entre as conexões",
+      "description": "O clima pode atrasar voos e fechar passagens de fronteira."
+    },
+    {
+      "title": "Reserve os ônibus entre cidades",
+      "description": "Na alta temporada, os trechos mais usados lotam."
+    }
+  ]
+}

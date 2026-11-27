@@ -1,0 +1,144 @@
+{
+  "page_title": "Things to do in Patagonia: hiking, glaciers and wildlife",
+  "meta_description": "What to do in Patagonia: hiking, glaciers, wildlife, boat trips, skiing and scenic drives. Where to do each activity and when.",
+  "hero_title": "Things to do in Patagonia",
+  "hero_subtitle": "Glaciers, mountains, lakes and wildlife: these are the experiences that define a trip to the far south.",
+  "categories": [
+    {
+      "emoji": "🥾",
+      "name": "Hiking & trekking",
+      "description": "Patagonia has some of the world's most famous trails, with options for every level: from short walks to viewpoints to multi-day treks.",
+      "top_spots": [
+        "Laguna de los Tres and Laguna Torre, El Chaltén",
+        "W Trek, Torres del Paine",
+        "Refugio Frey, Bariloche"
+      ],
+      "difficulty": "moderado",
+      "gyg_query": "Patagonia hiking",
+      "best_season": "October to April"
+    },
+    {
+      "emoji": "🧊",
+      "name": "Glaciers",
+      "description": "Seeing a glacier up close is one of the most powerful experiences of the trip: from walkways, on a boat in front of the ice walls or hiking on the glacier with guides.",
+      "top_spots": [
+        "Perito Moreno Glacier, El Calafate",
+        "Boat trips on Lake Argentino",
+        "Grey Glacier, Torres del Paine"
+      ],
+      "difficulty": "facil",
+      "gyg_query": "Perito Moreno glacier",
+      "best_season": "All year; more activities from October to April"
+    },
+    {
+      "emoji": "🐋",
+      "name": "Wildlife",
+      "description": "Whales, penguins, sea lions, guanacos and condors. Patagonia is one of the best places in South America to see wildlife in the wild.",
+      "top_spots": [
+        "Valdés Peninsula, Chubut",
+        "Martillo Island, Beagle Channel",
+        "Torres del Paine, Chile"
+      ],
+      "difficulty": "facil",
+      "gyg_query": "Peninsula Valdes",
+      "best_season": "Depends on the species: whales, roughly June to December"
+    },
+    {
+      "emoji": "🚣",
+      "name": "Boat trips & kayaking",
+      "description": "Patagonia's lakes and channels can be explored by boat or kayak, surrounded by islands, forests and mountains.",
+      "top_spots": [
+        "Beagle Channel, Ushuaia",
+        "Victoria Island and Arrayanes Forest, Bariloche",
+        "Lake Argentino, El Calafate"
+      ],
+      "difficulty": "facil",
+      "gyg_query": "Beagle Channel",
+      "best_season": "October to April"
+    },
+    {
+      "emoji": "⛷️",
+      "name": "Skiing & snow",
+      "description": "In winter, Patagonia's ski resorts welcome skiers from around the world, with slopes overlooking lakes and forests.",
+      "top_spots": [
+        "Cerro Catedral, Bariloche",
+        "Cerro Chapelco, San Martín de los Andes",
+        "Cerro Castor, Ushuaia"
+      ],
+      "difficulty": "moderado",
+      "gyg_query": "Bariloche ski",
+      "best_season": "June to September, depending on snow"
+    },
+    {
+      "emoji": "🚗",
+      "name": "Scenic drives",
+      "description": "Some of the most beautiful scenery is enjoyed from the road, stopping at viewpoints, lakes and small towns.",
+      "top_spots": [
+        "Seven Lakes Road, Neuquén",
+        "Circuito Chico, Bariloche",
+        "Route 40 between El Calafate and El Chaltén"
+      ],
+      "difficulty": "facil",
+      "gyg_query": "Seven Lakes Road",
+      "best_season": "All year; take care with snow in winter"
+    }
+  ],
+  "seasonal_guide": {
+    "spring": {
+      "name": "Spring",
+      "months": "September - November",
+      "highlight": "Whale season at Valdés Peninsula and the arrival of penguins on the coast.",
+      "best_for": [
+        "Wildlife",
+        "Boat trips & kayaking"
+      ]
+    },
+    "summer": {
+      "name": "Summer",
+      "months": "December - February",
+      "highlight": "Very long days and all trails and tours running. It's high season.",
+      "best_for": [
+        "Hiking & trekking",
+        "Glaciers",
+        "Boat trips & kayaking"
+      ]
+    },
+    "autumn": {
+      "name": "Autumn",
+      "months": "March - May",
+      "highlight": "Forests turn red and yellow and there are fewer visitors.",
+      "best_for": [
+        "Hiking & trekking",
+        "Scenic drives"
+      ]
+    },
+    "winter": {
+      "name": "Winter",
+      "months": "June - August",
+      "highlight": "Snow in the Andes and ski season. Some trails and tours close.",
+      "best_for": [
+        "Skiing & snow",
+        "Glaciers"
+      ]
+    }
+  },
+  "practical_tips": [
+    {
+      "title": "Dress in layers",
+      "description": "A single day can bring sun, wind, rain and cold. A good windbreaker is essential."
+    },
+    {
+      "title": "Book ahead",
+      "description": "In high season, the most popular tours sell out weeks in advance."
+    },
+    {
+      "title": "Leave spare days",
+      "description": "The weather is in charge. An extra day can save a hike or a boat trip."
+    },
+    {
+      "title": "Follow park rules",
+      "description": "Stay on the trails, don't feed wildlife and pack out your waste."
+    }
+  ],
+  "closing": "Patagonia is best enjoyed slowly. Choose a few bases, leave time for the weather and let it surprise you."
+}

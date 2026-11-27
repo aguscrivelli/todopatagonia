@@ -1,0 +1,144 @@
+{
+  "page_title": "Actividades en la Patagonia: trekking, glaciares y fauna",
+  "meta_description": "Qué hacer en la Patagonia: trekking, glaciares, fauna, navegaciones, esquí y rutas escénicas. Dónde hacer cada actividad y en qué época.",
+  "hero_title": "Actividades en la Patagonia",
+  "hero_subtitle": "Glaciares, montañas, lagos y fauna: estas son las experiencias que definen un viaje al sur.",
+  "categories": [
+    {
+      "emoji": "🥾",
+      "name": "Trekking",
+      "description": "La Patagonia tiene algunos de los senderos más famosos del mundo, con opciones para todos los niveles: desde caminatas cortas a miradores hasta travesías de varios días.",
+      "top_spots": [
+        "Laguna de los Tres y Laguna Torre, El Chaltén",
+        "Circuito W, Torres del Paine",
+        "Refugio Frey, Bariloche"
+      ],
+      "difficulty": "moderado",
+      "gyg_query": "Patagonia hiking",
+      "best_season": "De octubre a abril"
+    },
+    {
+      "emoji": "🧊",
+      "name": "Glaciares",
+      "description": "Ver de cerca un glaciar es una de las experiencias más fuertes del viaje: desde pasarelas, navegando frente a las paredes de hielo o caminando sobre el glaciar con guías.",
+      "top_spots": [
+        "Glaciar Perito Moreno, El Calafate",
+        "Navegaciones por el lago Argentino",
+        "Glaciar Grey, Torres del Paine"
+      ],
+      "difficulty": "facil",
+      "gyg_query": "Perito Moreno glacier",
+      "best_season": "Todo el año; más actividades de octubre a abril"
+    },
+    {
+      "emoji": "🐋",
+      "name": "Fauna",
+      "description": "Ballenas, pingüinos, lobos marinos, guanacos y cóndores. La Patagonia es uno de los mejores lugares de Sudamérica para ver fauna en libertad.",
+      "top_spots": [
+        "Península Valdés, Chubut",
+        "Isla Martillo, Canal Beagle",
+        "Torres del Paine, Chile"
+      ],
+      "difficulty": "facil",
+      "gyg_query": "Peninsula Valdes",
+      "best_season": "Depende de la especie: ballenas, aproximadamente de junio a diciembre"
+    },
+    {
+      "emoji": "🚣",
+      "name": "Navegación y kayak",
+      "description": "Los lagos y canales de la Patagonia se recorren en barco o en kayak, con islas, bosques y montañas alrededor.",
+      "top_spots": [
+        "Canal Beagle, Ushuaia",
+        "Isla Victoria y Bosque de Arrayanes, Bariloche",
+        "Lago Argentino, El Calafate"
+      ],
+      "difficulty": "facil",
+      "gyg_query": "Beagle Channel",
+      "best_season": "De octubre a abril"
+    },
+    {
+      "emoji": "⛷️",
+      "name": "Esquí y nieve",
+      "description": "En invierno, los centros de esquí de la Patagonia reciben esquiadores de todo el mundo, con pistas frente a lagos y bosques.",
+      "top_spots": [
+        "Cerro Catedral, Bariloche",
+        "Cerro Chapelco, San Martín de los Andes",
+        "Cerro Castor, Ushuaia"
+      ],
+      "difficulty": "moderado",
+      "gyg_query": "Bariloche ski",
+      "best_season": "De junio a septiembre, según la nieve"
+    },
+    {
+      "emoji": "🚗",
+      "name": "Rutas escénicas",
+      "description": "Algunos de los paisajes más lindos se disfrutan desde la ruta, con paradas en miradores, lagos y pueblos pequeños.",
+      "top_spots": [
+        "Camino de los Siete Lagos, Neuquén",
+        "Circuito Chico, Bariloche",
+        "Ruta 40 entre El Calafate y El Chaltén"
+      ],
+      "difficulty": "facil",
+      "gyg_query": "Seven Lakes Road",
+      "best_season": "Todo el año; en invierno, con precaución por la nieve"
+    }
+  ],
+  "seasonal_guide": {
+    "spring": {
+      "name": "Primavera",
+      "months": "Septiembre - Noviembre",
+      "highlight": "Temporada de ballenas en Península Valdés y llegada de los pingüinos a la costa.",
+      "best_for": [
+        "Fauna",
+        "Navegación y kayak"
+      ]
+    },
+    "summer": {
+      "name": "Verano",
+      "months": "Diciembre - Febrero",
+      "highlight": "Días muy largos y todos los senderos y excursiones funcionando. Es temporada alta.",
+      "best_for": [
+        "Trekking",
+        "Glaciares",
+        "Navegación y kayak"
+      ]
+    },
+    "autumn": {
+      "name": "Otoño",
+      "months": "Marzo - Mayo",
+      "highlight": "Los bosques se tiñen de rojo y amarillo y hay menos gente.",
+      "best_for": [
+        "Trekking",
+        "Rutas escénicas"
+      ]
+    },
+    "winter": {
+      "name": "Invierno",
+      "months": "Junio - Agosto",
+      "highlight": "Nieve en la cordillera y temporada de esquí. Algunos senderos y excursiones cierran.",
+      "best_for": [
+        "Esquí y nieve",
+        "Glaciares"
+      ]
+    }
+  },
+  "practical_tips": [
+    {
+      "title": "Vestite en capas",
+      "description": "En un mismo día puede haber sol, viento, lluvia y frío. Un buen rompeviento es imprescindible."
+    },
+    {
+      "title": "Reservá con anticipación",
+      "description": "En temporada alta, las excursiones más buscadas se agotan con semanas de anticipación."
+    },
+    {
+      "title": "Dejá días de margen",
+      "description": "El clima manda. Un día extra puede salvarte una caminata o una navegación."
+    },
+    {
+      "title": "Respetá las normas de los parques",
+      "description": "Quedate en los senderos, no alimentes a los animales y llevate tus residuos."
+    }
+  ],
+  "closing": "La Patagonia se disfruta sin apuro. Elegí pocas bases, dejá tiempo para el clima y dejate sorprender."
+}

@@ -9,6 +9,14 @@ Reglas para escribir artículos del blog y posts de Instagram.
 - Temporadas de fauna, siempre como períodos aproximados.
 - Ante la duda, generalizar o sacar el dato.
 
+## Un idioma por página
+- Cada página va entera en su idioma: títulos, botones, etiquetas, fechas y pie. Nada de textos en español en
+  las páginas en inglés o portugués, ni al revés, ni etiquetas tipo "Fácil / Easy / Fácil".
+- Las plantillas no pueden tener textos escritos en un solo idioma: van en el diccionario de textos por idioma.
+- Al publicar corre `scripts/verificar_idiomas.py`: si detecta una mezcla, la publicación se frena.
+  Los nombres propios (lugares, empresas) no cuentan. Una excepción válida se agrega en
+  `contenido/idiomas_permitidos.txt`.
+
 ## Formato de un artículo
 Un archivo por artículo en `contenido/blog/<slug>.txt`, con una sección por idioma:
 

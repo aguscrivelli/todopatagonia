@@ -4,6 +4,7 @@ from pathlib import Path
 
 from seo import procesar as aplicar_seo
 from traslados import agregar_traslados
+from verificar_idiomas import revisar as revisar_idiomas
 from visuales_editoriales import aplicar_visuales
 
 
@@ -25,6 +26,15 @@ def main():
         script = b'<script src="/js/affiliate-clicks.js?v=2" defer></script>'
         page.write_bytes(html.replace(b"</body>", script + b"\n</body>", 1))
     aplicar_seo(output)
+
+    # Regla de idiomas: si alguna página mezcla idiomas, no se publica.
+    problemas = revisar_idiomas(output)
+    if problemas:
+        for ruta, otro, texto in problemas:
+            print(f"  {ruta} [{otro}] {texto}")
+        raise SystemExit(f"❌ {len(problemas)} textos en otro idioma: corregilos antes de publicar "
+                         "(o agregá la excepción en contenido/idiomas_permitidos.txt).")
+    print("Idiomas: sin mezclas.")
 
 
 if __name__ == "__main__":

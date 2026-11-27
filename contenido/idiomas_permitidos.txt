@@ -1,0 +1,1 @@
+# Textos que el control de idiomas debe aceptar aunque parezcan de otro idioma (uno por línea).

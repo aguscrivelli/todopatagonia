@@ -14,7 +14,10 @@ from pathlib import Path
 from html import escape
 from datetime import datetime
 
-import anthropic
+try:
+    import anthropic
+except ImportError:  # solo hace falta para generar con la API
+    anthropic = None
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 BOOKING_AFFILIATE = "101940420"
@@ -140,6 +143,69 @@ IDIOMAS = {
     },
 }
 
+# Textos fijos de las plantillas, en cada idioma. Ningún texto visible de las
+# plantillas puede quedar escrito directamente en un solo idioma.
+TEXTOS = {
+    "es": {
+        "tagline": "Guía independiente de viajes a la Patagonia",
+        "f_destinos": "Destinos", "f_explorar": "Explorar", "f_idioma": "Idioma",
+        "cuando_ir": "¿Cuándo ir?", "consejos": "💡 Consejos para planificar",
+        "ver_tours": "Ver tours disponibles →",
+        "gyg_sub": "Excursiones con guías, muchas con cancelación gratuita",
+        "booking_sub": "Hoteles, cabañas, hostels y más en toda la Patagonia",
+        "por_destino": "Por destino", "como_moverse": "¿Cómo moverse?",
+        "pasos": "🛂 Pasos fronterizos Argentina-Chile", "tips_reservar": "💡 Consejos para reservar",
+        "aeropuerto": "Aeropuerto", "desde_bsas": "Desde Buenos Aires", "desde_scl": "Desde Santiago",
+        "transporte_local": "Transporte local",
+        "meses": ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
+                  "septiembre", "octubre", "noviembre", "diciembre"],
+        "dificultad": {"facil": "Fácil", "moderado": "Moderado", "dificil": "Difícil"},
+    },
+    "en": {
+        "tagline": "Independent travel guide to Patagonia",
+        "f_destinos": "Destinations", "f_explorar": "Explore", "f_idioma": "Language",
+        "cuando_ir": "When to go", "consejos": "💡 Planning tips",
+        "ver_tours": "See available tours →",
+        "gyg_sub": "Guided excursions, many with free cancellation",
+        "booking_sub": "Hotels, cabins, hostels and more across Patagonia",
+        "por_destino": "By destination", "como_moverse": "Getting around",
+        "pasos": "🛂 Argentina-Chile border crossings", "tips_reservar": "💡 Booking tips",
+        "aeropuerto": "Airport", "desde_bsas": "From Buenos Aires", "desde_scl": "From Santiago",
+        "transporte_local": "Local transport",
+        "meses": ["January", "February", "March", "April", "May", "June", "July", "August",
+                  "September", "October", "November", "December"],
+        "dificultad": {"facil": "Easy", "moderado": "Moderate", "dificil": "Difficult"},
+    },
+    "pt": {
+        "tagline": "Guia independente de viagem pela Patagônia",
+        "f_destinos": "Destinos", "f_explorar": "Explorar", "f_idioma": "Idioma",
+        "cuando_ir": "Quando ir?", "consejos": "💡 Dicas para planejar",
+        "ver_tours": "Ver passeios disponíveis →",
+        "gyg_sub": "Passeios com guias, muitos com cancelamento gratuito",
+        "booking_sub": "Hotéis, cabanas, hostels e mais em toda a Patagônia",
+        "por_destino": "Por destino", "como_moverse": "Como se locomover?",
+        "pasos": "🛂 Passagens de fronteira Argentina-Chile", "tips_reservar": "💡 Dicas para reservar",
+        "aeropuerto": "Aeroporto", "desde_bsas": "Saindo de Buenos Aires", "desde_scl": "Saindo de Santiago",
+        "transporte_local": "Transporte local",
+        "meses": ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto",
+                  "setembro", "outubro", "novembro", "dezembro"],
+        "dificultad": {"facil": "Fácil", "moderado": "Moderado", "dificil": "Difícil"},
+    },
+}
+
+
+def fecha_mes(lang):
+    hoy = datetime.now()
+    return f"{TEXTOS[lang]['meses'][hoy.month - 1]} {hoy.year}" if lang != "en" else hoy.strftime("%B %Y")
+
+
+def dificultad(valor, lang):
+    """Acepta 'facil'/'moderado'/'dificil' o el formato viejo 'Fácil / Easy / Fácil'."""
+    v = (valor or "").lower()
+    clave = "dificil" if ("dif" in v) else "moderado" if ("moder" in v) else "facil"
+    return TEXTOS[lang]["dificultad"][clave]
+
+
 # ---------------------------------------------------------------------------
 # Páginas a generar: tipo -> config por idioma
 # ---------------------------------------------------------------------------
@@ -182,7 +248,7 @@ Include:
   - name: category name
   - description: 2-3 sentences about this activity in Patagonia
   - top_spots: array of 2-3 specific places/parks where to do it
-  - difficulty: "Fácil / Easy / Fácil", "Moderado / Moderate / Moderado", or "Difícil / Difficult / Difícil"
+  - difficulty: one of "facil", "moderado", "dificil"
   - best_season: best time of year (1 sentence)
   - gyg_query: 2-3 word search term for GetYourGuide (in English always)
 - seasonal_guide: object with 4 seasons (spring, summer, autumn, winter), each with:
@@ -306,18 +372,18 @@ FOOTER_HTML = """  <footer class="site-footer">
       <div class="footer-inner">
         <div class="footer-brand">
           <a href="/" class="logo"><span class="logo-todo">Todo</span><span class="logo-patagonia">Patagonia</span></a>
-          <p>Guía independiente de viajes a la Patagonia</p>
+          <p>{tagline}</p>
         </div>
         <div class="footer-links">
-          <h4>Destinos</h4>
+          <h4>{f_destinos}</h4>
 {footer_destinos}
         </div>
         <div class="footer-links">
-          <h4>Explorar</h4>
+          <h4>{f_explorar}</h4>
 {footer_links}
         </div>
         <div class="footer-links">
-          <h4>Idioma</h4>
+          <h4>{f_idioma}</h4>
           <a href="/">Español</a>
           <a href="/en/">English</a>
           <a href="/pt/">Português</a>
@@ -355,6 +421,7 @@ def render_footer(cfg):
         footer_destinos=footer_destinos,
         footer_links=footer_links,
         footer_copy=cfg["footer_copy"],
+        **{k: TEXTOS[cfg["lang"]][k] for k in ("tagline", "f_destinos", "f_explorar", "f_idioma")},
     )
 
 
@@ -370,8 +437,9 @@ def render_tip(tip):
 
 def render_actividades_html(contenido, cfg):
     """Renderiza la página de actividades completa."""
-    now = datetime.now().strftime("%B %Y")
     lang = cfg["lang"]
+    now = fecha_mes(lang)
+    tx = TEXTOS[lang]
 
     # Hero
     hero = f"""  <section class="dest-hero" style="background:linear-gradient(135deg,#1a3a5c 0%,#2d5a3d 100%);color:#fff;padding:100px 0 60px">
@@ -395,11 +463,11 @@ def render_actividades_html(contenido, cfg):
         <ul style="color:#2d6a9f;font-size:0.9rem;padding-left:18px;margin:0">{spots}</ul>
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:4px">
           <span style="background:#e9ecef;border-radius:20px;padding:4px 12px;font-size:0.8rem;color:#495057">🗓 {cat['best_season']}</span>
-          <span style="background:#e9ecef;border-radius:20px;padding:4px 12px;font-size:0.8rem;color:#495057">💪 {cat['difficulty']}</span>
+          <span style="background:#e9ecef;border-radius:20px;padding:4px 12px;font-size:0.8rem;color:#495057">💪 {dificultad(cat.get('difficulty'), lang)}</span>
         </div>
         <a href="{gyg_url}" target="_blank" rel="noopener sponsored"
            style="display:inline-block;background:#d4650a;color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600;font-size:0.9rem;text-align:center;margin-top:auto">
-          Ver tours disponibles →
+          {tx['ver_tours']}
         </a>
       </div>"""
 
@@ -458,7 +526,7 @@ def render_actividades_html(contenido, cfg):
   <!-- GUÍA ESTACIONAL -->
   <section class="section" style="background:#f8f9fa">
     <div class="container">
-      <h2 class="section-title" style="text-align:center">¿Cuándo ir?</h2>
+      <h2 class="section-title" style="text-align:center">{tx['cuando_ir']}</h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-top:32px">
 {seasons_html}
       </div>
@@ -470,7 +538,7 @@ def render_actividades_html(contenido, cfg):
     <div class="container">
       <div class="booking-box" style="background:linear-gradient(135deg,#2d5a3d,#4a8c5c)">
         <h2>{cfg['gyg_cta']}</h2>
-        <p>Excursiones con guías expertos, cancelación gratis en la mayoría</p>
+        <p>{tx['gyg_sub']}</p>
         <a href="{gyg_main}" target="_blank" rel="noopener sponsored" class="btn-booking" style="background:#d4650a">
           {cfg['gyg_btn']}
         </a>
@@ -481,7 +549,7 @@ def render_actividades_html(contenido, cfg):
   <!-- TIPS PRÁCTICOS -->
   <section class="section">
     <div class="container" style="max-width:760px">
-      <h2 class="section-title">💡 Consejos para planificar</h2>
+      <h2 class="section-title">{tx['consejos']}</h2>
       <ul style="margin-top:24px;list-style:none;padding:0">
         {tips_html}
       </ul>
@@ -511,8 +579,9 @@ def render_actividades_html(contenido, cfg):
 
 def render_como_llegar_html(contenido, cfg):
     """Renderiza la página de cómo llegar completa."""
-    now = datetime.now().strftime("%B %Y")
     lang = cfg["lang"]
+    now = fecha_mes(lang)
+    tx = TEXTOS[lang]
 
     hero = f"""  <section class="dest-hero" style="background:linear-gradient(135deg,#2d6a9f 0%,#1a3a5c 100%);color:#fff;padding:100px 0 60px">
     <div class="container" style="text-align:center">
@@ -534,14 +603,14 @@ def render_como_llegar_html(contenido, cfg):
     for d in contenido.get("destinations", []):
         from_bsas = d.get("from_buenos_aires", "")
         from_scl = d.get("from_santiago", "")
-        scl_block = f'<p style="margin:8px 0"><strong>🇨🇱 Desde Santiago:</strong> {from_scl}</p>' if from_scl else ""
+        scl_block = f'<p style="margin:8px 0"><strong>🇨🇱 {tx['desde_scl']}:</strong> {from_scl}</p>' if from_scl else ""
         destinos_html += f"""
       <div style="background:#fff;border-radius:10px;box-shadow:0 4px 20px rgba(0,0,0,0.08);padding:28px;border-top:4px solid #2d6a9f">
         <h3 style="font-family:'Playfair Display',serif;color:#1a3a5c;font-size:1.25rem;margin:0 0 16px">{d['emoji']} {d['name']}</h3>
-        <p style="margin:8px 0;color:#495057"><strong>✈️ Aeropuerto:</strong> {d['nearest_airport']}</p>
-        <p style="margin:8px 0;color:#495057"><strong>🇦🇷 Desde Buenos Aires:</strong> {from_bsas}</p>
+        <p style="margin:8px 0;color:#495057"><strong>✈️ {tx['aeropuerto']}:</strong> {d['nearest_airport']}</p>
+        <p style="margin:8px 0;color:#495057"><strong>🇦🇷 {tx['desde_bsas']}:</strong> {from_bsas}</p>
         {scl_block}
-        <p style="margin:8px 0;color:#495057"><strong>🚌 Transporte local:</strong> {d['local_transport']}</p>
+        <p style="margin:8px 0;color:#495057"><strong>🚌 {tx['transporte_local']}:</strong> {d['local_transport']}</p>
         <div style="background:#e8f4f8;border-radius:8px;padding:12px 16px;margin-top:12px">
           <p style="margin:0;color:#2d6a9f;font-size:0.9rem">💡 <em>{d['best_tip']}</em></p>
         </div>
@@ -597,7 +666,7 @@ def render_como_llegar_html(contenido, cfg):
   <!-- DESTINOS: CÓMO LLEGAR -->
   <section class="section" style="background:#f8f9fa">
     <div class="container">
-      <h2 class="section-title" style="text-align:center;margin-bottom:40px">Por destino</h2>
+      <h2 class="section-title" style="text-align:center;margin-bottom:40px">{tx['por_destino']}</h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:24px">
 {destinos_html}
       </div>
@@ -607,7 +676,7 @@ def render_como_llegar_html(contenido, cfg):
   <!-- MODOS DE TRANSPORTE -->
   <section class="section">
     <div class="container">
-      <h2 class="section-title" style="text-align:center;margin-bottom:40px">¿Cómo moverse?</h2>
+      <h2 class="section-title" style="text-align:center;margin-bottom:40px">{tx['como_moverse']}</h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px">
 {transport_html}
       </div>
@@ -619,7 +688,7 @@ def render_como_llegar_html(contenido, cfg):
     <div class="container">
       <div class="booking-box">
         <h2>{cfg['booking_cta']}</h2>
-        <p>Incluye hoteles, cabañas, hostels y más en toda la Patagonia</p>
+        <p>{tx['booking_sub']}</p>
         <a href="{booking_main}" target="_blank" rel="noopener sponsored" class="btn-booking">
           {cfg['booking_btn']}
         </a>
@@ -630,11 +699,11 @@ def render_como_llegar_html(contenido, cfg):
   <!-- PASOS FRONTERIZOS + TIPS -->
   <section class="section" style="background:#f8f9fa">
     <div class="container" style="max-width:760px">
-      <h2 class="section-title">🛂 Pasos fronterizos Argentina-Chile</h2>
+      <h2 class="section-title">{tx['pasos']}</h2>
       <ul style="margin-top:24px;list-style:none;padding:0">
         {borders_html}
       </ul>
-      <h2 class="section-title" style="margin-top:48px">💡 Tips para reservar</h2>
+      <h2 class="section-title" style="margin-top:48px">{tx['tips_reservar']}</h2>
       <ul style="margin-top:24px;list-style:none;padding:0">
         {tips_html}
       </ul>
@@ -781,8 +850,15 @@ def main():
     print("🤖 TodoPatagonia — Generador de páginas estáticas")
     print("=" * 50)
 
-    if not ANTHROPIC_API_KEY:
-        raise SystemExit("Falta ANTHROPIC_API_KEY")
+    # Si existe contenido escrito a mano en contenido/paginas/<tipo>.<idioma>.json,
+    # se usa ese (sin llamar a la API). La API solo se usa si falta el archivo.
+    def contenido_de(tipo, idioma_key, cfg, generar):
+        archivo = Path("contenido/paginas") / f"{tipo}.{idioma_key}.json"
+        if archivo.exists():
+            return json.loads(archivo.read_text(encoding="utf-8"))
+        if not ANTHROPIC_API_KEY or anthropic is None:
+            raise SystemExit(f"Falta {archivo} y no hay ANTHROPIC_API_KEY para generarlo")
+        return generar(cfg)
 
     for idioma_key, cfg in IDIOMAS.items():
         cfg["dir"].mkdir(parents=True, exist_ok=True)
@@ -792,7 +868,7 @@ def main():
         filepath = cfg["dir"] / filename
         print(f"\n🎯 Generando actividades [{idioma_key.upper()}]...")
         try:
-            contenido = generar_contenido_actividades(cfg)
+            contenido = contenido_de("actividades", idioma_key, cfg, generar_contenido_actividades)
             html = render_actividades_html(contenido, cfg)
             filepath.write_text(html, encoding="utf-8")
             print(f"   ✅ {filepath}")
@@ -804,7 +880,7 @@ def main():
         filepath2 = cfg["dir"] / filename2
         print(f"\n✈️  Generando cómo llegar [{idioma_key.upper()}]...")
         try:
-            contenido2 = generar_contenido_como_llegar(cfg)
+            contenido2 = contenido_de("como_llegar", idioma_key, cfg, generar_contenido_como_llegar)
             html2 = render_como_llegar_html(contenido2, cfg)
             filepath2.write_text(html2, encoding="utf-8")
             print(f"   ✅ {filepath2}")
