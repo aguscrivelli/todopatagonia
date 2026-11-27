@@ -48,29 +48,6 @@
       "ig/04-ballena-valdes/1.jpg"
     ]
   },
-  "05-cuando-viajar": {
-    "titulo": "File:Autumn Snow in Patagonia (MODIS 2024-05-15).jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Autumn_Snow_in_Patagonia_%28MODIS_2024-05-15%29.jpg/1920px-Autumn_Snow_in_Patagonia_%28MODIS_2024-05-15%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "fuente": "https://commons.wikimedia.org/wiki/File:Autumn_Snow_in_Patagonia_(MODIS_2024-05-15).jpg",
-    "credito": "MODIS Land Rapid Response Team, NASA GSFC / Wikimedia Commons (Public domain)",
-    "imagenes": [
-      "ig/05-cuando-viajar/1.jpg",
-      "ig/05-cuando-viajar/2.jpg",
-      "ig/05-cuando-viajar/3.jpg",
-      "ig/05-cuando-viajar/4.jpg",
-      "ig/05-cuando-viajar/5.jpg",
-      "ig/05-cuando-viajar/6.jpg"
-    ]
-  },
-  "06-torres-del-paine": {
-    "titulo": "File:Torres-del-paine.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Torres-del-paine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "fuente": "https://commons.wikimedia.org/wiki/File:Torres-del-paine.jpg",
-    "credito": "Gonzalobaeza / Wikimedia Commons (CC BY-SA 4.0)",
-    "imagenes": [
-      "ig/06-torres-del-paine/1.jpg"
-    ]
-  },
   "09-como-llegar": {
     "titulo": "File:Patagonia view (Unsplash).jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Patagonia_view_%28Unsplash%29.jpg/1920px-Patagonia_view_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -118,21 +95,6 @@
       "ig/12-frente-perito-moreno/1.jpg"
     ]
   },
-  "13-que-llevar": {
-    "titulo": "File:Ready For The Hike (Unsplash).jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Ready_For_The_Hike_%28Unsplash%29.jpg/1920px-Ready_For_The_Hike_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "fuente": "https://commons.wikimedia.org/wiki/File:Ready_For_The_Hike_(Unsplash).jpg",
-    "credito": "Patrick Hendry worldsbetweenlines / Wikimedia Commons (CC0)",
-    "imagenes": [
-      "ig/13-que-llevar/1.jpg",
-      "ig/13-que-llevar/2.jpg",
-      "ig/13-que-llevar/3.jpg",
-      "ig/13-que-llevar/4.jpg",
-      "ig/13-que-llevar/5.jpg",
-      "ig/13-que-llevar/6.jpg",
-      "ig/13-que-llevar/7.jpg"
-    ]
-  },
   "15-valdes-calendario": {
     "titulo": "File:Peninsula Valdes sea lions JF.jpg",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Peninsula_Valdes_sea_lions_JF.jpg/1920px-Peninsula_Valdes_sea_lions_JF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -177,21 +139,6 @@
     "credito": "MatheusR42 / Wikimedia Commons (CC BY 4.0)",
     "imagenes": [
       "ig/18-pinguinos-martillo/1.jpg"
-    ]
-  },
-  "19-ruta-7-dias": {
-    "titulo": "File:Lago Argentino El Calafate (28058292026).jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Lago_Argentino_El_Calafate_%2828058292026%29.jpg/1920px-Lago_Argentino_El_Calafate_%2828058292026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "fuente": "https://commons.wikimedia.org/wiki/File:Lago_Argentino_El_Calafate_(28058292026).jpg",
-    "credito": "Miguel / Wikimedia Commons (CC BY-SA 2.0)",
-    "imagenes": [
-      "ig/19-ruta-7-dias/1.jpg",
-      "ig/19-ruta-7-dias/2.jpg",
-      "ig/19-ruta-7-dias/3.jpg",
-      "ig/19-ruta-7-dias/4.jpg",
-      "ig/19-ruta-7-dias/5.jpg",
-      "ig/19-ruta-7-dias/6.jpg",
-      "ig/19-ruta-7-dias/7.jpg"
     ]
   },
   "20-guanacos-paine": {

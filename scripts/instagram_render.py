@@ -74,7 +74,8 @@ def elegir_foto(foto, usadas):
         ii = (p.get("imageinfo") or [{}])[0]
         if not ii or p["title"] in usadas:
             continue
-        if ii.get("mime") != "image/jpeg" or ii.get("width", 0) < 1200:
+        minimo = 900 if foto.get("archivo") else 1200
+        if ii.get("mime") != "image/jpeg" or ii.get("width", 0) < minimo:
             continue
         if not foto.get("archivo") and ii["width"] < ii["height"] * 0.7:
             continue
