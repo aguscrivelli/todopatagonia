@@ -24,6 +24,8 @@ DESCRIPCIONES = {
     "pt": "TodoPatagonia: guias de viagem para a Patagônia argentina e chilena.",
 }
 EXCLUIR = ("ig.html", "ig/")
+# Verificación de Google Search Console (va en la portada).
+GSC = '<meta name="google-site-verification" content="5TKB8u_pCKPpnMqXJNifmhv5zk_yJ3HHZf1ut4_BH18" />'
 
 
 def idioma_y_clave(ruta):
@@ -72,6 +74,8 @@ def procesar(salida):
             continue
         lang, clave = idioma_y_clave(ruta)
         extra = []
+        if ruta == "index.html" and "google-site-verification" not in html:
+            extra.append(GSC)
         if 'rel="canonical"' not in html:
             extra.append(f'<link rel="canonical" href="{url(ruta)}">')
         if "hreflang" not in html and len(grupos[clave]) > 1:
