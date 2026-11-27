@@ -53,6 +53,8 @@ def fecha_texto(iso, lang):
 
 
 def hero(meta, lang, titulo):
+    if not meta.get("image"):
+        return ""
     return f"""<figure class="article-hero-image">
           <img src="{meta['image']}" alt="{titulo}" loading="eager">
           <figcaption>{FOTO[lang]}: <a href="{meta['image_source']}" target="_blank" rel="noopener">{meta['image_author']}</a> · Wikimedia Commons</figcaption>
@@ -63,8 +65,16 @@ def main():
     articulos = [leer(p) for p in sorted(CONTENIDO.glob("*.txt"))]
     # Si el archivo no trae foto, se usa la que ya figura en el índice en español.
     indice_es = {a["slug"]: a for a in json.loads((RAIZ / "blog" / "articles.json").read_text())}
+    # Si tampoco está ahí, la foto del destino (data/destination-photos.json).
+    fotos_destino = json.loads((RAIZ / "data" / "destination-photos.json").read_text())
     for slug, meta, _ in articulos:
         previo = indice_es.get(slug, {})
+        if not previo.get("image_url"):
+            dest = meta.get("destination", "")
+            foto = next((v for k, v in fotos_destino.items() if k.startswith(dest)), None) if dest else None
+            if foto:
+                previo = {"image_url": foto["url"], "image_author": foto["author_name"],
+                          "image_source": foto["author_url"], **previo}
         meta.setdefault("image", previo.get("image_url", ""))
         meta.setdefault("image_author", previo.get("image_author", ""))
         meta.setdefault("image_source", previo.get("image_source", ""))
@@ -84,7 +94,7 @@ def main():
                 read_time=d.get("read_time", 5), body_html=d["body"],
                 booking_affiliate=BOOKING_AFFILIATE, gyg_affiliate=GYG_AFFILIATE,
                 hero_image_html=hero(meta, lang, d["title"]),
-                og_image_tag=f'<meta property="og:image" content="{meta["image"]}">',
+                og_image_tag=f'<meta property="og:image" content="{meta["image"]}">' if meta.get("image") else "",
             )
             carpeta.mkdir(parents=True, exist_ok=True)
             (carpeta / f"{slug}.html").write_text(html, encoding="utf-8")
