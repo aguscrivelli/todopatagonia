@@ -103,14 +103,15 @@ def main():
             print(f"La imagen {r} todavía no está en el sitio ({resp.status_code}). Reintento en el próximo turno.")
             sys.exit(1)
 
-    if prueba:
-        print("--- MODO PRUEBA: no se publica ---")
-        print(armar_texto(post, medio))
-        return
-
     token, ig_id = os.environ.get("IG_ACCESS_TOKEN"), os.environ.get("IG_USER_ID")
     if not token or not ig_id:
         sys.exit("Faltan los secretos IG_ACCESS_TOKEN o IG_USER_ID en GitHub.")
+
+    if prueba:
+        cuenta = llamar("GET", ig_id, token, fields="username")
+        print(f"--- MODO PRUEBA: conexión OK con @{cuenta.get('username')}. No se publica nada ---")
+        print(armar_texto(post, medio))
+        return
 
     registro = estado.setdefault(post["id"], {})
     try:
