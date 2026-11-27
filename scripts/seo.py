@@ -34,8 +34,14 @@ def link_contacto(html):
         for q in ("'", '"'):
             ancla = re.search(rf"<a href={q}{re.escape(priv)}{q}>[^<]*</a>", html)
             if ancla:
-                nuevo = ancla.group(0) + f" · <a href={q}{destino}{q}>{texto}</a>"
-                return html.replace(ancla.group(0), nuevo, 1)
+                link = f"<a href={q}{destino}{q}>{texto}</a>"
+                fin = ancla.end()
+                if html[fin:fin + 1] == "\n":
+                    # Lista vertical (un link por renglón): va en su propio renglón, sin separador.
+                    inicio_linea = html.rfind("\n", 0, ancla.start()) + 1
+                    sangria = html[inicio_linea:ancla.start()]
+                    return html[:fin] + "\n" + sangria + link + html[fin:]
+                return html[:fin] + " · " + link + html[fin:]
     return html
 DESCRIPCIONES = {
     "es": "TodoPatagonia: guías de viaje para la Patagonia argentina y chilena.",
