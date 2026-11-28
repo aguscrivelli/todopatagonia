@@ -2,10 +2,15 @@ name: Instagram · publicar
 
 on:
   schedule:
-    # 9:20 y 19:10 hora de Buenos Aires (12:20 y 22:10 UTC).
-    # GitHub puede demorar unos minutos el arranque en horas pico.
+    # Mañana (9:20 Buenos Aires) y tarde (19:10), cada una con dos turnos de respaldo:
+    # GitHub a veces demora o saltea ejecuciones programadas. Si el post ya salió,
+    # los turnos de respaldo no hacen nada.
     - cron: '20 12 * * *'
+    - cron: '50 12 * * *'
+    - cron: '35 13 * * *'
     - cron: '10 22 * * *'
+    - cron: '40 22 * * *'
+    - cron: '25 23 * * *'
   workflow_dispatch:
     inputs:
       prueba:
@@ -38,9 +43,9 @@ jobs:
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
-          # La historia diaria sale solo con el post de la tarde.
-          HISTORIA: ${{ github.event.schedule == '10 22 * * *' }}
         run: |
+          # La historia diaria sale solo con el post de la tarde (turnos después de las 20 UTC).
+          if [ "$(date -u +%H)" -ge 20 ]; then export HISTORIA=true; fi
           if [ "${{ github.event.inputs.prueba }}" = "true" ]; then
             python scripts/instagram_publicar.py --prueba
           else

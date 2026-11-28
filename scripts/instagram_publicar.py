@@ -96,6 +96,12 @@ def main():
         and estado.get(p["id"], {}).get("intentos", 0) < MAX_INTENTOS
         and p["id"] in medios
     ]
+    # Turnos de respaldo: si en las últimas 5 horas ya salió un post, este turno no publica.
+    if not prueba and "--forzar" not in sys.argv:
+        fechas = [datetime.fromisoformat(r["fecha"]) for r in estado.values() if r.get("fecha")]
+        if fechas and (datetime.now(timezone.utc) - max(fechas)).total_seconds() < 5 * 3600:
+            print("Ya se publicó un post en este turno. Nada que hacer.")
+            return
     if not pendientes:
         print("No hay posts pendientes con imágenes listas. Hay que cargar más en la cola.")
         return
