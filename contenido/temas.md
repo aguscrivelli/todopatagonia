@@ -3,7 +3,7 @@
 Cada corrida toma el primer tema sin marcar, lo escribe en ES, EN y PT y lo marca con [x].
 Se pueden agregar temas al final. Prioridad: destinos con guía en el sitio y búsquedas frecuentes de viajeros.
 
-- [ ] Ushuaia: qué hacer en el fin del mundo (Ushuaia)
+- [x] Ushuaia: qué hacer en el fin del mundo (Ushuaia)
 - [ ] Península Valdés: guía para ver ballenas (Península Valdés)
 - [ ] Cómo ir de El Calafate a El Chaltén (El Chaltén)
 - [ ] Cómo cruzar de El Calafate a Torres del Paine (Torres del Paine)

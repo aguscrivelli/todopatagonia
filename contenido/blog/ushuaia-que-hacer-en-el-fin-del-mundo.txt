@@ -1,0 +1,150 @@
+destination: Ushuaia
+emoji: 🐧
+date: 2026-11-27
+
+=== es
+title: Ushuaia: qué hacer en el fin del mundo
+meta: Qué hacer en Ushuaia: Parque Nacional Tierra del Fuego, navegación por el Canal Beagle, pingüinos, Glaciar Martial, Laguna Esmeralda y consejos prácticos.
+excerpt: Ushuaia combina mar, montaña y bosque en una ciudad al borde del Canal Beagle. Te contamos los paseos imperdibles y cómo organizar tus días en el fin del mundo.
+category: Destinos
+read_time: 6
+---
+<h2>Una ciudad entre el mar y la montaña</h2>
+<p>Ushuaia, capital de Tierra del Fuego, se apoya sobre la costa del Canal Beagle con los cordones montañosos de fondo. Es una de las ciudades más australes del mundo y la puerta de entrada a paisajes que no se ven en otro lado: bosques de lengas y ñires, turberas, glaciares colgantes e islotes llenos de fauna marina. En pocos días podés combinar navegaciones, caminatas y un poco de historia.</p>
+
+<h2>Parque Nacional Tierra del Fuego</h2>
+<p>A pocos kilómetros al oeste de la ciudad, siguiendo la Ruta Nacional 3, está un parque nacional que combina costa marítima y bosque andino. El recorrido termina en Bahía Lapataia, donde un cartel marca el final de la Ruta 3, uno de los lugares más fotografiados de la zona.</p>
+<p>El parque tiene senderos para todos los niveles:</p>
+<ul>
+<li><strong>Caminatas cortas:</strong> Mirador Lapataia, Paseo de la Isla, Senda del Turbal o Laguna Negra se hacen en menos de una hora y están habilitadas todo el año.</li>
+<li><strong>Senda Costera:</strong> unos 8 km por la costa del Beagle, entre bosque y playas de piedra, de dificultad media.</li>
+<li><strong>Hito XXIV:</strong> bordea el lago Acigami (ex lago Roca) hasta el límite con Chile.</li>
+<li><strong>Cerro Guanaco:</strong> una subida exigente con mucho desnivel y vistas amplias; solo para quienes tienen experiencia de montaña.</li>
+</ul>
+<p>Los senderos más largos se habilitan en la temporada cálida, más o menos de noviembre a abril. Dentro del parque la velocidad es baja y hay que estar atentos a zorros, guanacos y otros animales en el camino.</p>
+
+<h2>Navegación por el Canal Beagle</h2>
+<p>Es el paseo clásico de Ushuaia. Las navegaciones salen desde el puerto y recorren la Isla de los Pájaros, con cormoranes, gaviotas y otras aves marinas; la Isla de los Lobos, con colonias de lobos marinos sobre las rocas; y el Faro Les Éclaireurs, el famoso faro rojo y blanco del canal. Según la opción, la salida dura medio día o un poco más.</p>
+
+<h2>Pingüinos en Isla Martillo</h2>
+<p>Algunas navegaciones y excursiones llegan hasta la Isla Martillo, donde se reúne una colonia de pingüinos de Magallanes, a la que se suman de a poco algunos pingüinos papúa. Los pingüinos llegan hacia octubre y se quedan durante la primavera y el verano, más o menos hasta marzo. Fuera de esa temporada no hay visitas a la pingüinera.</p>
+
+<h2>Glaciar Martial</h2>
+<p>A unos 7 km del centro, sobre la montaña que domina la ciudad, el Glaciar Martial es una caminata ideal para el primer día. El sendero sube por el bosque desde la base hasta un mirador con vistas al canal y a Ushuaia. En verano es un trekking accesible; en invierno la zona se cubre de nieve.</p>
+
+<h2>Laguna Esmeralda</h2>
+<p>Es una de las caminatas más lindas de la zona. El sendero arranca a unos 18 km de la ciudad, sobre la Ruta 3, y recorre unos 9 km ida y vuelta entre bosque y turbales hasta una laguna de color verde intenso al pie de los cerros. Se calcula alrededor de cinco horas en total. El terreno es húmedo y barroso, así que el calzado impermeable es casi obligatorio.</p>
+
+<h2>Historia: el antiguo presidio</h2>
+<p>Ushuaia creció alrededor de una cárcel de fines del siglo XIX. Hoy el viejo edificio del presidio funciona como museo y cuenta la historia de los presos, de la ciudad y de la navegación en los mares australes. Es un buen plan para un día de lluvia, que en Ushuaia no son raros.</p>
+
+<h2>Más allá de la ciudad</h2>
+<p>Si tenés un día extra, la Ruta 3 hacia el norte cruza el Paso Garibaldi y baja hacia los lagos Escondido y Fagnano, rodeados de bosque. En invierno, los centros de esquí y de esquí de fondo cercanos a la ciudad convierten a Ushuaia en un destino de nieve.</p>
+
+<h2>Consejos prácticos</h2>
+<ul>
+<li><strong>Abrigate en capas:</strong> el clima cambia rápido y puede hacer frío y viento incluso en pleno verano.</li>
+<li><strong>Llevá calzado impermeable:</strong> las turberas y los senderos suelen estar mojados.</li>
+<li><strong>Consultá la tarifa vigente:</strong> el Parque Nacional Tierra del Fuego cobra entrada; revisá los valores y horarios en la web de Parques Nacionales.</li>
+<li><strong>Elegí la temporada según lo que quieras ver:</strong> los pingüinos están de primavera a fin del verano; la nieve, en invierno.</li>
+<li><strong>Dejá margen en la agenda:</strong> el viento a veces cancela navegaciones; tené un día de reserva.</li>
+<li><strong>Respetá la fauna:</strong> no alimentes a los animales y mantené la distancia.</li>
+</ul>
+
+=== en
+title: Ushuaia: what to do at the end of the world
+meta: What to do in Ushuaia: Tierra del Fuego National Park, Beagle Channel boat trips, penguins, Martial Glacier, Laguna Esmeralda and practical tips.
+excerpt: Ushuaia blends sea, mountains and forest in a city on the shores of the Beagle Channel. Here are the must-do outings and how to plan your days at the end of the world.
+category: Destinations
+read_time: 6
+---
+<h2>A city between the sea and the mountains</h2>
+<p>Ushuaia, the capital of Tierra del Fuego, sits on the shore of the Beagle Channel with mountain ranges behind it. It's one of the southernmost cities in the world and the gateway to landscapes you won't find anywhere else: lenga and ñire forests, peat bogs, hanging glaciers and islets full of marine wildlife. In just a few days you can combine boat trips, hikes and a bit of history.</p>
+
+<h2>Tierra del Fuego National Park</h2>
+<p>A few kilometers west of town along National Route 3 lies a national park that combines a sea coast with Andean forest. The drive ends at Lapataia Bay, where a sign marks the end of Route 3, one of the most photographed spots in the area.</p>
+<p>The park has trails for every level:</p>
+<ul>
+<li><strong>Short walks:</strong> Mirador Lapataia, Paseo de la Isla, Senda del Turbal and Laguna Negra take less than an hour and are open year-round.</li>
+<li><strong>Coastal Trail:</strong> about 8 km along the Beagle Channel, through forest and pebble beaches, of moderate difficulty.</li>
+<li><strong>Hito XXIV:</strong> follows Lake Acigami (formerly Lake Roca) to the border with Chile.</li>
+<li><strong>Cerro Guanaco:</strong> a demanding climb with a big elevation gain and wide views; only for those with mountain experience.</li>
+</ul>
+<p>The longer trails open during the warm season, roughly November to April. Inside the park speeds are low, and you should watch for foxes, guanacos and other animals on the road.</p>
+
+<h2>Beagle Channel boat trips</h2>
+<p>This is Ushuaia's classic outing. Boats leave from the port and visit Bird Island, with cormorants, gulls and other seabirds; Sea Lion Island, with colonies of sea lions on the rocks; and the Les Éclaireurs Lighthouse, the famous red-and-white lighthouse in the channel. Depending on the option, trips last half a day or a little longer.</p>
+
+<h2>Penguins on Martillo Island</h2>
+<p>Some boat trips and tours reach Martillo Island, home to a colony of Magellanic penguins, now slowly joined by a few gentoo penguins. The penguins arrive around October and stay through spring and summer, roughly until March. Outside that season there are no visits to the colony.</p>
+
+<h2>Martial Glacier</h2>
+<p>About 7 km from downtown, on the mountain overlooking the city, Martial Glacier is an ideal hike for your first day. The trail climbs through the forest from the base to a viewpoint over the channel and Ushuaia. In summer it's an accessible trek; in winter the area is covered in snow.</p>
+
+<h2>Laguna Esmeralda</h2>
+<p>This is one of the most beautiful hikes in the area. The trailhead is about 18 km from town on Route 3, and the trail covers around 9 km round trip through forest and peat bogs to a deep green lake at the foot of the mountains. Plan on about five hours in total. The ground is wet and muddy, so waterproof footwear is almost a must.</p>
+
+<h2>History: the old prison</h2>
+<p>Ushuaia grew around a prison built in the late 19th century. Today the old prison building is a museum that tells the story of the inmates, the city and navigation in the southern seas. It's a good plan for a rainy day, which are not rare in Ushuaia.</p>
+
+<h2>Beyond the city</h2>
+<p>If you have an extra day, Route 3 heading north crosses Garibaldi Pass and descends toward Lake Escondido and Lake Fagnano, surrounded by forest. In winter, the downhill and cross-country ski areas near the city turn Ushuaia into a snow destination.</p>
+
+<h2>Practical tips</h2>
+<ul>
+<li><strong>Dress in layers:</strong> the weather changes quickly, and it can be cold and windy even in midsummer.</li>
+<li><strong>Bring waterproof footwear:</strong> peat bogs and trails are often wet.</li>
+<li><strong>Check current fees:</strong> Tierra del Fuego National Park charges an entrance fee; check rates and opening hours on the National Parks website.</li>
+<li><strong>Pick the season for what you want to see:</strong> penguins are around from spring to late summer; snow, in winter.</li>
+<li><strong>Leave room in your schedule:</strong> wind sometimes cancels boat trips, so keep a spare day.</li>
+<li><strong>Respect wildlife:</strong> don't feed the animals and keep your distance.</li>
+</ul>
+
+=== pt
+title: Ushuaia: o que fazer no fim do mundo
+meta: O que fazer em Ushuaia: Parque Nacional Tierra del Fuego, navegação pelo Canal Beagle, pinguins, Glaciar Martial, Laguna Esmeralda e dicas práticas.
+excerpt: Ushuaia combina mar, montanha e floresta numa cidade às margens do Canal Beagle. Contamos os passeios imperdíveis e como organizar os seus dias no fim do mundo.
+category: Destinos
+read_time: 6
+---
+<h2>Uma cidade entre o mar e a montanha</h2>
+<p>Ushuaia, capital da Terra do Fogo, fica na margem do Canal Beagle, com as cordilheiras ao fundo. É uma das cidades mais austrais do mundo e a porta de entrada para paisagens que não se veem em nenhum outro lugar: florestas de lengas e ñires, turfeiras, glaciares suspensos e ilhotas cheias de fauna marinha. Em poucos dias dá para combinar navegações, caminhadas e um pouco de história.</p>
+
+<h2>Parque Nacional Tierra del Fuego</h2>
+<p>A poucos quilômetros a oeste da cidade, pela Rota Nacional 3, fica um parque nacional que reúne costa marítima e floresta andina. O percurso termina na Baía Lapataia, onde uma placa marca o fim da Rota 3, um dos lugares mais fotografados da região.</p>
+<p>O parque tem trilhas para todos os níveis:</p>
+<ul>
+<li><strong>Caminhadas curtas:</strong> Mirador Lapataia, Paseo de la Isla, Senda del Turbal e Laguna Negra levam menos de uma hora e ficam abertas o ano todo.</li>
+<li><strong>Trilha Costeira:</strong> cerca de 8 km pela margem do Beagle, entre floresta e praias de pedra, de dificuldade média.</li>
+<li><strong>Hito XXIV:</strong> margeia o lago Acigami (antigo lago Roca) até a fronteira com o Chile.</li>
+<li><strong>Cerro Guanaco:</strong> uma subida exigente, com muito desnível e vistas amplas; só para quem tem experiência de montanha.</li>
+</ul>
+<p>As trilhas mais longas abrem na temporada quente, mais ou menos de novembro a abril. Dentro do parque a velocidade é baixa, e é preciso ficar atento a raposas, guanacos e outros animais na estrada.</p>
+
+<h2>Navegação pelo Canal Beagle</h2>
+<p>É o passeio clássico de Ushuaia. Os barcos saem do porto e percorrem a Ilha dos Pássaros, com cormorões, gaivotas e outras aves marinhas; a Ilha dos Lobos, com colônias de leões-marinhos sobre as rochas; e o Farol Les Éclaireurs, o famoso farol vermelho e branco do canal. Dependendo da opção, a saída dura meio dia ou um pouco mais.</p>
+
+<h2>Pinguins na Ilha Martillo</h2>
+<p>Algumas navegações e passeios chegam até a Ilha Martillo, onde vive uma colônia de pinguins-de-magalhães, à qual aos poucos se somam alguns pinguins-gentoo. Os pinguins chegam por volta de outubro e ficam durante a primavera e o verão, mais ou menos até março. Fora dessa temporada não há visitas à colônia.</p>
+
+<h2>Glaciar Martial</h2>
+<p>A cerca de 7 km do centro, na montanha que domina a cidade, o Glaciar Martial é uma caminhada ideal para o primeiro dia. A trilha sobe pela floresta desde a base até um mirante com vista para o canal e para Ushuaia. No verão é um trekking acessível; no inverno a área fica coberta de neve.</p>
+
+<h2>Laguna Esmeralda</h2>
+<p>É uma das caminhadas mais bonitas da região. A trilha começa a cerca de 18 km da cidade, na Rota 3, e percorre uns 9 km ida e volta entre floresta e turfeiras até uma lagoa de cor verde intensa ao pé das montanhas. Calcule umas cinco horas no total. O terreno é úmido e cheio de barro, então um calçado impermeável é quase obrigatório.</p>
+
+<h2>História: o antigo presídio</h2>
+<p>Ushuaia cresceu ao redor de uma prisão do fim do século XIX. Hoje o velho prédio do presídio funciona como museu e conta a história dos presos, da cidade e da navegação nos mares austrais. É um bom programa para um dia de chuva, que em Ushuaia não são raros.</p>
+
+<h2>Além da cidade</h2>
+<p>Se você tiver um dia a mais, a Rota 3 rumo ao norte cruza o Passo Garibaldi e desce até os lagos Escondido e Fagnano, cercados de floresta. No inverno, as estações de esqui alpino e de esqui de fundo perto da cidade transformam Ushuaia num destino de neve.</p>
+
+<h2>Dicas práticas</h2>
+<ul>
+<li><strong>Vista-se em camadas:</strong> o clima muda rápido e pode fazer frio e vento até em pleno verão.</li>
+<li><strong>Leve calçado impermeável:</strong> as turfeiras e as trilhas costumam estar molhadas.</li>
+<li><strong>Consulte a tarifa vigente:</strong> o Parque Nacional Tierra del Fuego cobra entrada; confira os valores e horários no site de Parques Nacionales.</li>
+<li><strong>Escolha a temporada conforme o que quer ver:</strong> os pinguins ficam da primavera ao fim do verão; a neve, no inverno.</li>
+<li><strong>Deixe folga na agenda:</strong> o vento às vezes cancela navegações; reserve um dia extra.</li>
+<li><strong>Respeite a fauna:</strong> não alimente os animais e mantenha distância.</li>
+</ul>
